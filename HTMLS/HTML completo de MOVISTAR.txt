@@ -1,0 +1,996 @@
+<!doctype html>
+<html lang="es">
+    <head >
+                <meta charset="utf-8"/>
+<meta name="title" content="Llega el invierno con las mejores promos a Tienda Movistar"/>
+<meta name="description" content="Hace tu mejor jugada para vivir al máximo todo el deporte. Cambia tu celular ya ! , entra a conocer la mejor financiación."/>
+<meta name="keywords" content="Tienda movistar, Movistar tienda, celulares movistar, tienda movistar celulares, movistar usados, movistar celulares, Tienda Movistar Argentina , celulares reacondicionados, dia del padre argentina"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="ga-business-team" content="terminales_nuevos"/>
+<meta name="ga-business-store" content="terminales"/>
+<meta name="ga-business-mod" content="b2c"/>
+<meta name="ga-content-category" content="catalogo"/>
+<title>Llega el invierno con las mejores promos a Tienda Movistar</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/mage/calendar.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/css/styles-m.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/jquery/uppy/dist/uppy-custom.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/Mageplaza_Core/css/owl.carousel.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/Mageplaza_Core/css/owl.theme.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/Mageplaza_BannerSlider/css/animate.min.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/css/styles-l.min.css" />
+
+<link  rel="stylesheet" type="text/css"  media="all" type="text/css" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/Magento_Theme/css/source/cms.min.css" />
+
+<link rel="preload" as="font" crossorigin="anonymous" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/fonts/Luma-Icons.woff2" />
+<link  rel="icon" type="image/x-icon" href="https://tiendaonline.movistar.com.ar/media/favicon/stores/28/favicon.png" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://tiendaonline.movistar.com.ar/media/favicon/stores/28/favicon.png" />
+<meta name="google-site-verification" content="cUZt9uw3fcKH9S085LOvTQJkNvvkxDL1JGjMpd4WSa8" />
+<script type="text/javascript" src="/ruxitagentjs_ICA7NQVfhlqrtux_10313250422105919.js" data-dtconfig="rid=RID_2418|rpid=-893883296|domain=movistar.com.ar|reportUrl=https://bf36631rar.bf.dynatrace.com/bf|app=3a41d0659442c648|ssc=1|cors=1|cssm=n|owasp=1|featureHash=ICA7NQVfhlqrtux|doNotDetect=kyu,mdw,mup,scr,kyd|msl=153600|srsr=10000|srif=1|xb=events^bs.api^bs.boomtrain^panalytics^bs.com^bs/j^bs/collect|rdnt=0|uxrgce=1|cuc=3e1dkfua|srms=2,0,0,|mdl=mdcc1=20|mel=100000|expw=1|md=mdcc1=a#maincontent ^rb div.columns ^rb div ^rb div.cart-empty.terminals ^rb p,mdcc2=dutm_source,mdcc3=dutm_campaign,mdcc4=a#Q5G7S33|lastModification=1749564244731|evl=clk,chg|tp=500,50,0|tal=3|agentUri=/ruxitagentjs_ICA7NQVfhlqrtux_10313250422105919.js"></script><style>
+.product-image{
+width:100% !important;
+}
+
+#narrow-by-list .item:has(> a[href*="movistar_installment_filter=2551"]) {
+    display: none !important;
+}
+</style>
+
+<style>
+@supports (-webkit-touch-callout: none) {
+  .slick-track {
+    min-width: 100vw !important;
+    height: auto !important;
+  }
+
+  .slick-slide {
+    height: auto !important;
+    float: left !important;
+    display: block !important;
+    width: auto !important;
+  }
+
+  .slick-list {
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.plus-interest{
+display:none!important;
+}
+body.cms-index-index .installments,
+body.catalog-category-view .installments {
+    display: none;
+}
+</style>            
+    </head>
+    <body data-container="body"
+          data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/images/loader-2.gif"}}'
+        id="html-body" class="cms-home page-layout-1column cms-index-index page-layout-cms-full-width">
+        
+
+
+<div class="cookie-status-message" id="cookie-status">
+    The store will not work correctly when cookies are disabled.</div>
+
+
+
+
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>Parece que JavaScript está deshabilitado en su navegador.</strong>
+                    <span>
+                        Para la mejor experiencia en nuestro sitio web, asegúrese de activar Javascript en su navegador.                    </span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+
+<div class="page-wrapper"><header class="page-header"><div class="panel wrapper"><div class="panel header"><div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><ul class="pre-header-links">
+    <li class="active"><a href="https://tiendaonline.movistar.com.ar">Individuos</a></li>
+    <li><a href="https://tienda.movistarempresas.com.ar/">Empresas</a></li>
+</ul></div><a class="action skip contentarea"
+   href="#contentarea">
+    <span>
+        Ir al contenido    </span>
+</a>
+</div></div><div class="header content">
+<a
+    class="logo"
+    href="/"
+    title="Tienda&#x20;Movistar"
+    aria-label="store logo">
+    <img src="https://tiendaonline.movistar.com.ar/media/logo/stores/28/logo-movistarOK.png"
+         title="Tienda&#x20;Movistar"
+         alt="Tienda&#x20;Movistar"
+            width="170"                />
+</a>
+
+<span data-action="toggle-nav" class="action nav-toggle"><span>navegación de palanca</span></span>
+
+<div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><style>
+.page-wrapper .page-header .search-block #search_autocomplete ul li span.amount {
+   display:none;
+}
+</style>
+<ul id="mv-header" class="main-menu" style="background:white !important">
+    <div id="top-mobile">
+        <div class="btn-wrapper">
+            <a class="primary" href="https://tiendaonline.movistar.com.ar/">Individuos</a>
+            <a class="secondary" href="https://tienda.movistarempresas.com.ar/">Empresas</a>
+        </div>
+    </div>
+    <li class="parent">
+        <div class="parent-title"><span>Celulares</span></div>
+        <div class="submenu-container submenu-container-block" style="display: none;">
+            <ul class="submenu submenu-block">
+                <li>
+              <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-celulares.svg" alt="Celulares">
+                    <div class="text-wrapper">
+        <a class="hash" href="https://tiendaonline.movistar.com.ar/" data-layer='Celulares_Celulares'><span>Celulares</span></a>
+                     <p class="mb-0" >Cuotas sin inter&eacute;s con tarjetas seleccionadas</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-celulares-usados.svg" alt="Celulares Usados">
+                    <div class="text-wrapper">
+                        <a class="hash" href="https://tiendaonline.movistar.com.ar/celulares-usados.html/" data-layer='Celulares_Celulares usados'><span>Celulares Usados</span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+
+    <li class="parent">
+        <div class="parent-title"><span>Hogar</span></div>
+        <div class="submenu-container submenu-container-block" style="display: none;">
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-Internet.svg" alt="Internet">
+                    <div class="text-wrapper">
+     <a href="https://tienda.movistar.com.ar/fibra-optica/" data-layer='Hogar_Internet'><span>Internet</span></a>
+                        <p class="mb-0" >Contratá Internet Movistar Fibra + TV en tu hogar.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-movistar-total.svg" alt="Movistar+Total">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/movistar-con-todo" data-layer='Hogar_Movistar Total'><span>Movistar con todo</span></a>
+                        <p class="mb-0" >Sumá más servicios y accedé a los mejores descuentos.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-linea-hogar.svg" alt="Línea Hogar">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/productos-y-servicios/linea-hogar" data-layer='Hogar_Línea hogar'><span>Línea Hogar</span></a>
+                        <p class="mb-0" >Servicios de telefonía fija para llamadas locales, larga distancia y celulares.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-servicios-adicionales.svg" alt="Servicios Adicionales">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/productos-y-servicios/aplicaciones" data-layer='Hogar_Servicios Adicionales'><span>Servicios Adicionales</span></a>
+                        <p class="mb-0" >Protegé tus equipos con el antivirus McAfee y la asistencia de Dr. Banda Ancha.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+
+    <li class="parent">
+        <div class="parent-title"><span>Televisión</span></div>
+        <div class="submenu-container submenu-container-block" style="display: none;">
+            <ul class="submenu submenu-block">
+                <li>
+                    <img class="pnt-icono-item-nivel-uno" src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-planes-tv.svg" alt="Planes de TV">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/productos-y-servicios/television/planes" data-layer='Televisión_Planes de TV'><span>Planes de TV</span></a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img class="pnt-icono-item-nivel-uno" src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-pack-premium.svg" alt="Packs Premium de TV">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/productos-y-servicios/television/pack-premium" data-layer='Televisión_Packs Premium de TV'><span>Packs Premium de TV</span></a>
+                        <p class="mb-0" >Accedé a los mejores paquetes de películas y series exclusivas.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img class="pnt-icono-item-nivel-uno" src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-canales.svg" alt="Grilla de canales">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/productos-y-servicios/television/grilla-canales-tv" data-layer='Televisión_Grilla de canales'><span>Grilla de canales</span></a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img class="pnt-icono-item-nivel-uno" src="https://tienda.movistar.com.ar/media/wysiwyg/header/disneyplus_icon.svg" alt="Icono de Disney Plus">
+                    <div class="text-wrapper">
+                        <a href="https://tienda.movistar.com.ar/movistartv/disney"><span> Disfrutá Disney+ y Star+</span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+
+    <li class="parent">
+        <div class="parent-title"><span>Móvil</span></div>
+        <div class="submenu-container submenu-container-block" style="display: none;">
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-portabilidad.svg" alt="Portabilidad">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/productos-y-servicios/portabilidad" data-layer='Móvil_Portabilidad'><span>Portabilidad</span></a>
+                        <p class="mb-0" >Pasate a Movistar.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-alta-linea.svg" alt="Alta de línea">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/productos-y-servicios/alta-de-linea" data-layer='Móvil_Alta de línea'><span>Alta de línea</span></a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-mejora-tu-plan.svg" alt="Cambio de plan">
+                    <div class="text-wrapper">
+                        <a href="https://tienda.movistar.com.ar/cambiodeplan" data-layer='Móvil_Cambio de plan'><span>Cambio de plan</span></a>
+                        <p class="mb-0" >Disfrutá de un servicio a tu medida, con gigas de regalo.</p>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-pasarme-a-pospago.svg" alt="Cambio de plan">
+                    <div class="text-wrapper">
+                        <a href="https://tienda.movistar.com.ar/cambiodeplan/migra" data-layer='Móvil_Pasate a un plan con factura'><span>Pasate a un plan con factura</span></a>
+                        <p class="mb-0" >Olvidate de recargar y disfrutá gigas de regalo</p>
+
+                   </div>
+                </li>
+            </ul>
+
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-prepago.svg" alt="Prepago">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/prepago" data-layer='Móvil_Prepago'><span>Prepago</span></a>
+                        <p class="mb-0" >Pedí tu Chip Prepago gratis y viví conectado</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-movistar-total.svg" alt="Movistar+Total">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/movistar-con-todo" data-layer='Móvil_Movistar Total'><span>Movistar con todo</span></a>
+                        <p class="mb-0" >Sumá más servicios y accedé a los mejores descuentos.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-roaming.svg" alt="Roaming">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/productos-y-servicios/roaming" data-layer='Móvil_Roaming'><span>Roaming</span></a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-packs-pospago.svg" alt="Packs Pospago">
+                    <div class="text-wrapper">
+                        <a href="https://www.movistar.com.ar/productos-y-servicios/paquetes/pospago" data-layer='Móvil_Packs Pospago'><span>Packs Pospago</span></a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-servicios-linea.svg" alt="Servicios para tu línea">
+                    <div class="text-wrapper">
+                        <a href="https://store.movistar.com/sc/ar/movstore" data-layer='Móvil_Servicios para tu línea'><span>Servicios para tu línea</span></a>
+                        <p class="mb-0" >Conocé todos los beneficios que podés sumar a tu línea móvil.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+
+    <li class="parent">
+        <div class="parent-title"><span>Ayuda</span></div>
+        <div class="submenu-container submenu-container-block" style="display: none;">
+            <ul class="submenu submenu-block">
+                <li>
+                    <img class="pnt-icono-item-nivel-uno" src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-ir-ayuda.svg" alt="Ir a ayuda">
+                    <div class="text-wrapper">
+                        <a href="https://ayuda.movistar.com.ar/?_gl=1*51v39b*_ga*ODYwNzA0MDYyLjE2NDMyMDMxOTk.*_ga_2DD04EL9KJ*MTY2NjE4MDcyMS4xNy4xLjE2NjYxODEyNDAuNTQuMC4w" data-layer='Ayuda_Ir a ayuda'><span>Ir a ayuda</span></a>
+                        <p class="mb-0" >Encontrá información de ayuda sobre nuestros servicios y atención al cliente.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="submenu submenu-block">
+                <li>
+                    <img class="pnt-icono-item-nivel-uno" src="https://tienda.movistar.com.ar/media/wysiwyg/header/Icono-menu-app-mimovistar.svg" alt="Desde app Mi Movistar">
+                    <div class="text-wrapper">
+                        <a href="https://movistar-ar.go.link//SETM?utm_source=web&utm_medium=header&utm_campaign=Ayuda_accesoapp&utm_content=Ayuda_accesoapp&adj_t=lgy025k&adj_deep_link=movistar-ar%3A%2F%2Fapp.movistar.com.ar%2Flink%2FSETM%3Futm_source%3Dweb%26utm_medium%3Dheader%26utm_campaign%3DAyuda_accesoapp%26utm_content%3DAyuda_accesoapp&adj_campaign=header&adj_adgroup=Ayuda_accesoapp&adj_creative=Ayuda_accesoapp&adj_fallback=https%3A%2F%2Fapp.movistar.com.ar%2Flink%2FSETM%3Futm_source%3Dweb%26utm_medium%3Dheader%26utm_campaign%3DAyuda_accesoapp%26utm_content%3DAyuda_accesoapp" data-layer='Ayuda_Desde app Mi Movistar'><span>Desde app Mi Movistar</span></a>
+                        <p class="mb-0" >Resolvé tus gestiones e inconvenientes técnicos en un solo lugar.</p>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </li>
+</ul></div>
+<div data-block="minicart" class="minicart-wrapper">
+    <div id="mycart" 
+        data-limitProduct="3" 
+        data-limitMoney="6000000" 
+        data-limitMoneyMsg="Se superó el límite de monto de compra"
+        data-limitProductMsg="Alcanzaste el máximo de <strong>3</strong> productos en tu carrito.">
+    </div>
+    <a class="action showcart" href="https://tiendaonline.movistar.com.ar/checkout/cart/"
+       data-bind="scope: 'minicart_content'">
+        <span class="text">Mi carrito</span>
+        <span class="counter qty empty"
+              data-bind="css: { empty: !!getCartParam('summary_count') == false && !isLoading(),
+                hidden: !getCartParam('summary_count') },
+                ">
+            <span class="counter-number">
+                <!-- ko if: getCartParam('summary_count') -->
+                <!-- ko text: getCartParam('summary_count').toLocaleString(window.LOCALE) --><!-- /ko -->
+                <!-- /ko -->
+            </span>
+            <span class="counter-label">
+            <!-- ko if: getCartParam('summary_count') -->
+                <!-- ko text: getCartParam('summary_count').toLocaleString(window.LOCALE) --><!-- /ko -->
+                <!-- ko i18n: 'items' --><!-- /ko -->
+            <!-- /ko -->
+            </span>
+        </span>
+    </a>
+            <div class="block block-minicart"
+             data-role="dropdownDialog"
+             data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=minicart]",
+                "triggerTarget":".showcart",
+                "timeout": "2000",
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+                <!-- ko template: getTemplate() --><!-- /ko -->
+            </div>
+            <div data-mage-init='{"minicart":{}}'></div>
+        </div>
+            
+</div>
+<div class="search-block">
+    <form class="form minisearch" id="search_mini_form"
+            action="https://tiendaonline.movistar.com.ar/catalogsearch/result/" method="get">
+                <div class="actions" id="search_action">
+            <button type="submit"
+                    title="Search"
+                    class="action search"
+                    aria-label="Search">
+                <img src="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/images/search-icon.svg" alt="Search">
+            </button>
+        </div>
+        <div class="field search">
+            <div class="control">
+                <input autofocus id="search"
+                        data-mage-init='{
+                            "quickSearch": {
+                                "formSelector": "#search_mini_form",
+                                "url": "https://tiendaonline.movistar.com.ar/search/ajax/suggest/",
+                                "destinationSelector": "#search_autocomplete",
+                                "minSearchLength": "2"
+                            }
+                        }'
+                        type="text"
+                        name="q"
+                        value=""
+                        placeholder="Buscar&#x20;productos"
+                        class="input-text"
+                        maxlength="128"
+                        role="combobox"
+                        aria-haspopup="false"
+                        aria-autocomplete="both"
+                        autocomplete="on"
+                        aria-expanded="false"
+                        inputmode="search"
+                />
+                <div id="search_autocomplete" class="search-autocomplete"></div>
+                <div class="nested">
+    <a class="action advanced" href="https://tiendaonline.movistar.com.ar/catalogsearch/advanced/" data-action="advanced-search">
+        Búsqueda avanzada    </a>
+</div>
+            </div>
+        </div>
+        <div class="close-search"></div>
+    </form>
+</div>
+<div class="header-wrapper-rigth group-block">    <a href="https://movistar-ar.go.link//consumptions?utm_source=tienda-movistar&utm_medium=header&utm_campaign=AR_CONVERGENCIA-COL-BOTON-MI-MOVISTAR-MI-MOVISTAR-B2C_23-07-31_BANNER_DES&utm_content=AR_CONVERGENCIA-COL-BOTON-MI-MOVISTAR-MI-MOVISTAR-B2C_23-07-31_BANNER_DES&adj_t=5yfsrcw&adj_deep_link=movistar-ar%3A%2F%2Fapp.movistar.com.ar%2Flink%2Fconsumptions%3Futm_source%3Dtienda-movistar%26utm_medium%3Dheader%26utm_campaign%3DAR_CONVERGENCIA-COL-BOTON-MI-MOVISTAR-MI-MOVISTAR-B2C_23-07-31_BANNER_DES%26utm_content%3DAR_CONVERGENCIA-COL-BOTON-MI-MOVISTAR-MI-MOVISTAR-B2C_23-07-31_BANNER_DES&adj_campaign=header&adj_adgroup=AR_CONVERGENCIA-COL-BOTON-MI-MOVISTAR-MI-MOVISTAR-B2C_23-07-31_BANNER_DES&adj_creative=AR_CONVERGENCIA-COL-BOTON-MI-MOVISTAR-MI-MOVISTAR-B2C_23-07-31_BANNER_DES&adj_fallback=https%3A%2F%2Fapp.movistar.com.ar%2Flink%2Fconsumptions%3Futm_source%3Dtienda-movistar%26utm_medium%3Dheader%26utm_campaign%3DAR_CONVERGENCIA-COL-BOTON-MI-MOVISTAR-MI-MOVISTAR-B2C_23-07-31_BANNER_DES%26utm_content%3DAR_CONVERGENCIA-COL-BOTON-MI-MOVISTAR-MI-MOVISTAR-B2C_23-07-31_BANNER_DES"
+       class="my-movistar-button">
+        Mi Movistar    </a>
+</div><div class="overlay-body hidden-lg d-none" id="overlay_mv_header"></div></div></header><main id="maincontent" class="page-main-full-width"><a id="contentarea" tabindex="-1"></a>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessagesObservable() && cookieMessagesObservable().length > 0 -->
+    <div aria-atomic="true" role="alert" class="messages" data-bind="foreach: {
+        data: cookieMessagesObservable(), as: 'message'
+    }">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <div aria-atomic="true" role="alert" class="messages" data-bind="foreach: {
+        data: messages().messages, as: 'message'
+    }, afterRender: purgeMessages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+</div>
+
+
+</div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="TUw9i1EdcqD6KUUT" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
+            <!-- ko template: getTemplate() --><!-- /ko -->
+        
+</div>
+
+
+
+
+
+
+
+                <div class="widget block block-static-block">
+    <div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><div class="banner-slider" data-element-ga="section" data-ga-section-name="carrusel banner hero">
+
+
+<!-- Banner saletime-->
+ 
+    <div class="item banner3" data-element-ga="banner" data-ga-business-team="terminales" data-ga-business-mod="b2c" data-ga-creativity-format="cta" data-ga-creativity-repository_id="">
+        <a href="https://tiendaonline.movistar.com.ar/equipos-destacados.html">
+          <picture>
+ 
+                <!-- Imagen para desktop -->
+         <source media="(min-width:768px)" srcset="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/saletime196-d.jpg">
+         <!-- Imagen para mobile -->
+         <img style="margin: auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/saletime196-m.jpg" alt="Aprovech&aacute; Sale Time XL y llevate el celu que tanto quer&eacute;s en hasta 51% de descuento y en hasta 12 cuotas sin inter&eacute;s.">
+ 
+           </source></picture>
+        </a>
+    </div>
+ 
+<!-- Fin Banner-->
+
+<!-- Banner cashback deportes-->
+ 
+    <div class="item bannerDeportes" data-element-ga="banner" data-ga-business-team="terminales" data-ga-business-mod="b2c" data-ga-creativity-format="cta" data-ga-creativity-repository_id="">
+        <a href="https://tiendaonline.movistar.com.ar/smartphones.html?price=500000-4995299.01">
+          <picture>
+ 
+                <!-- Imagen para desktop -->
+         <source media="(min-width:768px)" srcset="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/mpDeportes2-d.jpg">
+         <!-- Imagen para mobile -->
+         <img style="margin: auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/mpDeportes3-m.jpg" alt="Con Mercado Pago en celus desde $500.000 ten&eacute;s un 15% de descuento con un tope de $75.000.">
+ 
+           </source></picture>
+        </a>
+    </div>
+ 
+<!-- Fin Banner-->
+
+<!-- Banner  CF-->
+ 
+    <div class="item banner3" data-element-ga="banner" data-ga-business-team="terminales" data-ga-business-mod="b2c" data-ga-creativity-format="cta" data-ga-creativity-repository_id="">
+<a href="https://tiendaonline.movistar.com.ar/smartphones.html?moreProducts=1&amp;price=0-400000">
+<picture>
+ 
+                <!-- Imagen para desktop -->
+<source media="(min-width:768px)" srcset="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/cf-12cuotas-d.jpg">
+<!-- Imagen para mobile -->
+<img style="margin: auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/cf-12cuotas-m.jpg" alt="Compr&aacute; tu celu en hasta 12 cuotas fijas y pagalo en tu factura. Podes elegir celus desde cuatrocientos mil pesos.">
+ 
+            </source></picture>
+</a>
+</div>
+ 
+<!-- Fin Banner-->
+
+
+
+<!-- Banner deportes-->
+ 
+    <div class="item bannerDeportes" data-element-ga="banner" data-ga-business-team="terminales" data-ga-business-mod="b2c" data-ga-creativity-format="cta" data-ga-creativity-repository_id="">
+        <a href="https://tiendaonline.movistar.com.ar/equipos-destacados.html">
+          <picture>
+ 
+                <!-- Imagen para desktop -->
+         <source media="(min-width:768px)" srcset="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/deportes-d.jpg">
+         <!-- Imagen para mobile -->
+         <img style="margin: auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/deportes-m.jpg" alt="Eleg&iacute; tu nuevo celu en hasta 53% de descuento y hasta 12 cuotas sin inter&eacute;s.">
+ 
+           </source></picture>
+        </a>
+    </div>
+ 
+<!-- Fin Banner-->
+
+<!-- Banner zte-->
+ 
+    <div class="item bannerZte" data-element-ga="banner" data-ga-business-team="terminales" data-ga-business-mod="b2c" data-ga-creativity-format="cta" data-ga-creativity-repository_id="">
+        <a href="https://tiendaonline.movistar.com.ar/equipos-destacados.html?manufacturer=1864">
+          <picture>
+ 
+                <!-- Imagen para desktop -->
+         <source media="(min-width:768px)" srcset="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/zte2-d.jpg">
+         <!-- Imagen para mobile -->
+         <img style="margin: auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/movistar/zte2-m.jpg" alt="Que el fr&iacute;o no te desconecte! aprovech&aacute; y llevate tu ZTE  en hasta 12 cuotas sin inter&eacute;s.">
+ 
+           </source></picture>
+        </a>
+    </div>
+ 
+<!-- Fin Banner-->
+
+</div>
+
+<style>
+   .banner-slider .item.banner1{ background-color: #010A33; }
+   .banner-slider .item.bannerDeportes{ background: linear-gradient(to right, #007fde 50%, #014daa 50%); }
+   .banner-slider .item.banner3{ background-color: #FFFFFF; }
+   .banner-slider .item.bannerZte{ background: linear-gradient(to top, #deecf4, #c7d8e2); }
+   .banner-slider .item.bannerUsados{ background-color: #019bef; }
+   
+
+    @media (max-width: 768px) { .banner-slider .item img{ max-width: 375px; } }
+
+</style></div></div>
+
+
+                <div class="widget block block-static-block">
+        <div class="category-slider">
+    </div>
+    <div id="category-modal">
+        <div class="modal-body-content">
+
+        </div>
+    </div></div>
+
+
+                <div class="widget block block-static-block">
+    <div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><div class="categories">
+        <h1 class="category-title" style="display: none">Meet our cell phones</h1>
+        <div class="filters">
+            <div class="block-content filter-content">
+                <div class="skeleton"></div>
+            </div>
+        </div>
+        <div class="toolbar-sorter"></div>
+        <div class="total-products">
+            <p>Mostrando 12 de 20 equipos</p>
+        </div>
+        <div class="content-products">
+            <div class="products">
+                <ol class="skeleton">
+                    <li>
+                    <li>
+                    <li>
+                    <li>
+                    <li>
+                    <li>
+                    <li>
+                    <li>
+                    <li>
+                    <li>
+                    <li>
+                    <li>
+                </ol>
+            </div>
+            <button id="moreProductsBtn" class="btn-primary" disabled>
+                M&aacute;s equipos
+            </button>
+        </div>
+    </div>
+
+
+</div></div>
+
+
+                <div class="widget block block-static-block">
+    </div>
+
+
+                <div class="widget block block-static-block">
+    <div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><div class="products-slider product-carousel container-slider" data-categoryid="22">
+        <h2 class="title">Aprovech&aacute; ahora</h2>
+        <div class="products">
+           <ol class="skeleton">
+               <li>
+               <li>
+               <li>
+               <li>
+           </ol>
+       </div>
+       <div class="slider-controls" id="products_slider_controls"></div>
+    </div></div></div>
+
+
+                <div class="widget block block-static-block">
+    <div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><div class="help">
+        <h2>&iquest;Necesitas ayuda?</h2>
+        <div class="faq">
+            <div id="FAQ">
+                <div class="item">
+                    <div class="title">
+                        <a href="https://ayuda.movistar.com.ar/pregunta/como-comprar-un-equipo.html">
+                            <img loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/icon-buy.png" alt="&iquest;C&oacute;mo compro?" width="25">
+                            &iquest;C&oacute;mo compro?
+                        </a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="item">
+                    <div class="title">
+                        <a href="https://ayuda.movistar.com.ar/pregunta/que-paso-con-mi-compra.html">
+                            <img loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/icon-bill.png" alt="&iquest;Qu&eacute; pas&oacute; con mi compra?" width="22">
+                            &iquest;Qu&eacute; pas&oacute; con mi compra?
+                        </a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="item">
+                    <div class="title">
+                        <a href="https://tiendaonline.movistar.com.ar/estado">
+                            <img loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/icon-shipping.png" alt="Segu&iacute; tu env&iacute;o" width="21">
+                            Segu&iacute; tu env&iacute;o
+                        </a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="item">
+                    <div class="title">
+                        <a href="https://ayuda.movistar.com.ar/pregunta/puedo-cancelar-la-compra-de-un-equipo.html">
+                             <img loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/wysiwyg/home/cancel_icon.png" alt="Arrepentimiento de compra" width="23">
+                                Arrepentimiento de compra
+                        </a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div></div></div>
+
+
+                <div class="widget block block-static-block">
+    </div>
+
+            </div></div></main><footer class="page-footer"><div class="footer content"><div class="pre-footer-telefonica">
+    <img
+        loading="lazy"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=" data-amsrc="https://tiendaonline.movistar.com.ar/media/footer/logo-telefonica.png"
+        alt="Movistar. Una marca de Telefonica"
+        width="188"
+    />
+</div><div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><hr>
+<div class="footer-links-column-group">
+    <div class="footer-column">
+        <div class="footer-column-content autoinit-widget collapsible">
+            <div class="title" data-role="title">Tienda</div>
+            <div class="content" data-role="content">
+                <ul class="links">
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/celulares-usados.html/">Celulares Usados</a></li> 
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/equipos-destacados.html/">Celulares en Oferta</a></li> 
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/celulares-samsung.html/">Celulares Samsung</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/celulares-motorola.html/">Celulares Motorola</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/celulares-xiaomi.html/">Celulares Xiaomi</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/celulares-tcl.html/">Celulares TCL</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/celulares-zte.html/">Celulares ZTE</a></li>  
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/celulares-nubia.html/">Celulares Nubia</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/celulares-oppo.html/">Celulares Oppo</a></li>                                      
+         <li><a class="hash" href="https://tiendaonline.movistar.com.ar/motorola-edge-60-fusion-5g.html/">Moto Edge 60 Fusion 5G</a></li>
+                 <li><a class="hash" href="https://tiendaonline.movistar.com.ar/motorola-moto-g35-5g-256gb.html/">Motorola Moto G35 5G</a></li>
+                 <li><a class="hash" href="https://tiendaonline.movistar.com.ar/motorola-moto-g75-5g-256gb.html/">Motorola Moto G75 5G</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/motorola-razr-60-ultra.html/">Motorola Razr 60 Ultra</a></li>
+                  <li><a class="hash" href="https://tiendaonline.movistar.com.ar/motorola-moto-g15-4g-256gb.html/">Motorola Moto G15 4G</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/samsung-galaxy-a16-4g-128gb.html/">A16 128GB 4G</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/samsung-galaxy-a26-256gb-5g.html/">A26 256GB 5G</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/samsung-galaxy-a36-256gb-5g.html/">A36 256GB 5G</a></li>
+                    <li><a class="hash" href="https://tiendaonline.movistar.com.ar/samsung-galaxy-a56-256gb-5g.html/">A56 256GB 5G</a></li>
+                   <li><a class="hash" href="https://tiendaonline.movistar.com.ar/xiaomi-redmi-14c-128gb.html/">Xiaomi Redmi 14C</a></li> 
+                   <li><a class="hash" href="https://tiendaonline.movistar.com.ar/nubia-music-4g-128gb.html/">Music 4G</a></li> 
+                   <li><a class="hash" href="https://tiendaonline.movistar.com.ar/nubia-focus-4g-256gb.html/">Focus 4G</a></li>
+                   <li><a class="hash" href="https://tiendaonline.movistar.com.ar/nubia-neo-2-5g.html/">Neo 2 5G</a></li>
+                   <li><a class="hash" href="https://tiendaonline.movistar.com.ar/oppo-reno12-f-5g.html/">Oppo Reno 12F 5G</a></li>  
+       <li><a class="hash" href="https://tiendaonline.movistar.com.ar/tcl-40-nxtpaper-256gb-flip-case-pen.html/">TCL NXTPAPER Flip Case y Pen</a></li>
+                   <li><a class="hash" href="https://tiendaonline.movistar.com.ar/tcl-505-128gb-nfc.html/">TCL 505 NFC</a></li>
+                   <li><a class="hash" href="https://tiendaonline.movistar.com.ar/tcl-505-s-256gb-nfc.html/">TCL 505 S NFC</a></li>
+                   <li><a class="hash" href="https://tiendaonline.movistar.com.ar/zte-blade-a35.html/">ZTE Blade A35</a></li>
+             </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-column">
+        <div class="footer-column-content autoinit-widget collapsible">
+            <div class="title" data-role="title">Hogar</div>
+            <div class="content" data-role="content">
+                <ul class="links">
+                    <li><a href="https://www.movistar.com.ar/productos-y-servicios/linea-hogar">Línea Hogar</a></li>
+                    <li><a href="https://tienda.movistar.com.ar/fibra-optica">Fibra Optica</a></li>
+                    <li><a href="https://www.movistar.com.ar/productos-y-servicios/internet">Internet Hogar</a></li> <Br> 
+          <div class="title" data-role="title">Televisión</div>         
+                    <li><a href="https://tienda.movistar.com.ar/movistartv/">Planes de TV con Disney+ Premium</a></li>
+                    <li><a href="https://www.movistar.com.ar/productos-y-servicios/television/pack-premium">Packs</a></li>
+            <li><a href="https://www.movistar.com.ar/productos-y-servicios/television/grilla-canales-tv">Grilla de Canales</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-column">
+        <div class="footer-column-content autoinit-widget collapsible">
+            <div class="title" data-role="title">Móvil</div>
+            <div class="content" data-role="content">
+                <ul class="links">
+                    <li><a href="https://www.movistar.com.ar/productos-y-servicios/alta-de-linea">Linea Nueva</a></li>
+                    <li><a href="https://tienda.movistar.com.ar/cambiodeplan">Cambio de Plan</a></li>
+                    <li><a href="https://tienda.movistar.com.ar/cambiodeplan/migra">Pasate a un plan con factura</a></li>
+                    <li><a href="https://store.movistar.com/sc/ar/movstore">Servicios para línea móvil</a></li>
+                    <li><a href="https://www.movistar.com.ar/prepago">Prepago</a></li>
+                    <li><a href="https://www.movistar.com.ar/productos-y-servicios/tuspacks">Packs prepagos</a></li>
+                    <li><a href="https://www.movistar.com.ar/productos-y-servicios/roaming">Roaming</a></li>
+                <li><a href="https://www.movistar.com.ar/productos-y-servicios/portabilidad">Portabilidad:Pasate a Movistar</a></li>
+                    <li><a href="https://www.movistar.com.ar/productos-y-servicios/recargar-credito">Recarga Credito</a></li>
+                    <li><a href="https://www.movistar.com.ar/productos-y-servicios/paquetes/pospago">Packs pospagos</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-column">
+        <div class="footer-column-content autoinit-widget collapsible">
+            <div class="title" data-role="title">Beneficios</div>
+            <div class="content" data-role="content">
+                <ul class="links">
+                    <li><a href="https://club.movistar.com.ar/">Club Movistar</a></li>
+                    <li><a href="https://www.movistar.com.ar/promociones/hotsale/">Hot Sale</a></li>
+                    <li><a href="https://www.movistar.com.ar/promociones/cybermonday/">Cyber Monday</a></li>
+                    <li><a href="https://www.movistar.com.ar/promociones/black-friday/">Black Friday</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-column">
+        <div class="footer-column-content down">
+            <div class="content">
+                <ul class="links">
+                    <li><a href="https://www.movistar.com.ar/legales/generales">Avisos Legales</a></li>
+                    <li><a href="https://www.argentina.gob.ar/servicio/iniciar-un-reclamo-ante-la-direccion-nacional-de-defensa-del-consumidor-y-arbitraje-del">Defensa del consumidor</a></li>
+                    <li><a href="https://www.enacom.gob.ar/">Ente Nacional de Comunicaciones</a></li>
+                    <li><a href="https://www.movistar.com.ar/centro-de-privacidad">Centro de Privacidad</a></li>
+                    <li><a href="https://www.movistar.com.ar/terminos-y-condiciones">Centro de términos y condiciones</a></li>
+                    <li><a href="https://jobs.telefonica.com/MovistarArgentina/?locale=es_ES">Trabajá con nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<hr></div><div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><div class="footer-bottom">
+    <div class="col">
+        <p>© 2025 Movistar. All rights reserved.</p>
+    </div>
+</div></div></div></footer>
+</div>    <script>
+    var LOCALE = 'es\u002DAR';
+    var BASE_URL = 'https\u003A\u002F\u002Ftiendaonline.movistar.com.ar\u002F';
+    var require = {
+        'baseUrl': 'https\u003A\u002F\u002Ftiendaonline.movistar.com.ar\u002Fstatic\u002Fversion1750207546\u002Ffrontend\u002FMovistar\u002Fterminals\u002Fes_AR'
+    };</script><script  type="text/javascript"  src="https://tiendaonline.movistar.com.ar/static/version1750207546/_cache/merged/0fefae52c18cbb8c4c06e15ea6f66860.min.js"></script><script type="text/javascript">
+   (function(c,l,a,r,i,t,y){
+       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+       t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+       y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+   })(window, document, "clarity", "script", "oq9h4rr906");
+</script><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_PageCache/js/form-key-provider": {
+                    "isPaginationCacheEnabled":
+                        0                }
+            }
+        }
+    </script><script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_PageBuilder/js/widget-initializer": {
+                "config": {"[data-content-type=\"slider\"][data-appearance=\"default\"]":{"Magento_PageBuilder\/js\/content-type\/slider\/appearance\/default\/widget":false},"[data-content-type=\"map\"]":{"Magento_PageBuilder\/js\/content-type\/map\/appearance\/default\/widget":false},"[data-content-type=\"row\"]":{"Magento_PageBuilder\/js\/content-type\/row\/appearance\/default\/widget":false},"[data-content-type=\"tabs\"]":{"Magento_PageBuilder\/js\/content-type\/tabs\/appearance\/default\/widget":false},"[data-content-type=\"slide\"]":{"Magento_PageBuilder\/js\/content-type\/slide\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-slide-button","showOverlay":"hover","dataRole":"slide"}},"[data-content-type=\"banner\"]":{"Magento_PageBuilder\/js\/content-type\/banner\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-banner-button","showOverlay":"hover","dataRole":"banner"}},"[data-content-type=\"buttons\"]":{"Magento_PageBuilder\/js\/content-type\/buttons\/appearance\/inline\/widget":false},"[data-content-type=\"products\"][data-appearance=\"carousel\"]":{"Magento_PageBuilder\/js\/content-type\/products\/appearance\/carousel\/widget":false}},
+                "breakpoints": {"desktop":{"label":"Desktop","stage":true,"default":true,"class":"desktop-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-desktop.svg","conditions":{"min-width":"1024px"},"options":{"products":{"default":{"slidesToShow":"5"}}}},"tablet":{"conditions":{"max-width":"1024px","min-width":"768px"},"options":{"products":{"default":{"slidesToShow":"4"},"continuous":{"slidesToShow":"3"}}}},"mobile":{"label":"Mobile","stage":true,"class":"mobile-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-mobile.svg","media":"only screen and (max-width: 768px)","conditions":{"max-width":"768px","min-width":"640px"},"options":{"products":{"default":{"slidesToShow":"3"}}}},"mobile-small":{"conditions":{"max-width":"640px"},"options":{"products":{"default":{"slidesToShow":"2"},"continuous":{"slidesToShow":"1"}}}}}            }
+        }
+    }
+</script><script type="text&#x2F;javascript">document.querySelector("#cookie-status").style.display = "none";</script><script type="text/x-magento-init">
+    {
+        "*": {
+            "cookieStatus": {}
+        }
+    }
+</script><script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".tiendaonline.movistar.com.ar",
+                "secure": true,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script><script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;
+</script><script>    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymceAdapter'
+            }
+        }
+    });</script><script>    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3.53\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: '',
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Ftiendaonline.movistar.com.ar\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Ftiendaonline.movistar.com.ar\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });</script><script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });</script><script>window.checkout = {"shoppingCartUrl":"https:\/\/tiendaonline.movistar.com.ar\/checkout\/cart\/","checkoutUrl":"https:\/\/tiendaonline.movistar.com.ar\/checkout\/","updateItemQtyUrl":"https:\/\/tiendaonline.movistar.com.ar\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/tiendaonline.movistar.com.ar\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/tiendaonline.movistar.com.ar\/","minicartMaxItemsVisible":5,"websiteId":"28","maxItemsToDisplay":10,"storeId":"28","storeGroupId":"28","customerLoginUrl":"https:\/\/tiendaonline.movistar.com.ar\/customer\/account\/login\/referer\/aHR0cHM6Ly90aWVuZGFvbmxpbmUubW92aXN0YXIuY29tLmFyLw~~\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/tiendaonline.movistar.com.ar\/captcha\/refresh\/","isRequired":false,"timestamp":1750368394}}}</script><script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals","children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}}}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"Magento_Checkout\/js\/view\/cart-item-renderer","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Ftiendaonline.movistar.com.ar\u002Fstatic\u002Fversion1750207546\u002Ffrontend\u002FMovistar\u002Fterminals\u002Fes_AR\u002Fimages\u002Floader\u002D1.gif"
+        }
+    }
+    </script><script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script><script>window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/tiendaonline.movistar.com.ar\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/tiendaonline.movistar.com.ar\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/tiendaonline.movistar.com.ar\/","customerLoginUrl":"https:\/\/tiendaonline.movistar.com.ar\/customer\/ajax\/login\/"}</script><script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Ftiendaonline.movistar.com.ar\u002Fstatic\u002Fversion1750207546\u002Ffrontend\u002FMovistar\u002Fterminals\u002Fes_AR\u002Fimages\u002Floader\u002D1.gif"
+                            }
+        }
+    </script><script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","captcha","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","captcha"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"checkout\/cart\/removefailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/editwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"paymentservicespaypal\/smartbuttons\/placeorder":["cart","checkout-data"],"paymentservicespaypal\/smartbuttons\/cancel":["cart","checkout-data"]},
+                "clientSideSections": ["checkout-data","cart-data"],
+                "baseUrls": ["https:\/\/tiendaonline.movistar.com.ar\/"],
+                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","wishlist","instant-purchase","loggedAsCustomer","multiplewishlist","persistent","review","payments","recently_viewed_product","recently_compared_product","product_data_storage"]            }
+        }
+    }
+</script><script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Ftiendaonline.movistar.com.ar\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent"],
+                "cookieLifeTime": "3600",
+                "cookieDomain": "",
+                "updateSessionUrl": "https\u003A\u002F\u002Ftiendaonline.movistar.com.ar\u002Fcustomer\u002Faccount\u002FupdateSession\u002F",
+                "isLoggedIn": ""
+            }
+        }
+    }
+</script><script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "28"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script><script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/tiendaonline.movistar.com.ar\/page_cache\/block\/render\/","handles":["default","cms_index_index","cms_page_view","cms_index_index_id_home"],"originalRequest":{"route":"cms","controller":"index","action":"index","uri":"\/"},"versionCookieName":"private_content_version"}        }
+    }
+</script><script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Banner/js/model/banner":
+            {"sectionLoadUrl":"https:\/\/tiendaonline.movistar.com.ar\/banner\/ajax\/load\/","cacheTtl":30000}        }
+}
+</script><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/tiendaonline.movistar.com.ar\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/tiendaonline.movistar.com.ar\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/tiendaonline.movistar.com.ar\/rest\/terminales\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/tiendaonline.movistar.com.ar\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script><script>    window.amlazy = function() {
+        if (typeof window.amlazycallback !== "undefined") {
+            setTimeout(window.amlazycallback, 500);
+            setTimeout(window.amlazycallback, 1500);
+        }
+    }</script><script>!(function(){var h=window.addEventListener||function(n,f){window.attachEvent("on"+n,f)},removeEventListener=window.removeEventListener||function(n,f,b){window.detachEvent("on"+n,f)};var j={cache:[],mobileScreenSize:500,observersAdded:false,attributes:{data_src:"data-amsrc",data_srcset:"data-amsrcset",data_src_mobile:"data-src-mobile"},addObservers:function(){if(!this.observersAdded){h("scroll",j.throttledLoad);h("resize",j.throttledLoad);this.observersAdded=true}},removeObservers:function(){removeEventListener("scroll",j.throttledLoad,false);removeEventListener("resize",j.throttledLoad,false);this.observersAdded=false},throttleTimer:new Date().getTime(),throttledLoad:function(){var a=new Date().getTime();if((a-j.throttleTimer)>=200){j.throttleTimer=a;j.loadVisibleImages()}},loadVisibleImages:function(){var a=window.pageYOffset||document.documentElement.scrollTop;var b=window.innerHeight||document.documentElement.clientHeight;var c={min:a-200,max:a+b+200};var i=0;while(i<j.cache.length){var d=j.cache[i];var e=getOffsetTop(d);var f=d.height||0;if((e>=c.min-f)&&(e<=c.max)){var g=d.getAttribute(this.attributes.data_src_mobile);d.onload=function(){this.className=this.className.replace(/(^|\s+)lazy-load(\s+|$)/,"$1lazy-loaded$2")};if(g&&screen.width<=j.mobileScreenSize){d.src=g}else{const srcImage=d.getAttribute(this.attributes.data_src);if(srcImage!==null){d.src=srcImage}const srcsetImage=d.getAttribute(this.attributes.data_srcset);if(srcsetImage!==null){d.srcset=srcsetImage}}d.removeAttribute(this.attributes.data_srcset);d.removeAttribute(this.attributes.data_src);d.removeAttribute(this.attributes.data_src_mobile);j.cache.splice(i,1);continue}i++}if(j.cache.length===0){j.removeObservers()}},init:function(){if(!document.querySelectorAll){document.querySelectorAll=function(a){var b=document,head=b.documentElement.firstChild,styleTag=b.createElement("STYLE");head.appendChild(styleTag);b.__qsaels=[];styleTag.styleSheet.cssText=a+"{x:expression(document.__qsaels.push(this))}";window.scrollBy(0,0);return b.__qsaels}}var c=document.querySelectorAll(`img[${this.attributes.data_src}],img[${this.attributes.data_srcset}]`);for(var i=0;i<c.length;i++){var d=c[i];if(j.cache.indexOf(d)==-1){j.cache.push(d)}}j.addObservers();j.loadVisibleImages()}};function getOffsetTop(a){var b=0;if(a.offsetParent){do{b+=a.offsetTop}while(a=a.offsetParent);return b}}j.init();window.amlazycallback=j.init.bind(j)})();</script><noscript id="deferred-css"><link  rel="stylesheet" type="text/css"  media="print" href="https://tiendaonline.movistar.com.ar/static/version1750207546/frontend/Movistar/terminals/es_AR/css/print.min.css" /></noscript><script>        window.addEventListener('load', () => {
+            const addStylesNode = document.getElementById("deferred-css");
+            const replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement);
+            addStylesNode.parentElement.removeChild(addStylesNode);
+        });</script></body>
+</html>
