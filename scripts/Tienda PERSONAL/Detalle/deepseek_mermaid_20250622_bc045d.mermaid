@@ -1,0 +1,41 @@
+graph TD
+    A[Inicio] --> B[Configuración inicial]
+    B --> C[Inicializar Selenium]
+    C --> D[Navegar a página principal]
+    D --> E{Encontrar enlace Tienda?}
+    E -->|Sí| F[Hacer clic en Tienda]
+    E -->|No| G[Navegar a URL respaldo]
+    F --> H{Encontrar enlace Celulares?}
+    H -->|Sí| I[Hacer clic en Celulares]
+    H -->|No| G
+    I --> J[Esperar carga página]
+    G --> J
+    J --> K[Bucle paginación]
+    
+    K --> L[Recolectar productos]
+    L --> M[Bucle productos]
+    M --> N[Hacer clic en producto]
+    N --> O[Extraer ficha técnica]
+    O --> P[Abrir pestaña 'Más info']
+    P --> Q{¿Encontrada?}
+    Q -->|Sí| R[Extraer especificaciones]
+    Q -->|No| S[Devolver valores vacíos]
+    R --> T[Abrir pestaña 'Legales']
+    T --> U{¿Encontrada?}
+    U -->|Sí| V[Extraer precios legales]
+    U -->|No| W[Devolver valores vacíos]
+    V --> X[Extraer financiación]
+    X --> Y[Volver al listado]
+    W --> Y
+    S --> Y
+    
+    Y --> Z{¿Siguiente producto?}
+    Z -->|Sí| M
+    Z -->|No| AA{¿Página siguiente?}
+    AA -->|Sí| BB[Hacer clic en Siguiente]
+    BB --> K
+    AA -->|No| CC[Consolidar datos]
+    
+    CC --> DD[Guardar CSV]
+    DD --> EE[Cerrar Selenium]
+    EE --> FF[Fin]
