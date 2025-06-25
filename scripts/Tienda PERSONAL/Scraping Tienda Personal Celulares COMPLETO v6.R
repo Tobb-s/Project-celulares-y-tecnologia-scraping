@@ -25,7 +25,8 @@ CFG <- list(
   max_pages      = 5L,
   out_csv        = "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/raw/personal_celulares_multipagina.csv",
   
-  # ----------- Mapeo etiqueta de la web → nombre de columna tibble -----------
+  # ----------- Mapeo etiqueta de la web → nombre de columna tibble 
+  
   spec_map = tribble(
     ~label_html,          ~col_name,
     "Sistema Operativo",  "Sistema Operativo",
@@ -240,7 +241,7 @@ repeat {
 }
 
 # 7. CONSOLIDAR Y GUARDAR ------------------------------------------------------
-data_final <- bind_rows(rows) %>% distinct()
+data_final <- bind_rows(rows) %>% distinct()%>% mutate(sitio="Personal")
 write_csv(data_final, CFG$out_csv)
 message("✅ CSV guardado en: ", CFG$out_csv)
 
