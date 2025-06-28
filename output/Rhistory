@@ -1,0 +1,512 @@
+)
+print(boxplot_precios)
+boxplot_precios_separado<-ggplot(tabla_completa, aes(x = sitio, y = Precio_comprador, fill = sitio)) +
+geom_boxplot(show.legend = FALSE) +
+geom_jitter(width = 0.2, alpha = 0.6, show.legend = FALSE) +
+scale_y_continuous(labels = number_format(prefix = "$", big.mark = ".")) +
+labs(
+title = "Distribucion de los Precios por Vendedor",
+subtitle = "Comparación de Precios por Vendedor",
+x = "Vendedor",
+y = "Precio (En Pesos)"
+) +
+theme_minimal(base_size = 12)+
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12),
+axis.text.x = element_text(angle = 45, hjust = 1)
+)
+print(boxplot_precios_separado)
+#####Segundos graficos####
+# 1. Preparamos los datos: calculamos el ratio promedio por marca
+tabla_promedio_por_marca <- tabla_completa %>%
+# Agrupamos toda la tabla por marca
+group_by(marca) %>%
+# Calculamos el promedio del ratio para cada grupo (cada marca)
+summarise(
+ratio_promedio = mean(ratio_memoria_precio, na.rm = TRUE)
+) %>%
+# Desagrupamos para dejar la tabla limpia (buena practica)
+ungroup()
+# 2. Creacion del grafico de barras usando la nueva tabla de promedios
+barplot_valor_promedio_marca <- ggplot(tabla_promedio_por_marca,
+aes(x = ratio_promedio,
+# Ordenamos las marcas (y) segun su ratio promedio (x)
+y = fct_reorder(marca, ratio_promedio),
+# Le damos a cada marca su propio color
+fill = marca)) +
+geom_col(show.legend = FALSE) + # La leyenda es redundante, la marca ya esta en el eje Y
+# Añadimos las etiquetas con el valor del ratio promedio
+geom_text(aes(label = number(ratio_promedio, accuracy = 0.01)),
+hjust = -0.2,
+size = 3.5,
+color = "black") +
+# Expandimos el eje X para que quepan las etiquetas
+scale_x_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Ranking de Marcas por Valor-Precio Promedio",
+subtitle = "Comparación del ratio promedio de memoria vs. precio para cada marca",
+x = "Ratio Promedio (Más alto es mejor)",
+y = "Marca"
+) +
+# Aplicamos tu tema personalizado
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+# 3. Imprimimos el nuevo grafico
+print(barplot_valor_promedio_marca)tabla_promedio_por_marca <- tabla_completa %>%
+source("~/.active-rstudio-document", echo=TRUE)
+source("~/.active-rstudio-document", echo=TRUE)
+barplot_valor_promedio_marca <- ggplot(tabla_promedio_por_marca, aes(x = ratio_promedio, y = !fct_reorder(marca, ratio_promedio), fill = marca)) +
+geom_col(show.legend = FALSE) +
+geom_text(aes(label = number(ratio_promedio, accuracy = 0.01)),
+hjust = -0.2,
+size = 3.5,
+color = "black") +
+scale_x_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Ranking de Marcas por Valor-Precio Promedio",
+subtitle = "Comparación del ratio promedio de memoria vs. precio para cada marca",
+x = "Ratio Promedio (Más alto es mejor)",
+y = "Marca"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_valor_promedio_marca)
+barplot_valor_promedio_marca <- ggplot(tabla_promedio_por_marca, aes(x = ratio_promedio, y = fct_reorder(marca, ratio_promedio), fill = marca)) +
+geom_col(show.legend = FALSE) +
+geom_text(aes(label = number(ratio_promedio, accuracy = 0.01)),
+hjust = -0.2,
+size = 3.5,
+color = "black") +
+scale_x_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Ranking de Marcas por Valor-Precio Promedio",
+subtitle = "Comparación del ratio promedio de memoria vs. precio para cada marca",
+x = "Ratio Promedio (Más alto es mejor)",
+y = "Marca"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_valor_promedio_marca)
+View(tabla_completa)
+barplot_valor_promedio_marca <- ggplot(tabla_promedio_por_marca, aes(x = ratio_promedio,
+y = fct_reorder(marca, ratio_promedio),
+fill = marca)) +
+geom_col(show.legend = FALSE) +
+geom_text(aes(label = number(ratio_promedio, accuracy = 0.01)),
+hjust = -0.2,
+size = 3.5,
+color = "black") +
+scale_x_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Ranking de Marcas por Almacenamiento-Precio Promedio",
+subtitle = "Comparación del ratio promedio de memoria vs. precio para cada marca",
+x = "Ratio Promedio",
+y = "Marca"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_valor_promedio_marca)
+View(tabla_completa)
+source("~/.active-rstudio-document", echo=TRUE)
+print(boxplot_ram_por_categoria)
+View(tabla_categoria_ordenada)
+boxplot_ram_por_categoria <- ggplot(tabla_categoria_ordenada,
+aes(x = marca,
+y = RAM..GB.,
+fill = marca)) +
+geom_boxplot(show.legend = FALSE) +
+geom_jitter(width = 0.2, alpha = 0.4, show.legend = FALSE) +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(breaks = seq(0, 20, by = 2)) +
+labs(
+title = "Memoria RAM Ofrecida por Marca Dentro de Cada Categoría",
+subtitle = "Comparación de la distribución de RAM en las gamas Baja, Media y Alta",
+x = "Marca",
+y = "Memoria RAM (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12),
+axis.text.x = element_text(angle = 45, hjust = 1)
+)
+print(boxplot_ram_por_categoria)
+source("~/.active-rstudio-document", echo=TRUE)
+print(barplot_top3_ram_por_categoria)
+barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria,
+aes(x = marca,
+y = ram_promedio,
+fill = marca)) +
+geom_col(show.legend = FALSE) +
+geom_text(aes(label = number(ram_promedio, accuracy = 0.1, decimal.mark = ",")),
+vjust = -0.5,
+size = 4,
+color = "black") +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Top 3 Marcas con Más RAM Promedio por Categoría",
+subtitle = "Los líderes en memoria para cada gama de celulares",
+x = "Marca",
+y = "Memoria RAM Promedio (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+tabla_top3_ram_por_categoria <- tabla_completa %>%
+mutate(
+Categoria = factor(Categoria, levels = c("Gama Baja", "Gama Media", "Gama Alta"))
+) %>%
+group_by(Categoria, marca) %>%
+summarise(
+ram_promedio = mean(`RAM (GB)`, na.rm = TRUE),
+.groups = 'drop'
+) %>%
+group_by(Categoria) %>%
+slice_max(order_by = ram_promedio, n = 3) %>%
+ungroup()
+tabla_top3_ram_por_categoria <- tabla_completa %>%
+mutate(
+Categoria = factor(Categoria, levels = c("Gama Baja", "Gama Media", "Gama Alta"))
+) %>%
+group_by(Categoria, marca) %>%
+summarise(
+ram_promedio = mean(RAM..GB. , na.rm = TRUE),
+.groups = 'drop'
+) %>%
+group_by(Categoria) %>%
+slice_max(order_by = ram_promedio, n = 3) %>%
+ungroup()
+barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria,
+aes(x = marca,
+y = ram_promedio,
+fill = marca)) +
+geom_col(show.legend = FALSE) +
+geom_text(aes(label = number(ram_promedio, accuracy = 0.1, decimal.mark = ",")),
+vjust = -0.5,
+size = 4,
+color = "black") +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Top 3 Marcas con Más RAM Promedio por Categoría",
+subtitle = "Los líderes en memoria para cada gama de celulares",
+x = "Marca",
+y = "Memoria RAM Promedio (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_top3_ram_por_categoria)
+tabla_top3_ram_por_categoria <- tabla_completa %>%
+group_by(Categoria, marca) %>%
+summarise(
+ram_promedio = mean(RAM..GB. , na.rm = TRUE),
+.groups = 'drop'
+) %>%
+group_by(Categoria) %>%
+slice_max(order_by = ram_promedio, n = 3) %>%
+ungroup()
+barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria,
+aes(x = marca,
+y = ram_promedio,
+fill = marca)) +
+geom_col(show.legend = FALSE) +
+geom_text(aes(label = number(ram_promedio, accuracy = 0.1, decimal.mark = ",")),
+vjust = -0.5,
+size = 4,
+color = "black") +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Top 3 Marcas con Más RAM Promedio por Categoría",
+subtitle = "Los líderes en memoria para cada gama de celulares",
+x = "Marca",
+y = "Memoria RAM Promedio (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_top3_ram_por_categoria)
+barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria, aes(x = marca, y = ram_promedio, fill = marca))+
+geom_col(show.legend = FALSE)+
+geom_text(aes(label = number(ram_promedio, accuracy = 1, decimal.mark = ",")),
+vjust = -0.5,
+size = 4,
+color = "black") +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Top 3 Marcas con Más RAM Promedio por Categoría",
+subtitle = "Los líderes en memoria para cada gama de celulares",
+x = "Marca",
+y = "Memoria RAM Promedio (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_top3_ram_por_categoria)
+barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria, aes(x = marca, y = ram_promedio, fill = marca))+
+geom_col(show.legend = FALSE)+
+geom_text(aes(label = number(ram_promedio, accuracy = 1)),
+vjust = -0.5,
+size = 4,
+color = "black") +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Top 3 Marcas con Más RAM Promedio por Categoría",
+subtitle = "Los líderes en memoria para cada gama de celulares",
+x = "Marca",
+y = "Memoria RAM Promedio (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_top3_ram_por_categoria)
+tabla_top3_ram_por_categoria <- tabla_completa %>%
+mutate(
+Categoria = factor(Categoria, levels = c("Gama Baja", "Gama Media", "Gama Alta"))
+) %>%
+group_by(Categoria, marca) %>%
+summarise(
+ram_promedio = mean(`RAM (GB)`, na.rm = TRUE),
+.groups = 'drop'
+) %>%
+group_by(Categoria) %>%
+slice_max(order_by = ram_promedio, n = 3) %>%
+ungroup()
+tabla_top3_ram_por_categoria <- tabla_completa %>%
+group_by(Categoria, marca) %>%
+summarise(
+ram_promedio = mean(RAM..GB. , na.rm = TRUE),
+.groups = 'drop'
+) %>%
+group_by(Categoria) %>%
+slice_max(order_by = ram_promedio, n = 3) %>%
+ungroup()
+barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria, aes(x = reorder(marca, -ram_promedio), y = ram_promedio, fill = marca))+
+geom_col(show.legend = FALSE)+
+geom_text(aes(label = number(ram_promedio, accuracy = 1)),
+vjust = -0.5,
+size = 4,
+color = "black") +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Top 3 Marcas con Más RAM Promedio por Categoría",
+subtitle = "Los líderes en memoria para cada gama de celulares",
+x = "Marca",
+y = "Memoria RAM Promedio (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_top3_ram_por_categoria)
+barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria, aes(x = reorder(marca, ram_promedio), y = ram_promedio, fill = marca))+
+geom_col(show.legend = FALSE)+
+geom_text(aes(label = number(ram_promedio, accuracy = 1)),
+vjust = -0.5,
+size = 4,
+color = "black") +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Top 3 Marcas con Más RAM Promedio por Categoría",
+subtitle = "Los líderes en memoria para cada gama de celulares",
+x = "Marca",
+y = "Memoria RAM Promedio (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_top3_ram_por_categoria)
+View(tabla_top3_ram_por_categoria)
+tabla_top3_ram_por_categoria <- tabla_completa %>%
+group_by(Categoria, marca) %>%
+summarise(
+ram_promedio = mean(RAM..GB. , na.rm = TRUE),
+.groups = 'drop'
+) %>%
+group_by(Categoria) %>%
+slice_max(order_by = ram_promedio, n = 5) %>%
+ungroup()
+barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria, aes(x = reorder(marca, ram_promedio), y = ram_promedio, fill = marca))+
+geom_col(show.legend = FALSE)+
+geom_text(aes(label = number(ram_promedio, accuracy = 1)),
+vjust = -0.5,
+size = 4,
+color = "black") +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Top 3 Marcas con Más RAM Promedio por Categoría",
+subtitle = "Los líderes en memoria para cada gama de celulares",
+x = "Marca",
+y = "Memoria RAM Promedio (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_top3_ram_por_categoria)
+tabla_top3_ram_por_categoria <- tabla_completa %>%
+group_by(Categoria, marca) %>%
+summarise(
+ram_promedio = mean(RAM..GB. , na.rm = TRUE),
+.groups = 'drop'
+) %>%
+group_by(Categoria) %>%
+slice_max(order_by = ram_promedio, n = 4) %>%
+ungroup()
+barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria, aes(x = reorder(marca, ram_promedio), y = ram_promedio, fill = marca))+
+geom_col(show.legend = FALSE)+
+geom_text(aes(label = number(ram_promedio, accuracy = 1)),
+vjust = -0.5,
+size = 4,
+color = "black") +
+facet_wrap(~ Categoria, scales = "free_x") +
+scale_y_continuous(expand = expansion(mult = c(0.05, 0.18))) +
+labs(
+title = "Top 5 Marcas con Más RAM Promedio por Categoría",
+subtitle = "Los líderes en memoria para cada gama de celulares",
+x = "Marca",
+y = "Memoria RAM Promedio (en GB)"
+) +
+theme_minimal(base_size = 12) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(barplot_top3_ram_por_categoria)
+source("~/.active-rstudio-document", echo=TRUE)
+source("~/.active-rstudio-document", echo=TRUE)
+boxplot_precios<-ggplot(tabla_completa, aes(x = "Combined Market", y = Precio_comprador)) +
+geom_boxplot(fill = "lightblue", color = "black", outlier.shape = NA) +
+geom_jitter(width = 0.25, alpha = 0.4, color = "black") +
+scale_y_continuous(labels = number_format(prefix = "$", big.mark = ".")) +
+labs(
+title = "Distribución General de los precios",
+subtitle = "Visión combinadad de la oferta de Cetrogar, Claro, y Personal",
+x = "",
+y = "Price (in ARS)"
+) +
+theme_minimal(base_size = 14) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(boxplot_precios)
+boxplot_precios<-ggplot(tabla_completa, aes(x = "Combined Market", y = Precio_comprador)) +
+geom_boxplot(fill = "lightblue", color = "black", outlier.shape = NA) +
+geom_jitter(width = 0.25, alpha = 0.4, color = "black") +
+scale_y_continuous(labels = number_format(prefix = "$", big.mark = ".")) +
+labs(
+title = "Distribución General de los Precios",
+subtitle = "Visión combinada de la oferta de Cetrogar, Claro, y Personal",
+x = "",
+y = "Precio"
+) +
+theme_minimal(base_size = 14) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(boxplot_precios)
+boxplot_precios<-ggplot(tabla_completa, aes(x =, y = Precio_comprador)) +
+geom_boxplot(fill = "lightblue", color = "black", outlier.shape = NA) +
+geom_jitter(width = 0.25, alpha = 0.4, color = "black") +
+scale_y_continuous(labels = number_format(prefix = "$", big.mark = ".")) +
+labs(
+title = "Distribución General de los Precios",
+subtitle = "Visión combinada de la oferta de Cetrogar, Claro, y Personal",
+x = "",
+y = "Precio"
+) +
+theme_minimal(base_size = 14) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(boxplot_precios)
+"Combined Market"
+boxplot_precios<-ggplot(tabla_completa, aes(x = "Combined Market", y = Precio_comprador)) +
+geom_boxplot(fill = "lightblue", color = "black", outlier.shape = NA) +
+geom_jitter(width = 0.25, alpha = 0.4, color = "black") +
+scale_y_continuous(labels = number_format(prefix = "$", big.mark = ".")) +
+labs(
+title = "Distribución General de los Precios",
+subtitle = "Visión combinada de la oferta de Cetrogar, Claro, y Personal",
+x = "",
+y = "Precio"
+) +
+theme_minimal(base_size = 14) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(boxplot_precios)
+boxplot_precios<-ggplot(tabla_completa, aes(x = "Combined Market", y = Precio_comprador)) +
+geom_boxplot(fill = "lightblue", color = "black", outlier.shape = NA) +
+geom_jitter(width = 0.25, alpha = 0.4, color = "black") +
+scale_y_continuous(labels = number_format(prefix = "$", big.mark = ".")) +
+labs(
+title = "Distribución General de los Precios",
+subtitle = "Visión combinada de la oferta de Cetrogar, Claro, y Personal",
+x = "",
+y = "Precio"
+) +
+theme_minimal(base_size = 14) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(boxplot_precios)
+boxplot_precios<-ggplot(tabla_completa, aes(x = "Oferta Combinada", y = Precio_comprador)) +
+geom_boxplot(fill = "lightblue", color = "black", outlier.shape = NA) +
+geom_jitter(width = 0.25, alpha = 0.4, color = "black") +
+scale_y_continuous(labels = number_format(prefix = "$", big.mark = ".")) +
+labs(
+title = "Distribución General de los Precios",
+subtitle = "Visión combinada de la oferta de Cetrogar, Claro, y Personal",
+x = "",
+y = "Precio"
+) +
+theme_minimal(base_size = 14) +
+theme(
+plot.title = element_text(hjust = 0.5, size = 16),
+plot.subtitle = element_text(hjust = 0.5, size = 12)
+)
+print(boxplot_precios)
+source("~/.active-rstudio-document", echo=TRUE)
+source("~/.active-rstudio-document", echo=TRUE)
+source("~/.active-rstudio-document", echo=TRUE)
+source("~/.active-rstudio-document", echo=TRUE)
