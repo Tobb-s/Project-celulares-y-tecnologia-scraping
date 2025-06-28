@@ -1,9 +1,9 @@
-#####Librerias y carga de datos#####
+#####Librerias y carga de datos (setear directorio en carpeta imput)#####
 library(tidyverse)
 library(ggplot2)
 library(readxl)
 library(scales)
-setwd("C:/Users/valentino.didomenica/Downloads/Project-celulares-y-tecnologia-scraping-main (1)/Project-celulares-y-tecnologia-scraping-main/input")
+setwd("C:/Users/valen/OneDrive - Económicas - UBA/=ANALISIS DE DATO PARA LA ECONOMIA Y NEGOCIOS=/Project-celulares-y-tecnologia-scraping/input")
 
 tabla_claro<-read.csv('claro_celulares_base.csv')
 tabla_personal<-read.csv('personal_celulares_base.csv')
