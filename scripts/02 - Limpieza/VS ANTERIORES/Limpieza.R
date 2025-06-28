@@ -225,7 +225,7 @@ csv_path <- file.path(dir_path, file_name)
 # 4. Importar el CSV 
 claro_celulares <- read_csv(csv_path)
 
-#-----------------------------------------------------------------Limpieza y Estandarizacion-----------------------------------------
+#-----------------------------------------------------Limpieza y Estandarizacion--------------------------------------------------
 
 
 ## Elimina las columnas que no voy a usar
@@ -479,7 +479,10 @@ write_csv(claro_celulares,file.path(input_dir_CLARO, "claro_celulares_base.csv")
 View(claro_celulares)
 
 
-#--------------------------------REPORTE UNIFICADO---------------------------------------------------------------------------------------
+
+#===========================================================================================================================================
+#                                                              REPORTE UNIFICADO
+#===========================================================================================================================================
 
 # 1) Une personal arriba y claro abajo
 combined_celulares <- bind_rows(

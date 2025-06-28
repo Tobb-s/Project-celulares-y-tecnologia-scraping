@@ -116,7 +116,7 @@ extraer_datos_producto <- function(remote_driver) {
   }
 }
 
-# 4. INICIALIZAR SELENIUM
+# 4.---------------------------------------------------------INICIALIZAR SELENIUM-------------------------------------------------------
 driver <- rsDriver(browser = "firefox", port = 4445L, chromever = NULL, check = FALSE)
 remote_driver <- driver$client
 remote_driver$setTimeout("page load", 20000)

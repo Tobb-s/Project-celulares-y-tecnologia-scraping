@@ -1,0 +1,82 @@
+sitio,id,marca,modelo,nombre,Sistema Operativo,Procesador,RAM (GB),Almacenamiento interno (GB),Pantalla (Pulgadas),Camara Principal (MP),Camara frontal (MP),NFC,Precio_comprador,Precio_anterior,precio_sin_impuestos,financiacion_plazo,per_descuento,presion_impositiva_pais_per,ratio_memoria_precio,ratio_mp_precio
+Cetrogar,Nubia - Margarita Corazones,Nubia,Margarita Corazones,"Nubia Margarita Corazones Rojos 6.6"" 4GB 128GB caja strap + funda + cancionero",,Octa Core,4,128,6.6,50,50,No,211499,244999,174792,,14,29,0.4,4.7
+Cetrogar,Motorola - G15,Motorola,G15,"Motorola G15 6.7"" 4GB 128GB verde",,Octa Core,4,128,6.7,50,8,Si,209999,249999,173552,,16,31,0.4,2.8
+Cetrogar,Samsung - Galaxy A15,Samsung,Galaxy A15,"Samsung Galaxy A15 6.5"" 4GB 128GB light blue",Android 14,Octa-Core (2.2GHz - 2GHz),4,128,6.5,50,13,Si,271999,389999,224792,,30,42,0.5,2.3
+Cetrogar,Motorola - Moto G35,Motorola,Moto G35,"Motorola Moto G35 6.7"" 5G 4GB 128GB verde",Android 14,Octa-Core 2.2GHz,4,128,6.7,50,16,Si,335999,399999,277685,,16,31,0.6,2
+Cetrogar,Motorola - G85,Motorola,G85,"Motorola G85 6.6"" 8GB 256GB 5G gris",,Octa Core,8,256,6.6,50,32,Si,489999,699999,404957,,30,42,0.5,1.7
+Cetrogar,Motorola - G04s,Motorola,G04s,"Motorola G04s 6.55"" 4GB 64GB azul",,Octa Core,4,64,6.55,50,5,No,179999,279999,148759,,36,47,0.6,3.1
+Cetrogar,Motorola - G04s,Motorola,G04s,"Motorola G04s 6.55"" 4GB 64GB negro",,Octa Core,4,64,6.55,50,5,No,179999,279999,148759,,36,47,0.6,3.1
+Cetrogar,ZTE - BLADE A75,ZTE,BLADE A75,"ZTE BLADE A75 6.6"" 5G 4GB 4GB FUSION RAM",,Octa Core,4,4,6.6,50,5,No,199999,319999,165288,,38,48,1,2.8
+Cetrogar,Motorola - G85,Motorola,G85,"Motorola G85 6.6"" 8GB 256GB 5G azul",,Octa Core,8,256,6.6,50,32,Si,579999,699999,479338,,17,32,0.5,1.4
+Cetrogar,Xiaomi - Redmi Note,Xiaomi,Redmi Note,"Xiaomi Redmi Note 13 6.6"" 6GB 128GB Ice blue",Android 13,Octa-Core 2.8GHz,6,128,6.6,108,16,No,429999,449999,355371,,4,21,0.7,2.9
+Cetrogar,Motorola - G05,Motorola,G05,"Motorola G05 6.6"" 4G 4GB 64GB rojo",,Octa Core,4,64,6.6,50,8,No,189999,209999,157023,,10,25,0.6,3.1
+Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 6.78"" 5G 8GB 256GB Titan GOLD",,MTK 7020,8,256,6.78,108,32,No,499999,679999,413222,,26,39,0.5,2.8
+Cetrogar,Motorola - G04s,Motorola,G04s,"Motorola G04s 6.55"" 4GB 64GB verde",,Octa Core,4,64,6.55,50,5,No,179999,279999,148759,,36,47,0.6,3.1
+Cetrogar,OPPO - A60,OPPO,A60,"OPPO A60 6.7"" 8GB 256GB blanco",,Octa Core,8,256,6.7,50,5,No,394999,569999,326445,,31,43,0.3,1.4
+Cetrogar,Xiaomi - A3,Xiaomi,A3,"Xiaomi A3 6.7"" 3GB 64GB azul",,Octa Core,3,64,6.7,8,5,No,189999,199999,157023,,5,21,0.6,0.7
+Cetrogar,Nubia - Neo 2,Nubia,Neo 2,"Nubia Neo 2 6.7"" 5G 8GB 256GB amarillo",,Octa Core,8,256,6.7,50,16,Si,419999,455999,347106,,8,24,0.4,1.6
+Cetrogar,Samsung - Galaxy S24,Samsung,Galaxy S24,"Samsung Galaxy S24 FE 6.7"" 8GB 256GB Graphite",Android 14,Deca Core 3.1 GHz,8,256,6.7,50,10,Si,1159999,1399999,958676,,17,32,0.8,0.5
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 12GB 256GB comet green",,Octa Core,12,256,6.78,108,32,Si,429999,699999,355371,,39,49,0.4,3.3
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 128GB Green",Android 14,Octa Core 2.0 GHz,4,128,6.8,50,13,No,329999,349999,272726,,6,22,0.6,1.9
+Cetrogar,Nubia - Focus 4G,Nubia,Focus 4G,"Nubia Focus 4G 6.6"" 4GB 256GB Negro",,Octa Core,4,256,6.6,108,8,Si,289999,389999,239668,,26,39,0.1,4
+Cetrogar,Samsung - Galaxy A26,Samsung,Galaxy A26,"Samsung Galaxy A26 5G 6.7"" 8GB 256GB Black",Android 15,Octa Core 2.4GHz,8,256,6.7,50,13,No,576999,699999,476858,,18,32,0.5,1.1
+Cetrogar,Motorola - G15,Motorola,G15,"Motorola G15 6.7"" 4GB 256GB Gris",,Octa Core,4,256,6.7,50,8,No,299999,389999,247933,,23,36,0.1,1.9
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 256GB green",Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,389999,399999,322313,,3,19,0.3,1.6
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 256GB Blue",Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,389999,399999,322313,,3,19,0.3,1.6
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 256GB Black",Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,389999,399999,322313,,3,19,0.3,1.6
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 128GB Blue",Android 14,Octa Core 2.0 GHz,4,128,6.8,50,13,No,329999,349999,272726,,6,22,0.6,1.9
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 128GB Black",Android 14,Octa Core 2.0 GHz,4,128,6.8,50,13,No,329999,349999,272726,,6,22,0.6,1.9
+Cetrogar,Tecno - Mobile KL7,Tecno,Mobile KL7,Tecno Mobile KL7 Spark 30 Pro 8GB 256GB Obsidian Edge,,,8,256,6.78,108,13,Si,369999,599999,305784,,38,49,0.3,3.3
+Cetrogar,Tecno - Mobile KL7,Tecno,Mobile KL7,Tecno Mobile KL7 Spark 30 Pro 8GB 256GB Artic Glow,,,8,256,6.78,108,13,Si,369999,599999,305784,,38,49,0.3,3.3
+Cetrogar,Samsung - Galaxy A36,Samsung,Galaxy A36,"Samsung Galaxy A36 6.7"" 5G 8GB 256GB Awesome Black",Android 15,Octa Core 2.4GHz,8,256,6.7,50,12,No,642999,779999,531404,,18,32,0.6,1
+Cetrogar,Samsung - Galaxy A56,Samsung,Galaxy A56,"Samsung Galaxy A56 6.7""5G 8GB 256GB Awesome Lightgray",Android 15,Octa Core 2.9GHz,8,256,6.7,50,12,No,765999,929999,633057,,18,32,0.7,0.8
+Cetrogar,Motorola - E15,Motorola,E15,"Motorola E15 6.6"" 4G 2GB 64GB lavanda",,Octa Core,2,64,6.6,32,8,No,125999,179999,104131,,30,42,0.5,3.2
+Cetrogar,Motorola - E15,Motorola,E15,"Motorola E15 6.6"" 4G 2GB 64GB azul",,Octa Core,2,64,6.6,32,8,No,149999,179999,123966,,17,31,0.6,2.7
+Cetrogar,Motorola - G05,Motorola,G05,"Motorola G05 6.6"" 4G 4GB 64GB verde",,Octa Core,4,64,6.6,50,8,No,159999,209999,132230,,24,37,0.6,3.6
+Cetrogar,Xiaomi - Redmi 14T,Xiaomi,Redmi 14T,"Xiaomi Redmi 14T 6.67"" 12GB 512GB Titan gray",,Octa Core,12,512,6.67,50,32,Si,1619999,1649999,1338842,,2,19,0.7,0.5
+Cetrogar,Xiaomi - Redmi 14T,Xiaomi,Redmi 14T,"Xiaomi Redmi 14T 6.67"" 12GB 512GB Titan black",,Octa Core,12,512,6.67,50,32,Si,1619999,1649999,1338842,,2,19,0.7,0.5
+Cetrogar,Xiaomi - Redmi 14T,Xiaomi,Redmi 14T,"Xiaomi Redmi 14T 6.67"" 12GB 512GB Titan blue",,Octa Core,12,512,6.67,50,32,Si,1619999,1649999,1338842,,2,19,0.7,0.5
+Cetrogar,Samsung - Galaxy A16,Samsung,Galaxy A16,"Samsung Galaxy A16 6.7"" 4GB 128GB Black",Android 14,Octa Core 2.4 GHz,4,128,6.7,50,13,Si,304999,389999,252065,,22,35,0.6,2.1
+Cetrogar,Samsung - Galaxy S25,Samsung,Galaxy S25,"Samsung Galaxy S25 6.2"" 12GB 256GB Navy",Android 15,Octa Core 4.47GHz,12,256,6.2,50,12,Si,1399999,1699999,1157023,,18,32,0.8,0.4
+Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 6.78"" 5G 8GB 256GB Obsidian black",,MTK 7020,8,256,6.78,108,32,No,499999,679999,413222,,26,39,0.5,2.8
+Cetrogar,Realme - Note 60,Realme,Note 60,"Realme Note 60 6.7"" 4GB 128GB Voyage blue",,Octa Core,4,128,6.7,32,5,No,219999,345799,181817,,36,47,0.4,1.7
+Cetrogar,Tecno - Mobile Camon,Tecno,Mobile Camon,"Tecno Mobile Camon 30S 6.78"" 8GB 256GB Gold",,MTK Helio G100,8,256,6.78,50,50,Si,499999,829999,413222,,40,50,0.5,2
+Cetrogar,Tecno - Mobile Camon,Tecno,Mobile Camon,"Tecno Mobile Camon 30S 6.78"" 8GB 256GB Green",,MTK Helio G100,8,256,6.78,50,50,Si,435999,829999,360329,,47,57,0.4,2.3
+Cetrogar,Tecno - Mobile Camon,Tecno,Mobile Camon,"Tecno Mobile Camon 30S 6.78"" 8GB 256GB Grey",,MTK Helio G100,8,256,6.78,50,50,Si,499999,829999,413222,,40,50,0.5,2
+Cetrogar,Samsung - Galaxy A16,Samsung,Galaxy A16,"Samsung Galaxy A16 6.7"" 5G 8GB 256GB Blue Black",Android 14,Octa Core 2.4 GHz,8,256,6.7,50,13,No,415999,529999,343800,,22,35,0.4,1.5
+Cetrogar,OPPO - RENO 12F,OPPO,RENO 12F,"OPPO RENO 12F 6.7"" 12GB 256GB naranja",,Octa Core,12,256,6.7,50,32,Si,799999,899999,661156,,11,27,0.7,1
+Cetrogar,OPPO - RENO 12F,OPPO,RENO 12F,"OPPO RENO 12F 6.7"" 12GB 256GB verde",,Octa Core,12,256,6.7,50,32,Si,799999,899999,661156,,11,27,0.7,1
+Cetrogar,OPPO - A60,OPPO,A60,"OPPO A60 6.7"" 8GB 256GB negro",,Octa Core,8,256,6.7,50,5,No,394999,569999,326445,,31,43,0.3,1.4
+Cetrogar,OPPO - A40,OPPO,A40,"OPPO A40 6.7"" 4GB 256GB café",,Octa Core,4,256,6.7,50,5,No,299999,399999,247933,,25,38,0.1,1.8
+Cetrogar,OPPO - A40,OPPO,A40,"OPPO A40 6.7"" 4GB 256GB lila+ Cargador Supervooc 45W",,Octa Core,4,256,6.7,50,5,No,299999,399999,247933,,25,38,0.1,1.8
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 8GB 256GB comet green",,Octa Core,8,256,6.78,108,32,Si,339999,599999,280990,,43,53,0.2,4.1
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 8GB 256GB interstellar blue",,Octa Core,8,256,6.78,108,32,Si,339999,599999,280990,,43,53,0.2,4.1
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 8GB 256GB meteorite grey",,Octa Core,8,256,6.78,108,32,Si,339999,599999,280990,,43,53,0.2,4.1
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 12GB 256GB Interstellar blue",,Octa Core,4,256,6.78,108,32,Si,429999,699999,355371,,39,49,0.4,3.3
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 12GB 256GB Meteorite grey",,Octa Core,4,256,6.78,108,32,Si,429999,699999,355371,,39,49,0.4,3.3
+Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 Pro 6.78"" 8GB 256GB Vintage green",,Octa Core,8,256,6.78,108,32,Si,699999,779999,578511,,10,26,0.6,2
+Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 Pro 6.78"" 8GB 256GB Obsidian black",,Octa Core,8,256,6.78,108,32,Si,699999,779999,578511,,10,26,0.6,2
+Cetrogar,Nubia - Neo 2,Nubia,Neo 2,"Nubia Neo 2 6.7"" 8GB 256GB gris",,Quad Core,8,256,6.7,50,32,Si,419999,455999,347106,,8,24,0.4,2
+Cetrogar,Nubia - Neo 2,Nubia,Neo 2,"Nubia Neo 2 Nubia 6.7"" 8GB 256GB plateado",,Quad Core,8,256,6.7,50,32,Si,419999,455999,347106,,8,24,0.4,2
+Cetrogar,Samsung - Galaxy Z,Samsung,Galaxy Z,"Samsung Galaxy Z Fold5 7.6"" 6.2"" 12GB 256GB Phantom black",Android 14,Octa Core 3.3 GHz,12,256,7.6,50,10,Si,2199999,3699999,1818180,,41,51,0.9,0.3
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" 12GB 256GB Peach",Android 14,Octa-Core 3GHz,12,256,6.6,50,32,Si,799999,999999,661156,,20,34,0.7,1
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" 12GB 256GB green",Android 14,Octa-Core 3GHz,12,256,6.6,50,32,Si,799999,999999,661156,,20,34,0.7,1
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" 12GB 256GB Grey",Android 14,Octa-Core 3GHz,12,256,6.6,50,32,Si,799999,999999,661156,,20,34,0.7,1
+Cetrogar,Samsung - Galaxy A06,Samsung,Galaxy A06,"Samsung Galaxy A06 6.7"" 4GB 128GB Light blue",Android 14,Octa-Core (2.0GHz.1.8GHz),4,128,6.7,50,8,No,204999,274999,169420,,25,38,0.4,2.8
+Cetrogar,TCL - PRO NXTPAPER,TCL,PRO NXTPAPER,"TCL PRO NXTPAPER 50 6.8"" 5G 8+8GB 8+8GB 512GB withe",,Octa Core,8,8,6.8,108,32,Si,499999,549999,413222,,9,25,1,2.8
+Cetrogar,Tecno - Mobile Spark,Tecno,Mobile Spark,"Tecno Mobile Spark 20 PRO Tecno Mobile 6.78"" 8GB 256GB Black",,Octa Core,4,256,6.78,108,32,No,369999,494499,305784,,25,38,0.3,3.8
+Cetrogar,Motorola - G85,Motorola,G85,"Motorola G85 6.6"" 8GB 256GB 5G green",,Octa Core,8,256,6.6,50,32,Si,579999,699999,479338,,17,32,0.5,1.4
+Cetrogar,Xiaomi - Redmi Note,Xiaomi,Redmi Note,"Xiaomi Redmi Note 13 6.6"" 6GB 128GB green",Android 13,Octa-Core 2.8GHz,6,128,6.6,108,16,No,429999,449999,355371,,4,21,0.7,2.9
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 Ultra 6.6"" 12GB 512GB Nordic wood",Android 14,Octa-Core 3GHz,12,512,6.6,50,50,Si,1499999,1599999,1239668,,6,23,0.7,0.7
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 Ultra 6.6"" 12GB 512GB Peach fuzz",Android 14,Octa-Core 3GHz,12,512,6.6,50,50,Si,1499999,1599999,1239668,,6,23,0.7,0.7
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 Ultra 6.6"" 12GB 512GB negro",Android 14,Octa-Core 3GHz,12,512,6.6,50,50,Si,1499999,1599999,1239668,,6,23,0.7,0.7
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" Fusion 8GB 256GB Marsh blue",Android 14,Octa-Core 3GHz,8,256,6.55,50,32,Si,599999,799999,495866,,25,38,0.6,1.4
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" Fusion 8GB 256GB Hot pink",Android 14,Octa-Core 3GHz,8,256,6.55,50,32,Si,599999,799999,495866,,25,38,0.6,1.4
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" Fusion 8GB 256GB Forest blue",Android 14,Octa-Core 3GHz,8,256,6.55,50,32,Si,599999,799999,495866,,25,38,0.6,1.4
+Cetrogar,Xiaomi - A3,Xiaomi,A3,"Xiaomi A3 6.7"" 3GB 64GB verde",,Octa Core,3,64,6.7,8,5,No,189999,199999,157023,,5,21,0.6,0.7
+Cetrogar,Xiaomi - A3,Xiaomi,A3,"Xiaomi A3 6.7"" 3GB 64GB negro",,Octa Core,3,64,6.7,8,5,No,189999,199999,157023,,5,21,0.6,0.7
+Cetrogar,Motorola - Razr 40,Motorola,Razr 40,"Motorola Razr 40 Ultra 6.9"" 12GB 512GB Glaciar",,Octa Core,12,512,6.9,12,32,Si,1299999,1699999,1074379,,24,37,0.6,0.3
+Cetrogar,TCL - 40 NXTPAPER,TCL,40 NXTPAPER,"TCL 40 NXTPAPER 8GB 6.78"" 256GB Opalescent RV",Android 13,Octa-Core (2.0GHz -1.8GHz),8,256,6.78,50,32,Si,289999,349999,239668,,17,32,0.1,2.8
+Cetrogar,Motorola - Moto Razr40,Motorola,Moto Razr40,"Motorola Moto Razr40 6.9"" 8GB 256GB gris",,Octa Core,8,256,6.9,12,32,Si,999999,1299999,826445,,23,36,0.7,0.4
+Cetrogar,ZTE - Blade V50,ZTE,Blade V50,"ZTE Blade V50 Design 6.6"" 6GB 10GB fusión",,Octa Core,6,10,6.6,50,5,No,219999,339999,181817,,35,47,0.9,2.5
+Cetrogar,Motorola - Moto Razr,Motorola,Moto Razr,"Motorola Moto Razr 40 Ultra 6.9"" 12GB 512GB Peach fuzz",,Octa Core,12,512,6.9,12,32,Si,1299999,1699999,1074379,,24,37,0.6,0.3

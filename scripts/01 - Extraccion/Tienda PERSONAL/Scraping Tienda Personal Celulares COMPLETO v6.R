@@ -34,8 +34,8 @@ CFG <- list(
     "RAM",                "RAM (GB)",
     "Memoria Interna",    "Almacenamiento interno (GB)",
     "Tamaño de pantalla", "Pantalla (Pulgadas)",
-    "Cámara principal",   "Cámara Principal (MP)",
-    "Cámara frontal",     "Cámara frontal (MP)",
+    "Camara principal",   "Camara Principal (MP)",
+    "Camara frontal",     "Camara frontal (MP)",
     "NFC",                "NFC"
   ),
   
@@ -104,7 +104,7 @@ extrae_ficha <- function(remote_driver) {
     v <- str_trim(val)
     case_when(
       col_name %in% c("RAM (GB)", "Almacenamiento interno (GB)")      ~ str_extract(v, "\\d+"),
-      col_name %in% c("Cámara Principal (MP)", "Cámara frontal (MP)") ~ str_extract(v, "\\d+"),
+      col_name %in% c("Camara Principal (MP)", "Camara frontal (MP)") ~ str_extract(v, "\\d+"),
       col_name == "Pantalla (Pulgadas)"                               ~ str_extract(v, "\\d+(?:\\.\\d+)?"),
       TRUE ~ v
     )
@@ -244,6 +244,8 @@ repeat {
 data_final <- bind_rows(rows) %>% distinct()%>% mutate(sitio="Personal")
 write_csv(data_final, CFG$out_csv)
 message("✅ CSV guardado en: ", CFG$out_csv)
+
+View(data_final)
 
 # 8. CERRAR SELENIUM -----------------------------------------------------------
 remote_driver$close()

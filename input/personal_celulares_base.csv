@@ -1,46 +1,42 @@
-sitio,marca,modelo,nombre,Sistema Operativo,Procesador,RAM (GB),Almacenamiento interno (GB),Pantalla (Pulgadas),Cámara Principal (MP),Cámara frontal (MP),NFC,Precio_comprador,Precio_anterior,precio_sin_impuestos,financiacion_plazo,per_descuento,presion_impositiva_pais_per,GB_relativo_price,ratio_mp_precio
-Personal,Samsung,Galaxy A06,Samsung Galaxy A06 128 GB,Android 14,Octa-Core (2.0GHz.1.8GHz),4,128,6.7,50,8,No,247999,335999,277685,12,26,17,132,2.3
-Personal,Motorola,Moto G35,Motorola Moto G35 5G 128 GB,Android 14,Octa-Core 2.2GHz,4,128,6.72,50,16,Si,309999,491999,406610,12,37,17,132,2.1
-Personal,OPPO,A60 256,OPPO A60 256 GB,Android 14,NA,8,256,6.67,50,5,No,394999,658999,544627,12,40,17,264,1.4
-Personal,Motorola,Moto G75,Motorola Moto G75 5G 128 GB,Android 14,Octa-Core 2.4GHz,8,128,6.78,50,16,Si,469999,555999,459503,12,15,17,136,1.4
-Personal,Samsung,Galaxy A15,Samsung Galaxy A15 128 GB,Android 14,Octa-Core (2.2GHz - 2GHz),4,128,6.5,50,13,Si,329999,436999,361156,12,24,17,132,1.9
-Personal,Nubia,Music 128,Nubia Music 128 GB,Android 13,NA,4,128,6.6,50,5,No,214999,264999,219007,12,19,17,132,2.6
-Personal,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 256 GB,Android 14,NA,4,256,6.88,50,13,No,349589,441999,365288,12,21,17,260,1.8
-Personal,Samsung,Galaxy A36,Samsung Galaxy A36 5G 256 GB,Android 15,NA,8,256,6.7,50,12,Si,739999,925999,765288,12,20,17,264,0.8
-Personal,TCL,505 NFC,TCL 505 NFC 128 GB,Android 14,NA,4,128,6.75,50,5,Si,164999,239999,198346,3,31,17,132,3.3
-Personal,OPPO,A40 256,OPPO A40 256 GB,Android 14,NA,4,256,6.67,50,5,No,299999,485999,401652,12,38,17,260,1.8
-Personal,Samsung,Galaxy A56,Samsung Galaxy A56 5G 256 GB,Android 15,NA,8,256,6.7,50,12,Si,884999,1136999,939668,12,22,17,264,0.7
-Personal,ZTE,Blade A75,ZTE Blade A75 5G 256 GB,Android 13,NA,4,256,6.6,50,8,No,239999,329999,272726,12,27,17,260,2.4
-Personal,ZTE,Blade A35,ZTE Blade A35 64 GB,Android 14 Go,NA,2,64,6.75,8,5,No,179999,206999,171073,9,13,17,66,0.7
-Personal,Nubia,Focus 5G,Nubia Focus 5G 256 GB,Android 13,Octa-Core (2.2GHz-2.0GHz),6,256,6.6,108,8,Si,339999,439999,363635,12,23,17,262,3.4
-Personal,OPPO,Reno 12F,OPPO Reno 12F 256 GB,Android 14,NA,12,256,6.67,50,32,Si,799999,1144999,946280,9,30,17,268,1
-Personal,Motorola,Moto E14,Motorola Moto E14 64 GB,Android 14 Go,Octa-Core 1.6GHz,2,64,6.65,13,5,No,149999,201999,140277,12,26,31,66,1.2
-Personal,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 128 GB,Android 14,NA,4,128,6.88,50,13,No,324799,349999,289255,12,7,17,132,1.9
-Personal,Nubia,Focus Pro,Nubia Focus Pro 5G 256 GB,Android 13,Octa-Core (2.2GHz-2.0GHz),8,256,6.72,108,32,Si,469999,539999,446280,12,13,17,264,3
-Personal,Apple,14 128,iPhone 14 128 GB + Cable USB-C Lightning 1mt,iOS 16,NA,6,128,6.1,12,12,Si,1699999,2056138,1699287,12,17,17,134,0.1
-Personal,Apple,14 256,iPhone 14 256 GB + Cable USB-C Lightning 2mts,iOS 16,NA,6,256,6.1,12,12,Si,1999999,2721298,2249006,12,27,17,262,0.1
-Personal,Motorola,Razr 50,Motorola Razr 50 Ultra 512 GB,Android 14,Octa-Core 2.9GHz,12,512,6.9,50,32,Si,1499999,2190999,1810742,6,32,17,524,0.5
-Personal,ZTE,Blade V60,ZTE Blade V60 256 GB,Android 13,NA,8,256,6.72,50,32,Si,299999,402999,333057,9,26,17,264,2.7
-Personal,Xiaomi,Redmi Note,Xiaomi Redmi Note 13 128 GB,Android 13,Octa-Core 2.8GHz,6,128,6.67,108,16,No,416899,519999,429751,12,20,17,134,3
-Personal,Apple,14 Pro,iPhone 14 Pro 256 GB + Cable Lightning 2mts,iOS 16,NA,6,256,6.1,48,12,Si,2699999,3369798,2784957,12,20,17,262,0.2
-Personal,ZTE,Blade A34,ZTE Blade A34 64 GB,Android 13 Go,Octa-Core (1.6GHz.1.2GHz),2,64,6.6,8,5,No,129999,201999,166941,12,36,17,66,1
-Personal,Samsung,Galaxy A06,Samsung Galaxy A06 64 GB,Android 14,Octa-Core (2.0GHz.1.8GHz),4,64,6.7,50,8,No,202999,265999,219833,12,24,17,68,2.9
-Personal,TCL,50 PRO,TCL 50 PRO NXTPAPER 5G 512 GB,Android 14,NA,8,512,6.78,108,32,Si,499999,649999,537189,6,23,17,520,2.8
-Personal,ZTE,Blade A54,ZTE Blade A54 128 GB,Android 13,Octa-Core (1.6GHz-1.2GHz),4,128,6.6,13,5,No,149999,229999,190081,9,35,17,132,1.2
-Personal,Motorola,Edge 50,Motorola Edge 50 Ultra 512 GB,Android 14,Octa-Core 3GHz,12,512,6.67,50,50,Si,1599999,1769999,1462809,6,10,17,524,0.6
-Personal,ZTE,Blade V60,ZTE Blade V60 Design 256 GB,Android 13,NA,6,256,6.6,50,8,No,259999,362999,299999,9,28,17,262,2.2
-Personal,TCL,505 S,TCL 505 S NFC 256 GB,Android 14,NA,4,256,6.75,50,5,Si,209999,289999,239668,12,28,17,260,2.6
-Personal,TCL,50 5G,TCL 50 5G 256 GB,Android 14,Octa-Core (2.2GHz -2.0GHz),6,256,6.56,50,32,Si,279999,354999,293387,12,21,17,262,2.9
-Personal,Motorola,Moto G05,Motorola Moto G05 64 GB,Android 15,NA,4,64,6.67,50,8,No,169999,269999,223139,12,37,17,68,3.4
-Personal,TCL,40 NXTPAPER,TCL 40 NXTPAPER 256 GB + Pen,Android 13,NA,8,256,6.78,50,32,Si,329999,449999,371900,12,27,17,264,2.5
-Personal,Motorola,Moto G85,Motorola Moto G85 5G 256 GB,Android 14,Octa-Core 2.3GHz,8,256,6.67,50,32,Si,549999,678999,561156,12,19,17,264,1.5
-Personal,Motorola,Moto G15,Motorola Moto G15 128 GB,Android 15,NA,4,128,6.67,50,8,Si,239999,321999,266114,12,25,17,132,2.4
-Personal,Motorola,Moto E15,Motorola Moto E15 64 GB,Android 14,NA,2,64,6.67,32,8,No,149999,197999,163635,3,24,17,66,2.7
-Personal,TCL,503 64,TCL 503 64 GB,Android 14 Go,NA,3,64,6.56,8,5,No,139999,189999,157023,9,26,17,67,0.9
-Personal,ZTE,Blade A55,ZTE Blade A55 128 GB,Android 14,NA,4,128,6.75,13,8,No,199999,239999,198346,9,17,17,132,1.1
-Personal,TCL,40 NXTPAPER,TCL 40 NXTPAPER 256 GB,Android 13,Octa-Core (2.0GHz -1.8GHz),8,256,6.78,50,32,Si,299999,399999,330577,12,25,17,264,2.7
-Personal,Motorola,Edge 50,Motorola Edge 50 Fusion 256 GB,Android 14,Octa-Core 2.2GHz,8,256,6.67,50,32,Si,699999,819999,677685,12,15,17,264,1.2
-Personal,Samsung,Galaxy A16,Samsung Galaxy A16 128 GB,Android 14,NA,4,128,6.7,50,13,Si,369999,449999,371900,12,18,17,132,1.7
-Personal,Motorola,Moto G24,Motorola Moto G24 128 GB,Android 14,Octa-Core 2.0GHz,4,128,6.56,50,8,No,319999,357999,295866,9,11,17,132,1.8
-Personal,Motorola,Edge 50,Motorola Edge 50 Pro 512 GB,Android 14,Octa-Core (2.63GHz - 2.4GHz - 1.8GHz),12,512,6.67,50,50,Si,1199999,1329999,1099172,9,10,17,524,0.8
-Personal,Motorola,Moto G24,Motorola Moto G24 Power 128 GB,Android 14,Octa-Core 2.0GHz,8,128,6.56,50,8,No,349999,402999,333057,12,13,17,136,1.7
+sitio,id,marca,modelo,nombre,Sistema Operativo,Procesador,RAM (GB),Almacenamiento interno (GB),Pantalla (Pulgadas),Camara Principal (MP),Camara frontal (MP),NFC,Precio_comprador,Precio_anterior,precio_sin_impuestos,financiacion_plazo,per_descuento,presion_impositiva_pais_per,ratio_memoria_precio,ratio_mp_precio
+Personal,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 128 GB,Android 14,Octa-Core (2.0GHz.1.8GHz),4,128,6.7,50,8,No,247999,335999,277685,12,26,17,0.5,2.3
+Personal,Motorola - Moto G35,Motorola,Moto G35,Motorola Moto G35 5G 128 GB,Android 14,Octa-Core 2.2GHz,4,128,6.72,50,16,Si,309999,491999,406610,12,37,17,0.6,2.1
+Personal,OPPO - A60 256,OPPO,A60 256,OPPO A60 256 GB,Android 14,NA,8,256,6.67,50,5,No,394999,658999,544627,12,40,17,0.3,1.4
+Personal,Motorola - Moto G75,Motorola,Moto G75,Motorola Moto G75 5G 128 GB,Android 14,Octa-Core 2.4GHz,8,128,6.78,50,16,Si,469999,555999,459503,12,15,17,0.7,1.4
+Personal,Samsung - Galaxy A15,Samsung,Galaxy A15,Samsung Galaxy A15 128 GB,Android 14,Octa-Core (2.2GHz - 2GHz),4,128,6.5,50,13,Si,329999,436999,361156,12,24,17,0.6,1.9
+Personal,Nubia - Music 128,Nubia,Music 128,Nubia Music 128 GB,Android 13,NA,4,128,6.6,50,5,No,214999,264999,219007,12,19,17,0.4,2.6
+Personal,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 256 GB,Android 14,NA,4,256,6.88,50,13,No,349589,441999,365288,12,21,17,0.3,1.8
+Personal,Samsung - Galaxy A36,Samsung,Galaxy A36,Samsung Galaxy A36 5G 256 GB,Android 15,NA,8,256,6.7,50,12,Si,739999,925999,765288,12,20,17,0.6,0.8
+Personal,TCL - 505 NFC,TCL,505 NFC,TCL 505 NFC 128 GB,Android 14,NA,4,128,6.75,50,5,Si,164999,239999,198346,3,31,17,0.2,3.3
+Personal,OPPO - A40 256,OPPO,A40 256,OPPO A40 256 GB,Android 14,NA,4,256,6.67,50,5,No,299999,485999,401652,12,38,17,0.1,1.8
+Personal,Samsung - Galaxy A56,Samsung,Galaxy A56,Samsung Galaxy A56 5G 256 GB,Android 15,NA,8,256,6.7,50,12,Si,884999,1136999,939668,12,22,17,0.7,0.7
+Personal,ZTE - Blade A35,ZTE,Blade A35,ZTE Blade A35 64 GB,Android 14 Go,NA,2,64,6.75,8,5,No,179999,206999,171073,9,13,17,0.6,0.7
+Personal,Nubia - Focus 5G,Nubia,Focus 5G,Nubia Focus 5G 256 GB,Android 13,Octa-Core (2.2GHz-2.0GHz),6,256,6.6,108,8,Si,339999,439999,363635,12,23,17,0.2,3.4
+Personal,OPPO - Reno 12F,OPPO,Reno 12F,OPPO Reno 12F 256 GB,Android 14,NA,12,256,6.67,50,32,Si,799999,1144999,946280,9,30,17,0.7,1
+Personal,Motorola - Moto E14,Motorola,Moto E14,Motorola Moto E14 64 GB,Android 14 Go,Octa-Core 1.6GHz,2,64,6.65,13,5,No,149999,201999,140277,12,26,31,0.6,1.2
+Personal,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 128 GB,Android 14,NA,4,128,6.88,50,13,No,324799,349999,289255,12,7,17,0.6,1.9
+Personal,Nubia - Focus Pro,Nubia,Focus Pro,Nubia Focus Pro 5G 256 GB,Android 13,Octa-Core (2.2GHz-2.0GHz),8,256,6.72,108,32,Si,469999,539999,446280,12,13,17,0.4,3
+Personal,Apple - 14 128,Apple,14 128,iPhone 14 128 GB + Cable USB-C Lightning 1mt,iOS 16,NA,6,128,6.1,12,12,Si,1699999,2056138,1699287,12,17,17,0.9,0.1
+Personal,Apple - 14 256,Apple,14 256,iPhone 14 256 GB + Cable USB-C Lightning 2mts,iOS 16,NA,6,256,6.1,12,12,Si,1999999,2721298,2249006,12,27,17,0.9,0.1
+Personal,Motorola - Razr 50,Motorola,Razr 50,Motorola Razr 50 Ultra 512 GB,Android 14,Octa-Core 2.9GHz,12,512,6.9,50,32,Si,1499999,2190999,1810742,6,32,17,0.7,0.5
+Personal,ZTE - Blade V60,ZTE,Blade V60,ZTE Blade V60 256 GB,Android 13,NA,8,256,6.72,50,32,Si,299999,402999,333057,9,26,17,0.1,2.7
+Personal,Xiaomi - Redmi Note,Xiaomi,Redmi Note,Xiaomi Redmi Note 13 128 GB,Android 13,Octa-Core 2.8GHz,6,128,6.67,108,16,No,416899,519999,429751,12,20,17,0.7,3
+Personal,Apple - 14 Pro,Apple,14 Pro,iPhone 14 Pro 256 GB + Cable Lightning 2mts,iOS 16,NA,6,256,6.1,48,12,Si,2699999,3369798,2784957,12,20,17,0.9,0.2
+Personal,ZTE - Blade A34,ZTE,Blade A34,ZTE Blade A34 64 GB,Android 13 Go,Octa-Core (1.6GHz.1.2GHz),2,64,6.6,8,5,No,129999,201999,166941,12,36,17,0.5,1
+Personal,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 64 GB,Android 14,Octa-Core (2.0GHz.1.8GHz),4,64,6.7,50,8,No,202999,265999,219833,12,24,17,0.7,2.9
+Personal,ZTE - Blade A54,ZTE,Blade A54,ZTE Blade A54 128 GB,Android 13,Octa-Core (1.6GHz-1.2GHz),4,128,6.6,13,5,No,149999,229999,190081,9,35,17,0.1,1.2
+Personal,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Ultra 512 GB,Android 14,Octa-Core 3GHz,12,512,6.67,50,50,Si,1599999,1769999,1462809,6,10,17,0.7,0.6
+Personal,TCL - 50 5G,TCL,50 5G,TCL 50 5G 256 GB,Android 14,Octa-Core (2.2GHz -2.0GHz),6,256,6.56,50,32,Si,279999,354999,293387,12,21,17,0.1,2.9
+Personal,Motorola - Moto G05,Motorola,Moto G05,Motorola Moto G05 64 GB,Android 15,NA,4,64,6.67,50,8,No,169999,269999,223139,12,37,17,0.6,3.4
+Personal,TCL - 40 NXTPAPER,TCL,40 NXTPAPER,TCL 40 NXTPAPER 256 GB + Pen,Android 13,NA,8,256,6.78,50,32,Si,329999,449999,371900,12,27,17,0.2,2.5
+Personal,Motorola - Moto G85,Motorola,Moto G85,Motorola Moto G85 5G 256 GB,Android 14,Octa-Core 2.3GHz,8,256,6.67,50,32,Si,549999,678999,561156,12,19,17,0.5,1.5
+Personal,Motorola - Moto G15,Motorola,Moto G15,Motorola Moto G15 128 GB,Android 15,NA,4,128,6.67,50,8,Si,239999,321999,266114,12,25,17,0.4,2.4
+Personal,Motorola - Moto E15,Motorola,Moto E15,Motorola Moto E15 64 GB,Android 14,NA,2,64,6.67,32,8,No,149999,197999,163635,3,24,17,0.6,2.7
+Personal,TCL - 503 64,TCL,503 64,TCL 503 64 GB,Android 14 Go,NA,3,64,6.56,8,5,No,139999,189999,157023,9,26,17,0.5,0.9
+Personal,ZTE - Blade A55,ZTE,Blade A55,ZTE Blade A55 128 GB,Android 14,NA,4,128,6.75,13,8,No,199999,239999,198346,9,17,17,0.3,1.1
+Personal,TCL - 40 NXTPAPER,TCL,40 NXTPAPER,TCL 40 NXTPAPER 256 GB,Android 13,Octa-Core (2.0GHz -1.8GHz),8,256,6.78,50,32,Si,299999,399999,330577,12,25,17,0.1,2.7
+Personal,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Fusion 256 GB,Android 14,Octa-Core 2.2GHz,8,256,6.67,50,32,Si,699999,819999,677685,12,15,17,0.6,1.2
+Personal,Samsung - Galaxy A16,Samsung,Galaxy A16,Samsung Galaxy A16 128 GB,Android 14,NA,4,128,6.7,50,13,Si,369999,449999,371900,12,18,17,0.6,1.7
+Personal,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 128 GB,Android 14,Octa-Core 2.0GHz,4,128,6.56,50,8,No,319999,357999,295866,9,11,17,0.6,1.8
+Personal,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Pro 512 GB,Android 14,Octa-Core (2.63GHz - 2.4GHz - 1.8GHz),12,512,6.67,50,50,Si,1199999,1329999,1099172,9,10,17,0.6,0.8
+Personal,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 Power 128 GB,Android 14,Octa-Core 2.0GHz,8,128,6.56,50,8,No,349999,402999,333057,12,13,17,0.6,1.7
