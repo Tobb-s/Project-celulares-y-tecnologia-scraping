@@ -3,7 +3,7 @@ library(tidyverse)
 library(ggplot2)
 library(readxl)
 library(scales)
-setwd("C:/Users/valen/OneDrive - Económicas - UBA/=ANALISIS DE DATO PARA LA ECONOMIA Y NEGOCIOS=/Project-celulares-y-tecnologia-scraping/input")
+setwd("C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/input")
 
 tabla_claro<-read.csv('claro_celulares_base.csv')
 tabla_personal<-read.csv('personal_celulares_base.csv')
@@ -158,3 +158,13 @@ barplot_top3_ram_por_categoria <- ggplot(tabla_top3_ram_por_categoria, aes(x = r
   )
 
 print(barplot_top3_ram_por_categoria)
+
+
+#====================================================================================================================================================================
+#                                                                EDA Univariante
+#====================================================================================================================================================================
+
+
+
+
+
