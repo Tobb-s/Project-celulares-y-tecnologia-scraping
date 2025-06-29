@@ -55,7 +55,7 @@ options(scipen = 10)
 
 #================================================================EDA UNIVARIABLE===========================================================
 
-      # medidas de tendencia central::-----------------------------------------------------------------------------------------------------
+        ## Medidas de Tendencia central::-----------------------------------------------------------------------------------------------------
 
                               # pedimos que las columnas sean numeros y que se limpies los NA y demas datos que ensucien
                               numeric_cols <- c(
@@ -154,7 +154,92 @@ options(scipen = 10)
                       
             
           View(eda_tabla)
+          
+          
+        ## Medidas de Dispercion::-----------------------------------------------------------------------------------------------------
+
+          
+          dispersion_longa <- tabla_limpia %>%
+            summarise(
+              across(
+                all_of(numeric_cols),
+                list(
+                  rango = ~ diff(range(.x, na.rm = TRUE)),
+                  sd    = ~ sd(.x,    na.rm = TRUE),
+                  var   = ~ var(.x,   na.rm = TRUE)
+                ),
+                .names = "{.col}_{.fn}"
+              )
+            ) %>%
+            pivot_longer(
+              cols      = everything(),
+           
+              names_to  = c("variable", "estadistica"),
+              names_pattern = "(.*)_(rango|sd|var)$",
+              values_to = "valor"
+            ) %>%
+            pivot_wider(
+              names_from  = estadistica,
+              values_from = valor
+            ) %>%
+        
+            mutate(variable = recode(variable,
+                                     "Precio_comprador"             = "Precio",
+                                     "per_descuento"                = "% Descuento",
+                                     "RAM (GB)"                     = "RAM (GB)",
+                                     "Almacenamiento interno (GB)"  = "Alm. (GB)",
+                                     "Camara Principal (MP)"        = "Cámara Ppal (MP)",
+                                     "Camara frontal (MP)"          = "Cámara Frontal (MP)"
+            )) %>%
      
+            mutate(across(where(is.numeric), ~ round(.x, 0))) %>%
+            select(variable, rango, sd, var)
+          
+    
+      View(dispersion_longa)
+      
+      
+        ## Medidas Basadas en Cuantiles ( medidas mas robustas)-------------------------------------------------
+      
+      
+      robust_longa <- tabla_limpia %>%
+        summarise(
+          across(
+            all_of(numeric_cols),
+            list(
+              IQR      = ~ IQR(.x,   na.rm = TRUE),                          # Q3 – Q1
+              Semi_IQR = ~ IQR(.x,   na.rm = TRUE) / 2,                      # (Q3–Q1)/2
+              P90_10   = ~ diff(quantile(.x, c(0.1,0.9), na.rm = TRUE))      # P90 – P10
+            ),
+            .names = "{.col}_{.fn}"
+          )
+        ) %>%
+        pivot_longer(
+          cols       = everything(),
+          names_to   = c("variable", "medida"),
+          names_sep  = "_(?=[^_]+$)",   # separa sólo en el ÚLTIMO guión bajo
+          values_to  = "valor"
+        ) %>%
+        pivot_wider(
+          names_from  = medida,
+          values_from = valor
+        ) %>%
+        # 2. Recodificar nombres de variable para que queden más cortos
+        mutate(variable = recode(variable,
+                                 "Precio_comprador"            = "Precio",
+                                 "per_descuento"               = "% Desc.",
+                                 "RAM (GB)"                    = "RAM (GB)",
+                                 "Almacenamiento interno (GB)" = "Alm. (GB)",
+                                 "Camara Principal (MP)"       = "Cámara Ppal (MP)",
+                                 "Camara frontal (MP)"         = "Cámara Frontal (MP)"
+        )) %>%
+        # 3. Redondear sin decimales
+        mutate(across(where(is.numeric), ~ round(.x, 0))) %>%
+        # 4. Seleccionar columnas en el orden deseado
+        select(variable, IQR, Semi_IQR, P90_10)
+      
+      View(robust_longa)
+                    
 #====================================================================== GRAFICOS =================================================
 
 #------------------ Ranking de marcas por RAM promedio en cada gama de celulares --------------------------------------------------
