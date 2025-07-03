@@ -398,39 +398,32 @@ options(scipen = 10)
                 print(barplot_top3_ram)
       
         
-        # 4.2 -----   Barras Horizontales - Separado por Tiendas ---------------
+        # 4.2 -----   Barras Horizontales - Top 3. Marcas x Modelo ---------------
                 
-                #voy a usar una tabla con menos filtros ya que mi columna con cantidades por modelo esta perfecto, solo le saco los espacios extras que puedan molestar
-                Tabla_separado_x_tiendas <- tabla_completa %>%mutate(sitio = str_trim(sitio))
+               
+                tabla_sep <- tabla_completa %>%
+                  mutate(sitio = str_trim(sitio)) %>%
+                  filter(sitio %in% c("Personal", "Claro", "Cetrogar"))
                 
-                sitios_obj <- c("Personal", "Claro", "Cetrogar")
+                total_por_marca <- tabla_sep %>% count(marca, name = "total_modelos") 
                 
-                Tabla_separado_x_tiendas <- Tabla_separado_x_tiendas %>%
-                  filter(sitio %in% sitios_obj)
+                top3_marcas <- total_por_marca %>% slice_max(order_by = total_modelos, n = 3) %>% pull(marca)
                 
-                # armo una cuarta categoria con la suma de las otras3
-                tabla_counts <- Tabla_separado_x_tiendas %>%
-                  count(marca, sitio, name = "cantidad") %>%
-                  ungroup()
+                tabla_top3 <- tabla_sep %>% filter(marca %in% top3_marcas)
                 
-                # Crear el sitio “Total” con la suma de los tres
+                tabla_counts <- tabla_top3 %>% count(marca, sitio, name = "cantidad") %>% ungroup()
+                
+               
                 tabla_total <- tabla_counts %>%
-                  group_by(marca) %>%
-                  summarise(cantidad = sum(cantidad), .groups = "drop") %>%
-                  mutate(sitio = "Total")
+                                                group_by(marca) %>%
+                                                summarise(cantidad = sum(cantidad), .groups = "drop") %>%
+                                                mutate(sitio = "Total")
                 
-                # tabla con los 3 sitios mas el cuarto llamado " total" para consolidar los otros 3
                 tabla_counts <- bind_rows(tabla_counts, tabla_total)
                 
-                #Definir orden global de marcas
-                orden_global <- tabla_counts %>%
-                  group_by(marca) %>%
-                  summarise(total = sum(cantidad), .groups = "drop") %>%
-                  arrange(desc(total)) %>%
-                  pull(marca)
-                
-                #Definir orden de facetas (incluye Total al final)
-                niveles_sitio <- c(sitios_obj, "Total")
+               
+                orden_global <- top3_marcas
+                niveles_sitio <- c("Personal", "Claro", "Cetrogar", "Total")
                 
                 tabla_counts <- tabla_counts %>%
                   mutate(
@@ -438,30 +431,26 @@ options(scipen = 10)
                     sitio = factor(sitio, levels = niveles_sitio)
                   )
                 
-                # Graficar
+                # 8. Graficamos
                 marcasXmodelo <- ggplot(tabla_counts, aes(x = cantidad, y = marca, fill = sitio)) +
                   geom_col(show.legend = FALSE, width = 0.7) +
                   geom_text(aes(label = cantidad), hjust = -0.1, size = 3) +
                   facet_wrap(~ sitio, scales = "free_x", nrow = 1) +
-                  scale_fill_material_d() +       # paleta Material Design discreta
+                  scale_fill_material_d() +
                   labs(
-                    title    = "Marcas × Modelos",
-                    subtitle = NULL,
-                    x        = "Modelos(n)",
-                    y        = NULL
+                    title = "Top 3 Marcas × Modelos",
+                    x     = "Modelos (n)",
+                    y     = NULL
                   ) +
                   theme_minimal(base_size = 12) +
                   theme(
-                    plot.title    = element_text(hjust = 0.5, size = 16, face = "bold"),
-                    plot.subtitle = element_text(hjust = 0.5, size = 12),
-                    axis.text.x   = element_text(angle = 45, hjust = 1),
-                    panel.spacing = unit(1, "lines"),
-                    strip.text    = element_text(face = "bold")
+                    plot.title  = element_text(hjust = 0.5, size = 16, face = "bold"),
+                    axis.text.x = element_text(angle = 45, hjust = 1),
+                    strip.text  = element_text(face = "bold")
                   ) +
                   expand_limits(x = max(tabla_counts$cantidad) * 1.1)
                 
-                
-                print(marcasXmodelo)              
+                print(marcasXmodelo)           
                 
 
                 
