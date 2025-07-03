@@ -1,169 +1,177 @@
-sitio,id,marca,modelo,nombre,Sistema Operativo,Procesador,RAM (GB),Almacenamiento interno (GB),Pantalla (Pulgadas),Camara Principal (MP),Camara frontal (MP),NFC,Precio_comprador,Precio_anterior,precio_sin_impuestos,financiacion_plazo,per_descuento,presion_impositiva_pais_per,ratio_memoria_precio,ratio_mp_precio,Categoria
-Personal,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 128 GB,Android 14,Octa-Core (2.0GHz.1.8GHz),4,128,6.7,50,8,No,247999,335999,277685,12,26,17,0.5,2.3,Gama media
-Personal,Motorola - Moto G35,Motorola,Moto G35,Motorola Moto G35 5G 128 GB,Android 14,Octa-Core 2.2GHz,4,128,6.72,50,16,Si,309999,491999,406610,12,37,17,0.6,2.1,Gama media
-Personal,OPPO - A60 256,OPPO,A60 256,OPPO A60 256 GB,Android 14,NA,8,256,6.67,50,5,No,394999,658999,544627,12,40,17,0.3,1.4,Gama media
-Personal,Motorola - Moto G75,Motorola,Moto G75,Motorola Moto G75 5G 128 GB,Android 14,Octa-Core 2.4GHz,8,128,6.78,50,16,Si,469999,555999,459503,12,15,17,0.7,1.4,Gama alta
-Personal,Samsung - Galaxy A15,Samsung,Galaxy A15,Samsung Galaxy A15 128 GB,Android 14,Octa-Core (2.2GHz - 2GHz),4,128,6.5,50,13,Si,329999,436999,361156,12,24,17,0.6,1.9,Gama media
-Personal,Nubia - Music 128,Nubia,Music 128,Nubia Music 128 GB,Android 13,NA,4,128,6.6,50,5,No,214999,264999,219007,12,19,17,0.4,2.6,Gama media
-Personal,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 256 GB,Android 14,NA,4,256,6.88,50,13,No,349589,441999,365288,12,21,17,0.3,1.8,Gama media
-Personal,Samsung - Galaxy A36,Samsung,Galaxy A36,Samsung Galaxy A36 5G 256 GB,Android 15,NA,8,256,6.7,50,12,Si,739999,925999,765288,12,20,17,0.6,0.8,Gama alta
-Personal,TCL - 505 NFC,TCL,505 NFC,TCL 505 NFC 128 GB,Android 14,NA,4,128,6.75,50,5,Si,164999,239999,198346,3,31,17,0.2,3.3,Gama media
-Personal,OPPO - A40 256,OPPO,A40 256,OPPO A40 256 GB,Android 14,NA,4,256,6.67,50,5,No,299999,485999,401652,12,38,17,0.1,1.8,Gama media
-Personal,Samsung - Galaxy A56,Samsung,Galaxy A56,Samsung Galaxy A56 5G 256 GB,Android 15,NA,8,256,6.7,50,12,Si,884999,1136999,939668,12,22,17,0.7,0.7,Gama alta
-Personal,ZTE - Blade A35,ZTE,Blade A35,ZTE Blade A35 64 GB,Android 14 Go,NA,2,64,6.75,8,5,No,179999,206999,171073,9,13,17,0.6,0.7,Gama baja
-Personal,Nubia - Focus 5G,Nubia,Focus 5G,Nubia Focus 5G 256 GB,Android 13,Octa-Core (2.2GHz-2.0GHz),6,256,6.6,108,8,Si,339999,439999,363635,12,23,17,0.2,3.4,Gama media
-Personal,OPPO - Reno 12F,OPPO,Reno 12F,OPPO Reno 12F 256 GB,Android 14,NA,12,256,6.67,50,32,Si,799999,1144999,946280,9,30,17,0.7,1,Gama alta
-Personal,Motorola - Moto E14,Motorola,Moto E14,Motorola Moto E14 64 GB,Android 14 Go,Octa-Core 1.6GHz,2,64,6.65,13,5,No,149999,201999,140277,12,26,31,0.6,1.2,Gama baja
-Personal,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 128 GB,Android 14,NA,4,128,6.88,50,13,No,324799,349999,289255,12,7,17,0.6,1.9,Gama media
-Personal,Nubia - Focus Pro,Nubia,Focus Pro,Nubia Focus Pro 5G 256 GB,Android 13,Octa-Core (2.2GHz-2.0GHz),8,256,6.72,108,32,Si,469999,539999,446280,12,13,17,0.4,3,Gama alta
-Personal,Apple - 14 128,Apple,14 128,iPhone 14 128 GB + Cable USB-C Lightning 1mt,iOS 16,NA,6,128,6.1,12,12,Si,1699999,2056138,1699287,12,17,17,0.9,0.1,Gama media
-Personal,Apple - 14 256,Apple,14 256,iPhone 14 256 GB + Cable USB-C Lightning 2mts,iOS 16,NA,6,256,6.1,12,12,Si,1999999,2721298,2249006,12,27,17,0.9,0.1,Gama media
-Personal,Motorola - Razr 50,Motorola,Razr 50,Motorola Razr 50 Ultra 512 GB,Android 14,Octa-Core 2.9GHz,12,512,6.9,50,32,Si,1499999,2190999,1810742,6,32,17,0.7,0.5,Gama alta
-Personal,ZTE - Blade V60,ZTE,Blade V60,ZTE Blade V60 256 GB,Android 13,NA,8,256,6.72,50,32,Si,299999,402999,333057,9,26,17,0.1,2.7,Gama alta
-Personal,Xiaomi - Redmi Note,Xiaomi,Redmi Note,Xiaomi Redmi Note 13 128 GB,Android 13,Octa-Core 2.8GHz,6,128,6.67,108,16,No,416899,519999,429751,12,20,17,0.7,3,Gama media
-Personal,Apple - 14 Pro,Apple,14 Pro,iPhone 14 Pro 256 GB + Cable Lightning 2mts,iOS 16,NA,6,256,6.1,48,12,Si,2699999,3369798,2784957,12,20,17,0.9,0.2,Gama alta
-Personal,ZTE - Blade A34,ZTE,Blade A34,ZTE Blade A34 64 GB,Android 13 Go,Octa-Core (1.6GHz.1.2GHz),2,64,6.6,8,5,No,129999,201999,166941,12,36,17,0.5,1,Gama baja
-Personal,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 64 GB,Android 14,Octa-Core (2.0GHz.1.8GHz),4,64,6.7,50,8,No,202999,265999,219833,12,24,17,0.7,2.9,Gama media
-Personal,ZTE - Blade A54,ZTE,Blade A54,ZTE Blade A54 128 GB,Android 13,Octa-Core (1.6GHz-1.2GHz),4,128,6.6,13,5,No,149999,229999,190081,9,35,17,0.1,1.2,Gama media
-Personal,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Ultra 512 GB,Android 14,Octa-Core 3GHz,12,512,6.67,50,50,Si,1599999,1769999,1462809,6,10,17,0.7,0.6,Gama alta
-Personal,TCL - 50 5G,TCL,50 5G,TCL 50 5G 256 GB,Android 14,Octa-Core (2.2GHz -2.0GHz),6,256,6.56,50,32,Si,279999,354999,293387,12,21,17,0.1,2.9,Gama media
-Personal,Motorola - Moto G05,Motorola,Moto G05,Motorola Moto G05 64 GB,Android 15,NA,4,64,6.67,50,8,No,169999,269999,223139,12,37,17,0.6,3.4,Gama media
-Personal,TCL - 40 NXTPAPER,TCL,40 NXTPAPER,TCL 40 NXTPAPER 256 GB + Pen,Android 13,NA,8,256,6.78,50,32,Si,329999,449999,371900,12,27,17,0.2,2.5,Gama alta
-Personal,Motorola - Moto G85,Motorola,Moto G85,Motorola Moto G85 5G 256 GB,Android 14,Octa-Core 2.3GHz,8,256,6.67,50,32,Si,549999,678999,561156,12,19,17,0.5,1.5,Gama alta
-Personal,Motorola - Moto G15,Motorola,Moto G15,Motorola Moto G15 128 GB,Android 15,NA,4,128,6.67,50,8,Si,239999,321999,266114,12,25,17,0.4,2.4,Gama alta
-Personal,Motorola - Moto E15,Motorola,Moto E15,Motorola Moto E15 64 GB,Android 14,NA,2,64,6.67,32,8,No,149999,197999,163635,3,24,17,0.6,2.7,Gama baja
-Personal,TCL - 503 64,TCL,503 64,TCL 503 64 GB,Android 14 Go,NA,3,64,6.56,8,5,No,139999,189999,157023,9,26,17,0.5,0.9,Gama baja
-Personal,ZTE - Blade A55,ZTE,Blade A55,ZTE Blade A55 128 GB,Android 14,NA,4,128,6.75,13,8,No,199999,239999,198346,9,17,17,0.3,1.1,Gama media
-Personal,TCL - 40 NXTPAPER,TCL,40 NXTPAPER,TCL 40 NXTPAPER 256 GB,Android 13,Octa-Core (2.0GHz -1.8GHz),8,256,6.78,50,32,Si,299999,399999,330577,12,25,17,0.1,2.7,Gama alta
-Personal,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Fusion 256 GB,Android 14,Octa-Core 2.2GHz,8,256,6.67,50,32,Si,699999,819999,677685,12,15,17,0.6,1.2,Gama alta
-Personal,Samsung - Galaxy A16,Samsung,Galaxy A16,Samsung Galaxy A16 128 GB,Android 14,NA,4,128,6.7,50,13,Si,369999,449999,371900,12,18,17,0.6,1.7,Gama media
-Personal,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 128 GB,Android 14,Octa-Core 2.0GHz,4,128,6.56,50,8,No,319999,357999,295866,9,11,17,0.6,1.8,Gama media
-Personal,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Pro 512 GB,Android 14,Octa-Core (2.63GHz - 2.4GHz - 1.8GHz),12,512,6.67,50,50,Si,1199999,1329999,1099172,9,10,17,0.6,0.8,Gama alta
-Personal,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 Power 128 GB,Android 14,Octa-Core 2.0GHz,8,128,6.56,50,8,No,349999,402999,333057,12,13,17,0.6,1.7,Gama media
-Claro,Motorola - Razr 60,Motorola,Razr 60,Motorola Razr 60 Ultra 5G 1TB,Android 15,Octa Core 4.32 GHz,16,1000,6.9,50,50,Si,1999999,1999999,1652892,12,0,17,0.5,0.5,Gama alta
-Claro,Samsung - Galaxy A15,Samsung,Galaxy A15,Samsung Galaxy A15 128GB,Android 14,Octa Core 2.2 GHz,4,128,6.5,50,13,Si,311999,389999,257851,12,20,34,0.6,2,Gama media
-Claro,Motorola - Moto E14,Motorola,Moto E14,Motorola Moto E14 64GB,Android 14,Octa Core 1.6 GHz,2,64,6.5,13,5,No,146699,162999,111558,12,10,32,0.6,1.2,Gama baja
-Claro,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 128GB,Android 14,Octa Core 2GHz,4,128,6.7,50,8,No,223999,279999,185123,12,20,34,0.4,2.6,Gama media
-Claro,Motorola - Moto G04s,Motorola,Moto G04s,Motorola Moto G04s 64GB,Android 14,Octa Core 1.6 GHz,4,64,6.5,50,5,No,178499,209999,147520,12,15,30,0.6,3.1,Gama media
-Claro,Samsung - Galaxy A26,Samsung,Galaxy A26,Samsung Galaxy A26 5G 256GB,Android 15,Octa Core 2.4GHz,8,256,6.7,50,13,Si,639999,639999,528925,12,0,17,0.6,1,Gama alta
-Claro,TCL - 50 5G,TCL,50 5G,TCL 50 5G 128GB,Android 14,Octa Core 2.2 GHz,4,128,6,50,8,Si,239999,299999,198346,12,20,34,0.4,2.4,Gama media
-Claro,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 64GB,Android 14,Octa Core 2GHz,4,64,6.7,50,8,No,191999,239999,158677,12,20,34,0.6,3,Gama media
-Claro,Motorola - Razr 50,Motorola,Razr 50,Motorola Razr 50 Ultra 5G 512GB,Android 14,Octa Core 2.9 GHz,12,512,6.9,50,32,Si,1519999,1899999,1256198,12,20,34,0.7,0.5,Gama alta
-Claro,Motorola - Moto E15,Motorola,Moto E15,Motorola Moto E15 64GB,Android 14,NA,2,64,6,32,8,No,160649,188999,132768,12,15,30,0.6,2.5,Gama baja
-Claro,Motorola - Moto G05,Motorola,Moto G05,Motorola Moto G05 64GB,Android 15,Octa Core 2 GHz,4,64,6,50,8,No,195499,229999,161570,12,15,30,0.7,3,Gama media
-Claro,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 128GB,Android 14,Octa Core 2.0 GHz,4,128,6.56,50,8,No,246499,289999,203718,12,15,30,0.5,2.4,Gama media
-Claro,Samsung - Galaxy S24,Samsung,Galaxy S24,Samsung Galaxy S24 FE 5G 256GB,Android 14,Deca Core 3.1 GHz,8,256,6.7,50,10,Si,1499999,1499999,1239669,12,0,17,0.8,0.4,Gama alta
-Claro,Motorola - Moto G35,Motorola,Moto G35,Motorola Moto G35 5G 128GB,Android 14,Octa Core 2.2 GHz,4,128,6,50,16,Si,359999,359999,297520,12,0,17,0.6,1.8,Gama media
-Claro,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 5G 256GB,Android 14,Octa Core 2.5 GHz,12,256,6.67,50,32,Si,839999,839999,694214,12,0,17,0.7,1,Gama alta
-Claro,Samsung - Galaxy A36,Samsung,Galaxy A36,Samsung Galaxy A36 5G 256GB,Android 15,Octa Core 2.4GHz,8,256,6.7,50,12,Si,899999,899999,743801,12,0,17,0.7,0.7,Gama alta
-Claro,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Pro 5G 512GB,Android 14,Octa Core 2.63 GHz,12,512,6.67,50,50,Si,1109999,1109999,917355,12,0,17,0.5,0.9,Gama alta
-Claro,Samsung - Galaxy A56,Samsung,Galaxy A56,Samsung Galaxy A56 5G 256GB,Android 15,Octa Core 2.9GHz,8,256,6.7,50,12,Si,999999,999999,826445,12,0,17,0.7,0.6,Gama alta
-Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 Ultra 5G 512GB,Android 15,Octa Core 4.47GHz,12,512,6.9,200,12,Si,2699999,2699999,2231404,12,0,17,0.8,0.8,Gama alta
-Claro,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Fusion 5G 256GB,Android 14,Octa Core 2.2 GHz,8,256,6.67,50,32,Si,639999,639999,528925,12,0,17,0.6,1.3,Gama alta
-Claro,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 Power 128GB,Android 14,Octa Core 2.0 GHz,8,128,6.56,50,8,No,299999,299999,247933,12,0,17,0.5,1.9,Gama media
-Claro,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Ultra 5G 512GB,Android 14,Octa Core 3.0 GHz,12,512,6.67,50,50,Si,1299999,1299999,1074379,12,0,17,0.6,0.8,Gama alta
-Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 Plus 5G 512GB,Android 15,Octa Core 4.47GHz,12,512,6.7,50,12,Si,2299999,2299999,1900826,12,0,17,0.8,0.3,Gama alta
-Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 5G 512GB,Android 15,Octa Core 4.47GHz,12,512,6.2,50,12,Si,1999999,1999999,1652892,12,0,17,0.7,0.3,Gama alta
-Claro,Samsung - Galaxy Z,Samsung,Galaxy Z,Samsung Galaxy Z Fold6 5G 512GB,Android 14,Octa Core 3.3 GHz,12,512,7.6,50,4,Si,3074999,4099999,2541322,12,25,38,0.8,0.2,Gama alta
-Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 Plus 5G 256GB,Android 15,Octa Core 4.47GHz,12,256,6.7,50,12,Si,1999999,1999999,1652892,12,0,17,0.9,0.3,Gama alta
-Claro,Samsung - Galaxy Z,Samsung,Galaxy Z,Samsung Galaxy Z Flip6 5G 512GB,Android 14,Octa Core 3.9 GHz,12,512,6.7,50,10,Si,1972499,2629999,1630165,12,25,38,0.7,0.3,Gama alta
-Claro,Motorola - Moto G15,Motorola,Moto G15,Motorola Moto G15 128GB,Android 15,Octa Core 2 GHz,4,128,6,50,8,Si,269999,269999,223140,12,0,17,0.5,2.1,Gama alta
-Claro,Motorola - Moto G75,Motorola,Moto G75,Motorola Moto G75 5G 128GB,Android 14,Octa Core 2.4 GHz,8,128,6,50,16,Si,459999,459999,380164,12,0,17,0.7,1.4,Gama alta
-Claro,Motorola - Moto G85,Motorola,Moto G85,Motorola Moto G85 5G 256GB,Android 14,Octa Core 2.3 GHz,8,256,6.67,50,32,Si,549999,549999,454545,12,0,17,0.5,1.5,Gama alta
-Claro,Motorola - Moto G75,Motorola,Moto G75,Motorola Moto G75 5G 256GB,Android 14,Octa Core 2.4 GHz,8,256,6,50,16,Si,499999,499999,413222,12,0,17,0.5,1.3,Gama alta
-Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 Ultra 5G 256GB,Android 15,Octa Core 4.47GHz,12,256,6.9,200,12,Si,2399999,2399999,1983470,12,0,17,0.9,0.9,Gama alta
-Claro,Motorola - Moto G35,Motorola,Moto G35,Motorola Moto G35 5G 256GB,Android 14,Octa Core 2.2 GHz,4,256,6,50,16,Si,399999,399999,330578,12,0,17,0.3,1.7,Gama media
-Claro,Motorola - Moto G15,Motorola,Moto G15,Motorola Moto G15 256GB,Android 15,Octa Core 2 GHz,4,256,6,50,8,Si,299999,299999,247933,12,0,17,0.1,1.9,Gama alta
-Claro,ZTE - Blade A34,ZTE,Blade A34,ZTE Blade A34 64GB,Android 13 Go,Octa Core 1.6 GHz,2,64,6.6,8,5,No,112499,149999,92975,12,25,38,0.4,1.2,Gama baja
-Claro,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 256GB,Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,339999,399999,280991,12,15,30,0.2,1.9,Gama media
-Claro,Motorola - Edge 60,Motorola,Edge 60,Motorola Edge 60 5G 512GB,Android 15,Octa Core 2.5 GHz,12,512,6.67,50,50,Si,849999,849999,702479,12,0,17,0.4,1.2,Gama alta
-Claro,Xiaomi - Redmi Note,Xiaomi,Redmi Note,Xiaomi Redmi Note 13 256GB,Android 14,Octa Core 2.8 GHz,6,256,6.67,108,16,No,501499,589999,414462,12,15,30,0.5,2.5,Gama media
-Claro,Motorola - Edge 60,Motorola,Edge 60,Motorola Edge 60 Fusion 5G 256GB,Android 15,Octa Core 2.5 GHz,8,256,6.67,50,32,Si,649999,649999,537189,12,0,17,0.6,1.3,Gama alta
-Claro,Samsung - Galaxy A35,Samsung,Galaxy A35,Samsung Galaxy A35 5G 256GB,Android 14,Octa Core 2.4GHz,8,256,6.6,50,13,Si,619999,619999,512396,12,0,17,0.6,1,Gama alta
-Claro,Xiaomi - Redmi Note,Xiaomi,Redmi Note,Xiaomi Redmi Note 13 128GB,Android 14,Octa Core 2.8 GHz,6,128,6.67,108,16,No,382499,449999,316115,12,15,30,0.6,3.2,Gama media
-Claro,Samsung - Galaxy A25,Samsung,Galaxy A25,Samsung Galaxy A25 5G 128GB,Android 14,Octa Core 2.4GHz,6,128,6.5,50,13,Si,419999,419999,347107,12,0,17,0.7,1.5,Gama media
-Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 5G 256GB,Android 15,Octa Core 4.47GHz,12,256,6.2,50,12,Si,1799999,1799999,1487602,12,0,17,0.9,0.3,Gama alta
-Claro,Samsung - Galaxy Z,Samsung,Galaxy Z,Samsung Galaxy Z Fold5 5G 256GB,Android 13,Octa Core 3.36GHz,12,256,7.6,50,4,Si,1399999,1399999,1157024,12,0,17,0.8,0.4,Gama alta
-Claro,Samsung - Galaxy A35,Samsung,Galaxy A35,Samsung Galaxy A35 5G 128GB,Android 14,Octa Core 2.4GHz,8,128,6.6,50,13,Si,519999,519999,429751,12,0,17,0.7,1.2,Gama alta
-Claro,Samsung - Galaxy A16,Samsung,Galaxy A16,Samsung Galaxy A16 5G 256GB,Android 14,Octa Core 2.4 GHz,8,256,6.7,50,13,Si,589999,589999,487602,12,0,17,0.6,1.1,Gama alta
-Cetrogar,Nubia - Margarita Corazones,Nubia,Margarita Corazones,"Nubia Margarita Corazones Rojos 6.6"" 4GB 128GB caja strap + funda + cancionero",NA,Octa Core,4,128,6.6,50,50,No,211499,244999,174792,NA,14,29,0.4,4.7,Gama media
-Cetrogar,Motorola - G15,Motorola,G15,"Motorola G15 6.7"" 4GB 128GB verde",NA,Octa Core,4,128,6.7,50,8,Si,209999,249999,173552,NA,16,31,0.4,2.8,Gama media
-Cetrogar,Samsung - Galaxy A15,Samsung,Galaxy A15,"Samsung Galaxy A15 6.5"" 4GB 128GB light blue",Android 14,Octa-Core (2.2GHz - 2GHz),4,128,6.5,50,13,Si,271999,389999,224792,NA,30,42,0.5,2.3,Gama media
-Cetrogar,Motorola - Moto G35,Motorola,Moto G35,"Motorola Moto G35 6.7"" 5G 4GB 128GB verde",Android 14,Octa-Core 2.2GHz,4,128,6.7,50,16,Si,335999,399999,277685,NA,16,31,0.6,2,Gama media
-Cetrogar,Motorola - G85,Motorola,G85,"Motorola G85 6.6"" 8GB 256GB 5G gris",NA,Octa Core,8,256,6.6,50,32,Si,489999,699999,404957,NA,30,42,0.5,1.7,Gama alta
-Cetrogar,Motorola - G04s,Motorola,G04s,"Motorola G04s 6.55"" 4GB 64GB azul",NA,Octa Core,4,64,6.55,50,5,No,179999,279999,148759,NA,36,47,0.6,3.1,Gama media
-Cetrogar,Motorola - G04s,Motorola,G04s,"Motorola G04s 6.55"" 4GB 64GB negro",NA,Octa Core,4,64,6.55,50,5,No,179999,279999,148759,NA,36,47,0.6,3.1,Gama media
-Cetrogar,ZTE - BLADE A75,ZTE,BLADE A75,"ZTE BLADE A75 6.6"" 5G 4GB 4GB FUSION RAM",NA,Octa Core,4,4,6.6,50,5,No,199999,319999,165288,NA,38,48,1,2.8,Gama media
-Cetrogar,Motorola - G85,Motorola,G85,"Motorola G85 6.6"" 8GB 256GB 5G azul",NA,Octa Core,8,256,6.6,50,32,Si,579999,699999,479338,NA,17,32,0.5,1.4,Gama alta
-Cetrogar,Xiaomi - Redmi Note,Xiaomi,Redmi Note,"Xiaomi Redmi Note 13 6.6"" 6GB 128GB Ice blue",Android 13,Octa-Core 2.8GHz,6,128,6.6,108,16,No,429999,449999,355371,NA,4,21,0.7,2.9,Gama media
-Cetrogar,Motorola - G05,Motorola,G05,"Motorola G05 6.6"" 4G 4GB 64GB rojo",NA,Octa Core,4,64,6.6,50,8,No,189999,209999,157023,NA,10,25,0.6,3.1,Gama media
-Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 6.78"" 5G 8GB 256GB Titan GOLD",NA,MTK 7020,8,256,6.78,108,32,No,499999,679999,413222,NA,26,39,0.5,2.8,Gama media
-Cetrogar,Motorola - G04s,Motorola,G04s,"Motorola G04s 6.55"" 4GB 64GB verde",NA,Octa Core,4,64,6.55,50,5,No,179999,279999,148759,NA,36,47,0.6,3.1,Gama media
-Cetrogar,OPPO - A60,OPPO,A60,"OPPO A60 6.7"" 8GB 256GB blanco",NA,Octa Core,8,256,6.7,50,5,No,394999,569999,326445,NA,31,43,0.3,1.4,Gama media
-Cetrogar,Xiaomi - A3,Xiaomi,A3,"Xiaomi A3 6.7"" 3GB 64GB azul",NA,Octa Core,3,64,6.7,8,5,No,189999,199999,157023,NA,5,21,0.6,0.7,Gama baja
-Cetrogar,Nubia - Neo 2,Nubia,Neo 2,"Nubia Neo 2 6.7"" 5G 8GB 256GB amarillo",NA,Octa Core,8,256,6.7,50,16,Si,419999,455999,347106,NA,8,24,0.4,1.6,Gama alta
-Cetrogar,Samsung - Galaxy S24,Samsung,Galaxy S24,"Samsung Galaxy S24 FE 6.7"" 8GB 256GB Graphite",Android 14,Deca Core 3.1 GHz,8,256,6.7,50,10,Si,1159999,1399999,958676,NA,17,32,0.8,0.5,Gama alta
-Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 12GB 256GB comet green",NA,Octa Core,12,256,6.78,108,32,Si,429999,699999,355371,NA,39,49,0.4,3.3,Gama alta
-Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 128GB Green",Android 14,Octa Core 2.0 GHz,4,128,6.8,50,13,No,329999,349999,272726,NA,6,22,0.6,1.9,Gama media
-Cetrogar,Nubia - Focus 4G,Nubia,Focus 4G,"Nubia Focus 4G 6.6"" 4GB 256GB Negro",NA,Octa Core,4,256,6.6,108,8,Si,289999,389999,239668,NA,26,39,0.1,4,Gama media
-Cetrogar,Samsung - Galaxy A26,Samsung,Galaxy A26,"Samsung Galaxy A26 5G 6.7"" 8GB 256GB Black",Android 15,Octa Core 2.4GHz,8,256,6.7,50,13,No,576999,699999,476858,NA,18,32,0.5,1.1,Gama alta
-Cetrogar,Motorola - G15,Motorola,G15,"Motorola G15 6.7"" 4GB 256GB Gris",NA,Octa Core,4,256,6.7,50,8,No,299999,389999,247933,NA,23,36,0.1,1.9,Gama media
-Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 256GB green",Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,389999,399999,322313,NA,3,19,0.3,1.6,Gama media
-Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 256GB Blue",Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,389999,399999,322313,NA,3,19,0.3,1.6,Gama media
-Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 256GB Black",Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,389999,399999,322313,NA,3,19,0.3,1.6,Gama media
-Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 128GB Blue",Android 14,Octa Core 2.0 GHz,4,128,6.8,50,13,No,329999,349999,272726,NA,6,22,0.6,1.9,Gama media
-Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 128GB Black",Android 14,Octa Core 2.0 GHz,4,128,6.8,50,13,No,329999,349999,272726,NA,6,22,0.6,1.9,Gama media
-Cetrogar,Tecno - Mobile KL7,Tecno,Mobile KL7,Tecno Mobile KL7 Spark 30 Pro 8GB 256GB Obsidian Edge,NA,NA,8,256,6.78,108,13,Si,369999,599999,305784,NA,38,49,0.3,3.3,Gama alta
-Cetrogar,Tecno - Mobile KL7,Tecno,Mobile KL7,Tecno Mobile KL7 Spark 30 Pro 8GB 256GB Artic Glow,NA,NA,8,256,6.78,108,13,Si,369999,599999,305784,NA,38,49,0.3,3.3,Gama alta
-Cetrogar,Samsung - Galaxy A36,Samsung,Galaxy A36,"Samsung Galaxy A36 6.7"" 5G 8GB 256GB Awesome Black",Android 15,Octa Core 2.4GHz,8,256,6.7,50,12,No,642999,779999,531404,NA,18,32,0.6,1,Gama alta
-Cetrogar,Samsung - Galaxy A56,Samsung,Galaxy A56,"Samsung Galaxy A56 6.7""5G 8GB 256GB Awesome Lightgray",Android 15,Octa Core 2.9GHz,8,256,6.7,50,12,No,765999,929999,633057,NA,18,32,0.7,0.8,Gama alta
-Cetrogar,Motorola - E15,Motorola,E15,"Motorola E15 6.6"" 4G 2GB 64GB lavanda",NA,Octa Core,2,64,6.6,32,8,No,125999,179999,104131,NA,30,42,0.5,3.2,Gama baja
-Cetrogar,Motorola - E15,Motorola,E15,"Motorola E15 6.6"" 4G 2GB 64GB azul",NA,Octa Core,2,64,6.6,32,8,No,149999,179999,123966,NA,17,31,0.6,2.7,Gama baja
-Cetrogar,Motorola - G05,Motorola,G05,"Motorola G05 6.6"" 4G 4GB 64GB verde",NA,Octa Core,4,64,6.6,50,8,No,159999,209999,132230,NA,24,37,0.6,3.6,Gama media
-Cetrogar,Xiaomi - Redmi 14T,Xiaomi,Redmi 14T,"Xiaomi Redmi 14T 6.67"" 12GB 512GB Titan gray",NA,Octa Core,12,512,6.67,50,32,Si,1619999,1649999,1338842,NA,2,19,0.7,0.5,Gama alta
-Cetrogar,Xiaomi - Redmi 14T,Xiaomi,Redmi 14T,"Xiaomi Redmi 14T 6.67"" 12GB 512GB Titan black",NA,Octa Core,12,512,6.67,50,32,Si,1619999,1649999,1338842,NA,2,19,0.7,0.5,Gama alta
-Cetrogar,Xiaomi - Redmi 14T,Xiaomi,Redmi 14T,"Xiaomi Redmi 14T 6.67"" 12GB 512GB Titan blue",NA,Octa Core,12,512,6.67,50,32,Si,1619999,1649999,1338842,NA,2,19,0.7,0.5,Gama alta
-Cetrogar,Samsung - Galaxy A16,Samsung,Galaxy A16,"Samsung Galaxy A16 6.7"" 4GB 128GB Black",Android 14,Octa Core 2.4 GHz,4,128,6.7,50,13,Si,304999,389999,252065,NA,22,35,0.6,2.1,Gama media
-Cetrogar,Samsung - Galaxy S25,Samsung,Galaxy S25,"Samsung Galaxy S25 6.2"" 12GB 256GB Navy",Android 15,Octa Core 4.47GHz,12,256,6.2,50,12,Si,1399999,1699999,1157023,NA,18,32,0.8,0.4,Gama alta
-Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 6.78"" 5G 8GB 256GB Obsidian black",NA,MTK 7020,8,256,6.78,108,32,No,499999,679999,413222,NA,26,39,0.5,2.8,Gama media
-Cetrogar,Realme - Note 60,Realme,Note 60,"Realme Note 60 6.7"" 4GB 128GB Voyage blue",NA,Octa Core,4,128,6.7,32,5,No,219999,345799,181817,NA,36,47,0.4,1.7,Gama media
-Cetrogar,Tecno - Mobile Camon,Tecno,Mobile Camon,"Tecno Mobile Camon 30S 6.78"" 8GB 256GB Gold",NA,MTK Helio G100,8,256,6.78,50,50,Si,499999,829999,413222,NA,40,50,0.5,2,Gama alta
-Cetrogar,Tecno - Mobile Camon,Tecno,Mobile Camon,"Tecno Mobile Camon 30S 6.78"" 8GB 256GB Green",NA,MTK Helio G100,8,256,6.78,50,50,Si,435999,829999,360329,NA,47,57,0.4,2.3,Gama alta
-Cetrogar,Tecno - Mobile Camon,Tecno,Mobile Camon,"Tecno Mobile Camon 30S 6.78"" 8GB 256GB Grey",NA,MTK Helio G100,8,256,6.78,50,50,Si,499999,829999,413222,NA,40,50,0.5,2,Gama alta
-Cetrogar,Samsung - Galaxy A16,Samsung,Galaxy A16,"Samsung Galaxy A16 6.7"" 5G 8GB 256GB Blue Black",Android 14,Octa Core 2.4 GHz,8,256,6.7,50,13,No,415999,529999,343800,NA,22,35,0.4,1.5,Gama media
-Cetrogar,OPPO - RENO 12F,OPPO,RENO 12F,"OPPO RENO 12F 6.7"" 12GB 256GB naranja",NA,Octa Core,12,256,6.7,50,32,Si,799999,899999,661156,NA,11,27,0.7,1,Gama alta
-Cetrogar,OPPO - RENO 12F,OPPO,RENO 12F,"OPPO RENO 12F 6.7"" 12GB 256GB verde",NA,Octa Core,12,256,6.7,50,32,Si,799999,899999,661156,NA,11,27,0.7,1,Gama alta
-Cetrogar,OPPO - A60,OPPO,A60,"OPPO A60 6.7"" 8GB 256GB negro",NA,Octa Core,8,256,6.7,50,5,No,394999,569999,326445,NA,31,43,0.3,1.4,Gama media
-Cetrogar,OPPO - A40,OPPO,A40,"OPPO A40 6.7"" 4GB 256GB café",NA,Octa Core,4,256,6.7,50,5,No,299999,399999,247933,NA,25,38,0.1,1.8,Gama media
-Cetrogar,OPPO - A40,OPPO,A40,"OPPO A40 6.7"" 4GB 256GB lila+ Cargador Supervooc 45W",NA,Octa Core,4,256,6.7,50,5,No,299999,399999,247933,NA,25,38,0.1,1.8,Gama media
-Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 8GB 256GB comet green",NA,Octa Core,8,256,6.78,108,32,Si,339999,599999,280990,NA,43,53,0.2,4.1,Gama alta
-Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 8GB 256GB interstellar blue",NA,Octa Core,8,256,6.78,108,32,Si,339999,599999,280990,NA,43,53,0.2,4.1,Gama alta
-Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 8GB 256GB meteorite grey",NA,Octa Core,8,256,6.78,108,32,Si,339999,599999,280990,NA,43,53,0.2,4.1,Gama alta
-Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 12GB 256GB Interstellar blue",NA,Octa Core,4,256,6.78,108,32,Si,429999,699999,355371,NA,39,49,0.4,3.3,Gama media
-Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 12GB 256GB Meteorite grey",NA,Octa Core,4,256,6.78,108,32,Si,429999,699999,355371,NA,39,49,0.4,3.3,Gama media
-Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 Pro 6.78"" 8GB 256GB Vintage green",NA,Octa Core,8,256,6.78,108,32,Si,699999,779999,578511,NA,10,26,0.6,2,Gama alta
-Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 Pro 6.78"" 8GB 256GB Obsidian black",NA,Octa Core,8,256,6.78,108,32,Si,699999,779999,578511,NA,10,26,0.6,2,Gama alta
-Cetrogar,Nubia - Neo 2,Nubia,Neo 2,"Nubia Neo 2 6.7"" 8GB 256GB gris",NA,Quad Core,8,256,6.7,50,32,Si,419999,455999,347106,NA,8,24,0.4,2,Gama alta
-Cetrogar,Nubia - Neo 2,Nubia,Neo 2,"Nubia Neo 2 Nubia 6.7"" 8GB 256GB plateado",NA,Quad Core,8,256,6.7,50,32,Si,419999,455999,347106,NA,8,24,0.4,2,Gama alta
-Cetrogar,Samsung - Galaxy Z,Samsung,Galaxy Z,"Samsung Galaxy Z Fold5 7.6"" 6.2"" 12GB 256GB Phantom black",Android 14,Octa Core 3.3 GHz,12,256,7.6,50,10,Si,2199999,3699999,1818180,NA,41,51,0.9,0.3,Gama alta
-Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" 12GB 256GB Peach",Android 14,Octa-Core 3GHz,12,256,6.6,50,32,Si,799999,999999,661156,NA,20,34,0.7,1,Gama alta
-Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" 12GB 256GB green",Android 14,Octa-Core 3GHz,12,256,6.6,50,32,Si,799999,999999,661156,NA,20,34,0.7,1,Gama alta
-Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" 12GB 256GB Grey",Android 14,Octa-Core 3GHz,12,256,6.6,50,32,Si,799999,999999,661156,NA,20,34,0.7,1,Gama alta
-Cetrogar,Samsung - Galaxy A06,Samsung,Galaxy A06,"Samsung Galaxy A06 6.7"" 4GB 128GB Light blue",Android 14,Octa-Core (2.0GHz.1.8GHz),4,128,6.7,50,8,No,204999,274999,169420,NA,25,38,0.4,2.8,Gama media
-Cetrogar,TCL - PRO NXTPAPER,TCL,PRO NXTPAPER,"TCL PRO NXTPAPER 50 6.8"" 5G 8+8GB 8+8GB 512GB withe",NA,Octa Core,8,8,6.8,108,32,Si,499999,549999,413222,NA,9,25,1,2.8,Gama alta
-Cetrogar,Tecno - Mobile Spark,Tecno,Mobile Spark,"Tecno Mobile Spark 20 PRO Tecno Mobile 6.78"" 8GB 256GB Black",NA,Octa Core,4,256,6.78,108,32,No,369999,494499,305784,NA,25,38,0.3,3.8,Gama media
-Cetrogar,Motorola - G85,Motorola,G85,"Motorola G85 6.6"" 8GB 256GB 5G green",NA,Octa Core,8,256,6.6,50,32,Si,579999,699999,479338,NA,17,32,0.5,1.4,Gama alta
-Cetrogar,Xiaomi - Redmi Note,Xiaomi,Redmi Note,"Xiaomi Redmi Note 13 6.6"" 6GB 128GB green",Android 13,Octa-Core 2.8GHz,6,128,6.6,108,16,No,429999,449999,355371,NA,4,21,0.7,2.9,Gama media
-Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 Ultra 6.6"" 12GB 512GB Nordic wood",Android 14,Octa-Core 3GHz,12,512,6.6,50,50,Si,1499999,1599999,1239668,NA,6,23,0.7,0.7,Gama alta
-Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 Ultra 6.6"" 12GB 512GB Peach fuzz",Android 14,Octa-Core 3GHz,12,512,6.6,50,50,Si,1499999,1599999,1239668,NA,6,23,0.7,0.7,Gama alta
-Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 Ultra 6.6"" 12GB 512GB negro",Android 14,Octa-Core 3GHz,12,512,6.6,50,50,Si,1499999,1599999,1239668,NA,6,23,0.7,0.7,Gama alta
-Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" Fusion 8GB 256GB Marsh blue",Android 14,Octa-Core 3GHz,8,256,6.55,50,32,Si,599999,799999,495866,NA,25,38,0.6,1.4,Gama alta
-Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" Fusion 8GB 256GB Hot pink",Android 14,Octa-Core 3GHz,8,256,6.55,50,32,Si,599999,799999,495866,NA,25,38,0.6,1.4,Gama alta
-Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" Fusion 8GB 256GB Forest blue",Android 14,Octa-Core 3GHz,8,256,6.55,50,32,Si,599999,799999,495866,NA,25,38,0.6,1.4,Gama alta
-Cetrogar,Xiaomi - A3,Xiaomi,A3,"Xiaomi A3 6.7"" 3GB 64GB verde",NA,Octa Core,3,64,6.7,8,5,No,189999,199999,157023,NA,5,21,0.6,0.7,Gama baja
-Cetrogar,Xiaomi - A3,Xiaomi,A3,"Xiaomi A3 6.7"" 3GB 64GB negro",NA,Octa Core,3,64,6.7,8,5,No,189999,199999,157023,NA,5,21,0.6,0.7,Gama baja
-Cetrogar,Motorola - Razr 40,Motorola,Razr 40,"Motorola Razr 40 Ultra 6.9"" 12GB 512GB Glaciar",NA,Octa Core,12,512,6.9,12,32,Si,1299999,1699999,1074379,NA,24,37,0.6,0.3,Gama alta
-Cetrogar,TCL - 40 NXTPAPER,TCL,40 NXTPAPER,"TCL 40 NXTPAPER 8GB 6.78"" 256GB Opalescent RV",Android 13,Octa-Core (2.0GHz -1.8GHz),8,256,6.78,50,32,Si,289999,349999,239668,NA,17,32,0.1,2.8,Gama alta
-Cetrogar,Motorola - Moto Razr40,Motorola,Moto Razr40,"Motorola Moto Razr40 6.9"" 8GB 256GB gris",NA,Octa Core,8,256,6.9,12,32,Si,999999,1299999,826445,NA,23,36,0.7,0.4,Gama media
-Cetrogar,ZTE - Blade V50,ZTE,Blade V50,"ZTE Blade V50 Design 6.6"" 6GB 10GB fusión",NA,Octa Core,6,10,6.6,50,5,No,219999,339999,181817,NA,35,47,0.9,2.5,Gama media
-Cetrogar,Motorola - Moto Razr,Motorola,Moto Razr,"Motorola Moto Razr 40 Ultra 6.9"" 12GB 512GB Peach fuzz",NA,Octa Core,12,512,6.9,12,32,Si,1299999,1699999,1074379,NA,24,37,0.6,0.3,Gama alta
+sitio,id,marca,modelo,nombre,Sistema Operativo,Procesador,RAM (GB),Almacenamiento interno (GB),Pantalla (Pulgadas),Camara Principal (MP),Camara frontal (MP),NFC,Precio_comprador,Precio_anterior,precio_sin_impuestos,financiacion_plazo,per_descuento,presion_impositiva_pais_per,ratio_memoria_precio,ratio_mp_precio,costo_unitario_total,Categoria
+Personal,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 128 GB,Android 14,Octa-Core (2.0GHz.1.8GHz),4,128,6.7,50,8,No,247999,335999,277685,12,26,17,1878.8,4275.8,6154.6,Gama media
+Personal,Motorola - Moto G35,Motorola,Moto G35,Motorola Moto G35 5G 128 GB,Android 14,Octa-Core 2.2GHz,4,128,6.72,50,16,Si,309999,491999,406610,12,37,17,2348.5,4697,7045.5,Gama media
+Personal,OPPO - A60 256,OPPO,A60 256,OPPO A60 256 GB,Android 14,NA,8,256,6.67,50,5,No,394999,658999,544627,12,40,17,1496.2,7181.8,8678,Gama media
+Personal,Motorola - Moto G75,Motorola,Moto G75,Motorola Moto G75 5G 128 GB,Android 14,Octa-Core 2.4GHz,8,128,6.78,50,16,Si,469999,555999,459503,12,15,17,3455.9,7121.2,10577.1,Gama alta
+Personal,Samsung - Galaxy A15,Samsung,Galaxy A15,Samsung Galaxy A15 128 GB,Android 14,Octa-Core (2.2GHz - 2GHz),4,128,6.5,50,13,Si,329999,436999,361156,12,24,17,2500,5238.1,7738.1,Gama media
+Personal,Nubia - Music 128,Nubia,Music 128,Nubia Music 128 GB,Android 13,NA,4,128,6.6,50,5,No,214999,264999,219007,12,19,17,1628.8,3909.1,5537.9,Gama media
+Personal,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 256 GB,Android 14,NA,4,256,6.88,50,13,No,349589,441999,365288,12,21,17,1344.6,5549,6893.6,Gama media
+Personal,Samsung - Galaxy A36,Samsung,Galaxy A36,Samsung Galaxy A36 5G 256 GB,Android 15,NA,8,256,6.7,50,12,Si,739999,925999,765288,12,20,17,2803,11935.5,14738.5,Gama alta
+Personal,TCL - 505 NFC,TCL,505 NFC,TCL 505 NFC 128 GB,Android 14,NA,4,128,6.75,50,5,Si,164999,239999,198346,3,31,17,1250,3000,4250,Gama media
+Personal,OPPO - A40 256,OPPO,A40 256,OPPO A40 256 GB,Android 14,NA,4,256,6.67,50,5,No,299999,485999,401652,12,38,17,1153.8,5454.5,6608.3,Gama media
+Personal,Samsung - Galaxy A56,Samsung,Galaxy A56,Samsung Galaxy A56 5G 256 GB,Android 15,NA,8,256,6.7,50,12,Si,884999,1136999,939668,12,22,17,3352.3,14274.2,17626.5,Gama alta
+Personal,ZTE - Blade A75,ZTE,Blade A75,ZTE Blade A75 5G 256 GB,Android 13,NA,4,256,6.6,50,8,No,239999,329999,272726,12,27,17,923.1,4137.9,5061,Gama media
+Personal,ZTE - Blade A35,ZTE,Blade A35,ZTE Blade A35 64 GB,Android 14 Go,NA,2,64,6.75,8,5,No,179999,206999,171073,9,13,17,2727.3,13846.1,16573.4,Gama baja
+Personal,Nubia - Focus 5G,Nubia,Focus 5G,Nubia Focus 5G 256 GB,Android 13,Octa-Core (2.2GHz-2.0GHz),6,256,6.6,108,8,Si,339999,439999,363635,12,23,17,1297.7,2931,4228.7,Gama media
+Personal,OPPO - Reno 12F,OPPO,Reno 12F,OPPO Reno 12F 256 GB,Android 14,NA,12,256,6.67,50,32,Si,799999,1144999,946280,9,30,17,2985.1,9756.1,12741.2,Gama alta
+Personal,Motorola - Moto E14,Motorola,Moto E14,Motorola Moto E14 64 GB,Android 14 Go,Octa-Core 1.6GHz,2,64,6.65,13,5,No,149999,201999,140277,12,26,31,2272.7,8333.3,10606,Gama baja
+Personal,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 128 GB,Android 14,NA,4,128,6.88,50,13,No,324799,349999,289255,12,7,17,2460.6,5155.5,7616.1,Gama media
+Personal,Nubia - Focus Pro,Nubia,Focus Pro,Nubia Focus Pro 5G 256 GB,Android 13,Octa-Core (2.2GHz-2.0GHz),8,256,6.72,108,32,Si,469999,539999,446280,12,13,17,1780.3,3357.1,5137.4,Gama alta
+Personal,Apple - 14 128,Apple,14 128,iPhone 14 128 GB + Cable USB-C Lightning 1mt,iOS 16,NA,6,128,6.1,12,12,Si,1699999,2056138,1699287,12,17,17,12686.6,70833.3,83519.90000000001,Gama media
+Personal,Apple - 14 256,Apple,14 256,iPhone 14 256 GB + Cable USB-C Lightning 2mts,iOS 16,NA,6,256,6.1,12,12,Si,1999999,2721298,2249006,12,27,17,7633.6,83333.3,90966.90000000001,Gama media
+Personal,Motorola - Razr 50,Motorola,Razr 50,Motorola Razr 50 Ultra 512 GB,Android 14,Octa-Core 2.9GHz,12,512,6.9,50,32,Si,1499999,2190999,1810742,6,32,17,2862.6,18292.7,21155.3,Gama alta
+Personal,ZTE - Blade V60,ZTE,Blade V60,ZTE Blade V60 256 GB,Android 13,NA,8,256,6.72,50,32,Si,299999,402999,333057,9,26,17,1136.4,3658.5,4794.9,Gama alta
+Personal,Xiaomi - Redmi Note,Xiaomi,Redmi Note,Xiaomi Redmi Note 13 128 GB,Android 13,Octa-Core 2.8GHz,6,128,6.67,108,16,No,416899,519999,429751,12,20,17,3111.2,3362.1,6473.299999999999,Gama media
+Personal,Apple - 14 Pro,Apple,14 Pro,iPhone 14 Pro 256 GB + Cable Lightning 2mts,iOS 16,NA,6,256,6.1,48,12,Si,2699999,3369798,2784957,12,20,17,10305.3,45000,55305.3,Gama alta
+Personal,ZTE - Blade A34,ZTE,Blade A34,ZTE Blade A34 64 GB,Android 13 Go,Octa-Core (1.6GHz.1.2GHz),2,64,6.6,8,5,No,129999,201999,166941,12,36,17,1969.7,9999.9,11969.6,Gama baja
+Personal,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 64 GB,Android 14,Octa-Core (2.0GHz.1.8GHz),4,64,6.7,50,8,No,202999,265999,219833,12,24,17,2985.3,3500,6485.3,Gama media
+Personal,TCL - 50 PRO,TCL,50 PRO,TCL 50 PRO NXTPAPER 5G 512 GB,Android 14,NA,8,512,6.78,108,32,Si,499999,649999,537189,6,23,17,961.5,3571.4,4532.9,Gama alta
+Personal,ZTE - Blade A54,ZTE,Blade A54,ZTE Blade A54 128 GB,Android 13,Octa-Core (1.6GHz-1.2GHz),4,128,6.6,13,5,No,149999,229999,190081,9,35,17,1136.4,8333.3,9469.699999999999,Gama media
+Personal,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Ultra 512 GB,Android 14,Octa-Core 3GHz,12,512,6.67,50,50,Si,1599999,1769999,1462809,6,10,17,3053.4,16000,19053.4,Gama alta
+Personal,ZTE - Blade V60,ZTE,Blade V60,ZTE Blade V60 Design 256 GB,Android 13,NA,6,256,6.6,50,8,No,259999,362999,299999,9,28,17,992.4,4482.7,5475.0999999999995,Gama media
+Personal,TCL - 505 S,TCL,505 S,TCL 505 S NFC 256 GB,Android 14,NA,4,256,6.75,50,5,Si,209999,289999,239668,12,28,17,807.7,3818.2,4625.9,Gama media
+Personal,TCL - 50 5G,TCL,50 5G,TCL 50 5G 256 GB,Android 14,Octa-Core (2.2GHz -2.0GHz),6,256,6.56,50,32,Si,279999,354999,293387,12,21,17,1068.7,3414.6,4483.3,Gama media
+Personal,Motorola - Moto G05,Motorola,Moto G05,Motorola Moto G05 64 GB,Android 15,NA,4,64,6.67,50,8,No,169999,269999,223139,12,37,17,2500,2931,5431,Gama media
+Personal,TCL - 40 NXTPAPER,TCL,40 NXTPAPER,TCL 40 NXTPAPER 256 GB + Pen,Android 13,NA,8,256,6.78,50,32,Si,329999,449999,371900,12,27,17,1250,4024.4,5274.4,Gama alta
+Personal,Motorola - Moto G85,Motorola,Moto G85,Motorola Moto G85 5G 256 GB,Android 14,Octa-Core 2.3GHz,8,256,6.67,50,32,Si,549999,678999,561156,12,19,17,2083.3,6707.3,8790.6,Gama alta
+Personal,Motorola - Moto G15,Motorola,Moto G15,Motorola Moto G15 128 GB,Android 15,NA,4,128,6.67,50,8,Si,239999,321999,266114,12,25,17,1818.2,4137.9,5956.0999999999995,Gama alta
+Personal,Motorola - Moto E15,Motorola,Moto E15,Motorola Moto E15 64 GB,Android 14,NA,2,64,6.67,32,8,No,149999,197999,163635,3,24,17,2272.7,3750,6022.7,Gama baja
+Personal,TCL - 503 64,TCL,503 64,TCL 503 64 GB,Android 14 Go,NA,3,64,6.56,8,5,No,139999,189999,157023,9,26,17,2089.5,10769.2,12858.7,Gama baja
+Personal,ZTE - Blade A55,ZTE,Blade A55,ZTE Blade A55 128 GB,Android 14,NA,4,128,6.75,13,8,No,199999,239999,198346,9,17,17,1515.1,9523.8,11038.9,Gama media
+Personal,TCL - 40 NXTPAPER,TCL,40 NXTPAPER,TCL 40 NXTPAPER 256 GB,Android 13,Octa-Core (2.0GHz -1.8GHz),8,256,6.78,50,32,Si,299999,399999,330577,12,25,17,1136.4,3658.5,4794.9,Gama alta
+Personal,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Fusion 256 GB,Android 14,Octa-Core 2.2GHz,8,256,6.67,50,32,Si,699999,819999,677685,12,15,17,2651.5,8536.6,11188.1,Gama alta
+Personal,Samsung - Galaxy A16,Samsung,Galaxy A16,Samsung Galaxy A16 128 GB,Android 14,NA,4,128,6.7,50,13,Si,369999,449999,371900,12,18,17,2803,5873,8676,Gama media
+Personal,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 128 GB,Android 14,Octa-Core 2.0GHz,4,128,6.56,50,8,No,319999,357999,295866,9,11,17,2424.2,5517.2,7941.4,Gama media
+Personal,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Pro 512 GB,Android 14,Octa-Core (2.63GHz - 2.4GHz - 1.8GHz),12,512,6.67,50,50,Si,1199999,1329999,1099172,9,10,17,2290.1,12000,14290.1,Gama alta
+Personal,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 Power 128 GB,Android 14,Octa-Core 2.0GHz,8,128,6.56,50,8,No,349999,402999,333057,12,13,17,2573.5,6034.5,8608,Gama media
+Claro,Motorola - Razr 60,Motorola,Razr 60,Motorola Razr 60 Ultra 5G 1TB,Android 15,Octa Core 4.32 GHz,16,1000,6.9,50,50,Si,1999999,1999999,1652892,12,0,17,1968.5,20000,21968.5,Gama alta
+Claro,Samsung - Galaxy A15,Samsung,Galaxy A15,Samsung Galaxy A15 128GB,Android 14,Octa Core 2.2 GHz,4,128,6.5,50,13,Si,311999,389999,257851,12,20,34,2363.6,4952.4,7316,Gama media
+Claro,Motorola - Moto E14,Motorola,Moto E14,Motorola Moto E14 64GB,Android 14,Octa Core 1.6 GHz,2,64,6.5,13,5,No,146699,162999,111558,12,10,32,2222.7,8149.9,10372.599999999999,Gama baja
+Claro,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 128GB,Android 14,Octa Core 2GHz,4,128,6.7,50,8,No,223999,279999,185123,12,20,34,1697,3862.1,5559.1,Gama media
+Claro,Motorola - Moto G04s,Motorola,Moto G04s,Motorola Moto G04s 64GB,Android 14,Octa Core 1.6 GHz,4,64,6.5,50,5,No,178499,209999,147520,12,15,30,2625,3245.4,5870.4,Gama media
+Claro,Samsung - Galaxy A26,Samsung,Galaxy A26,Samsung Galaxy A26 5G 256GB,Android 15,Octa Core 2.4GHz,8,256,6.7,50,13,Si,639999,639999,528925,12,0,17,2424.2,10158.7,12582.900000000001,Gama alta
+Claro,TCL - 50 5G,TCL,50 5G,TCL 50 5G 128GB,Android 14,Octa Core 2.2 GHz,4,128,6,50,8,Si,239999,299999,198346,12,20,34,1818.2,4137.9,5956.0999999999995,Gama media
+Claro,Samsung - Galaxy A06,Samsung,Galaxy A06,Samsung Galaxy A06 64GB,Android 14,Octa Core 2GHz,4,64,6.7,50,8,No,191999,239999,158677,12,20,34,2823.5,3310.3,6133.8,Gama media
+Claro,Motorola - Razr 50,Motorola,Razr 50,Motorola Razr 50 Ultra 5G 512GB,Android 14,Octa Core 2.9 GHz,12,512,6.9,50,32,Si,1519999,1899999,1256198,12,20,34,2900.8,18536.6,21437.399999999998,Gama alta
+Claro,Motorola - Moto E15,Motorola,Moto E15,Motorola Moto E15 64GB,Android 14,NA,2,64,6,32,8,No,160649,188999,132768,12,15,30,2434.1,4016.2,6450.299999999999,Gama baja
+Claro,Motorola - Moto G05,Motorola,Moto G05,Motorola Moto G05 64GB,Android 15,Octa Core 2 GHz,4,64,6,50,8,No,195499,229999,161570,12,15,30,2875,3370.7,6245.7,Gama media
+Claro,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 128GB,Android 14,Octa Core 2.0 GHz,4,128,6.56,50,8,No,246499,289999,203718,12,15,30,1867.4,4250,6117.4,Gama media
+Claro,Samsung - Galaxy S24,Samsung,Galaxy S24,Samsung Galaxy S24 FE 5G 256GB,Android 14,Deca Core 3.1 GHz,8,256,6.7,50,10,Si,1499999,1499999,1239669,12,0,17,5681.8,25000,30681.8,Gama alta
+Claro,Motorola - Moto G35,Motorola,Moto G35,Motorola Moto G35 5G 128GB,Android 14,Octa Core 2.2 GHz,4,128,6,50,16,Si,359999,359999,297520,12,0,17,2727.3,5454.5,8181.8,Gama media
+Claro,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 5G 256GB,Android 14,Octa Core 2.5 GHz,12,256,6.67,50,32,Si,839999,839999,694214,12,0,17,3134.3,10243.9,13378.2,Gama alta
+Claro,Samsung - Galaxy A36,Samsung,Galaxy A36,Samsung Galaxy A36 5G 256GB,Android 15,Octa Core 2.4GHz,8,256,6.7,50,12,Si,899999,899999,743801,12,0,17,3409.1,14516.1,17925.2,Gama alta
+Claro,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Pro 5G 512GB,Android 14,Octa Core 2.63 GHz,12,512,6.67,50,50,Si,1109999,1109999,917355,12,0,17,2118.3,11100,13218.3,Gama alta
+Claro,Samsung - Galaxy A56,Samsung,Galaxy A56,Samsung Galaxy A56 5G 256GB,Android 15,Octa Core 2.9GHz,8,256,6.7,50,12,Si,999999,999999,826445,12,0,17,3787.9,16129,19916.9,Gama alta
+Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 Ultra 5G 512GB,Android 15,Octa Core 4.47GHz,12,512,6.9,200,12,Si,2699999,2699999,2231404,12,0,17,5152.7,12735.8,17888.5,Gama alta
+Claro,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Fusion 5G 256GB,Android 14,Octa Core 2.2 GHz,8,256,6.67,50,32,Si,639999,639999,528925,12,0,17,2424.2,7804.9,10229.099999999999,Gama alta
+Claro,Motorola - Moto G24,Motorola,Moto G24,Motorola Moto G24 Power 128GB,Android 14,Octa Core 2.0 GHz,8,128,6.56,50,8,No,299999,299999,247933,12,0,17,2205.9,5172.4,7378.299999999999,Gama media
+Claro,Motorola - Edge 50,Motorola,Edge 50,Motorola Edge 50 Ultra 5G 512GB,Android 14,Octa Core 3.0 GHz,12,512,6.67,50,50,Si,1299999,1299999,1074379,12,0,17,2480.9,13000,15480.9,Gama alta
+Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 Plus 5G 512GB,Android 15,Octa Core 4.47GHz,12,512,6.7,50,12,Si,2299999,2299999,1900826,12,0,17,4389.3,37096.8,41486.100000000006,Gama alta
+Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 5G 512GB,Android 15,Octa Core 4.47GHz,12,512,6.2,50,12,Si,1999999,1999999,1652892,12,0,17,3816.8,32258,36074.8,Gama alta
+Claro,Samsung - Galaxy Z,Samsung,Galaxy Z,Samsung Galaxy Z Fold6 5G 512GB,Android 14,Octa Core 3.3 GHz,12,512,7.6,50,4,Si,3074999,4099999,2541322,12,25,38,5868.3,56944.4,62812.700000000004,Gama alta
+Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 Plus 5G 256GB,Android 15,Octa Core 4.47GHz,12,256,6.7,50,12,Si,1999999,1999999,1652892,12,0,17,7462.7,32258,39720.7,Gama alta
+Claro,Samsung - Galaxy Z,Samsung,Galaxy Z,Samsung Galaxy Z Flip6 5G 512GB,Android 14,Octa Core 3.9 GHz,12,512,6.7,50,10,Si,1972499,2629999,1630165,12,25,38,3764.3,32875,36639.3,Gama alta
+Claro,Motorola - Moto G15,Motorola,Moto G15,Motorola Moto G15 128GB,Android 15,Octa Core 2 GHz,4,128,6,50,8,Si,269999,269999,223140,12,0,17,2045.4,4655.2,6700.6,Gama alta
+Claro,Motorola - Moto G75,Motorola,Moto G75,Motorola Moto G75 5G 128GB,Android 14,Octa Core 2.4 GHz,8,128,6,50,16,Si,459999,459999,380164,12,0,17,3382.3,6969.7,10352,Gama alta
+Claro,Motorola - Moto G85,Motorola,Moto G85,Motorola Moto G85 5G 256GB,Android 14,Octa Core 2.3 GHz,8,256,6.67,50,32,Si,549999,549999,454545,12,0,17,2083.3,6707.3,8790.6,Gama alta
+Claro,Motorola - Moto G75,Motorola,Moto G75,Motorola Moto G75 5G 256GB,Android 14,Octa Core 2.4 GHz,8,256,6,50,16,Si,499999,499999,413222,12,0,17,1893.9,7575.7,9469.6,Gama alta
+Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 Ultra 5G 256GB,Android 15,Octa Core 4.47GHz,12,256,6.9,200,12,Si,2399999,2399999,1983470,12,0,17,8955.2,11320.8,20276,Gama alta
+Claro,Motorola - Moto G35,Motorola,Moto G35,Motorola Moto G35 5G 256GB,Android 14,Octa Core 2.2 GHz,4,256,6,50,16,Si,399999,399999,330578,12,0,17,1538.5,6060.6,7599.1,Gama media
+Claro,Motorola - Moto G15,Motorola,Moto G15,Motorola Moto G15 256GB,Android 15,Octa Core 2 GHz,4,256,6,50,8,Si,299999,299999,247933,12,0,17,1153.8,5172.4,6326.2,Gama alta
+Claro,ZTE - Blade A34,ZTE,Blade A34,ZTE Blade A34 64GB,Android 13 Go,Octa Core 1.6 GHz,2,64,6.6,8,5,No,112499,149999,92975,12,25,38,1704.5,8653.8,10358.3,Gama baja
+Claro,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,Xiaomi Redmi 14C 256GB,Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,339999,399999,280991,12,15,30,1307.7,5396.8,6704.5,Gama media
+Claro,Motorola - Edge 60,Motorola,Edge 60,Motorola Edge 60 5G 512GB,Android 15,Octa Core 2.5 GHz,12,512,6.67,50,50,Si,849999,849999,702479,12,0,17,1622.1,8500,10122.1,Gama alta
+Claro,Xiaomi - Redmi Note,Xiaomi,Redmi Note,Xiaomi Redmi Note 13 256GB,Android 14,Octa Core 2.8 GHz,6,256,6.67,108,16,No,501499,589999,414462,12,15,30,1914.1,4044.3,5958.4,Gama media
+Claro,Motorola - Edge 60,Motorola,Edge 60,Motorola Edge 60 Fusion 5G 256GB,Android 15,Octa Core 2.5 GHz,8,256,6.67,50,32,Si,649999,649999,537189,12,0,17,2462.1,7926.8,10388.9,Gama alta
+Claro,Samsung - Galaxy A35,Samsung,Galaxy A35,Samsung Galaxy A35 5G 256GB,Android 14,Octa Core 2.4GHz,8,256,6.6,50,13,Si,619999,619999,512396,12,0,17,2348.5,9841.3,12189.8,Gama alta
+Claro,Xiaomi - Redmi Note,Xiaomi,Redmi Note,Xiaomi Redmi Note 13 128GB,Android 14,Octa Core 2.8 GHz,6,128,6.67,108,16,No,382499,449999,316115,12,15,30,2854.5,3084.7,5939.2,Gama media
+Claro,Samsung - Galaxy A25,Samsung,Galaxy A25,Samsung Galaxy A25 5G 128GB,Android 14,Octa Core 2.4GHz,6,128,6.5,50,13,Si,419999,419999,347107,12,0,17,3134.3,6666.7,9801,Gama media
+Claro,Samsung - Galaxy S25,Samsung,Galaxy S25,Samsung Galaxy S25 5G 256GB,Android 15,Octa Core 4.47GHz,12,256,6.2,50,12,Si,1799999,1799999,1487602,12,0,17,6716.4,29032.2,35748.6,Gama alta
+Claro,Samsung - Galaxy Z,Samsung,Galaxy Z,Samsung Galaxy Z Fold5 5G 256GB,Android 13,Octa Core 3.36GHz,12,256,7.6,50,4,Si,1399999,1399999,1157024,12,0,17,5223.9,25925.9,31149.800000000003,Gama alta
+Claro,Samsung - Galaxy A35,Samsung,Galaxy A35,Samsung Galaxy A35 5G 128GB,Android 14,Octa Core 2.4GHz,8,128,6.6,50,13,Si,519999,519999,429751,12,0,17,3823.5,8254,12077.5,Gama alta
+Claro,Samsung - Galaxy A16,Samsung,Galaxy A16,Samsung Galaxy A16 5G 256GB,Android 14,Octa Core 2.4 GHz,8,256,6.7,50,13,Si,589999,589999,487602,12,0,17,2234.8,9365.1,11599.900000000001,Gama alta
+Cetrogar,Nubia - Margarita Corazones,Nubia,Margarita Corazones,"Nubia Margarita Corazones Rojos 6.6"" 4GB 128GB caja strap + funda + cancionero",NA,Octa Core,4,128,6.6,50,50,No,211499,244999,174792,NA,14,29,1602.3,2115,3717.3,Gama media
+Cetrogar,Motorola - G15,Motorola,G15,"Motorola G15 6.7"" 4GB 128GB verde",NA,Octa Core,4,128,6.7,50,8,Si,209999,249999,173552,NA,16,31,1590.9,3620.7,5211.6,Gama media
+Cetrogar,Samsung - Galaxy A15,Samsung,Galaxy A15,"Samsung Galaxy A15 6.5"" 4GB 128GB light blue",Android 14,Octa-Core (2.2GHz - 2GHz),4,128,6.5,50,13,Si,271999,389999,224792,NA,30,42,2060.6,4317.4,6378,Gama media
+Cetrogar,Motorola - Moto G35,Motorola,Moto G35,"Motorola Moto G35 6.7"" 5G 4GB 128GB verde",Android 14,Octa-Core 2.2GHz,4,128,6.7,50,16,Si,335999,399999,277685,NA,16,31,2545.4,5090.9,7636.299999999999,Gama media
+Cetrogar,Motorola - G85,Motorola,G85,"Motorola G85 6.6"" 8GB 256GB 5G gris",NA,Octa Core,8,256,6.6,50,32,Si,489999,699999,404957,NA,30,42,1856.1,5975.6,7831.700000000001,Gama alta
+Cetrogar,Motorola - G04s,Motorola,G04s,"Motorola G04s 6.55"" 4GB 64GB azul",NA,Octa Core,4,64,6.55,50,5,No,179999,279999,148759,NA,36,47,2647,3272.7,5919.7,Gama media
+Cetrogar,Motorola - G04s,Motorola,G04s,"Motorola G04s 6.55"" 4GB 64GB negro",NA,Octa Core,4,64,6.55,50,5,No,179999,279999,148759,NA,36,47,2647,3272.7,5919.7,Gama media
+Cetrogar,ZTE - BLADE A75,ZTE,BLADE A75,"ZTE BLADE A75 6.6"" 5G 4GB 4GB FUSION RAM",NA,Octa Core,4,4,6.6,50,5,No,199999,319999,165288,NA,38,48,24999.9,3636.3,28636.2,Gama media
+Cetrogar,Motorola - G85,Motorola,G85,"Motorola G85 6.6"" 8GB 256GB 5G azul",NA,Octa Core,8,256,6.6,50,32,Si,579999,699999,479338,NA,17,32,2197,7073.2,9270.2,Gama alta
+Cetrogar,Xiaomi - Redmi Note,Xiaomi,Redmi Note,"Xiaomi Redmi Note 13 6.6"" 6GB 128GB Ice blue",Android 13,Octa-Core 2.8GHz,6,128,6.6,108,16,No,429999,449999,355371,NA,4,21,3208.9,3467.7,6676.6,Gama media
+Cetrogar,Motorola - G05,Motorola,G05,"Motorola G05 6.6"" 4G 4GB 64GB rojo",NA,Octa Core,4,64,6.6,50,8,No,189999,209999,157023,NA,10,25,2794.1,3275.8,6069.9,Gama media
+Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 6.78"" 5G 8GB 256GB Titan GOLD",NA,MTK 7020,8,256,6.78,108,32,No,499999,679999,413222,NA,26,39,1893.9,3571.4,5465.3,Gama media
+Cetrogar,Motorola - G04s,Motorola,G04s,"Motorola G04s 6.55"" 4GB 64GB verde",NA,Octa Core,4,64,6.55,50,5,No,179999,279999,148759,NA,36,47,2647,3272.7,5919.7,Gama media
+Cetrogar,Tecno - Mobile KL5,Tecno,Mobile KL5,Tecno Mobile KL5 Spark 30C 4GB 256GB Orbit Black,NA,NA,4,256,6.67,50,8,No,179999,399999,148759,NA,55,63,692.3,3103.4,3795.7,Gama media
+Cetrogar,OPPO - A60,OPPO,A60,"OPPO A60 6.7"" 8GB 256GB blanco",NA,Octa Core,8,256,6.7,50,5,No,394999,569999,326445,NA,31,43,1496.2,7181.8,8678,Gama media
+Cetrogar,Xiaomi - A3,Xiaomi,A3,"Xiaomi A3 6.7"" 3GB 64GB azul",NA,Octa Core,3,64,6.7,8,5,No,189999,199999,157023,NA,5,21,2835.8,14615.3,17451.1,Gama baja
+Cetrogar,Nubia - Neo 2,Nubia,Neo 2,"Nubia Neo 2 6.7"" 5G 8GB 256GB amarillo",NA,Octa Core,8,256,6.7,50,16,Si,419999,455999,347106,NA,8,24,1590.9,6363.6,7954.5,Gama alta
+Cetrogar,ZTE - BLADE V50,ZTE,BLADE V50,"ZTE BLADE V50 6.6"" 6GB 256GB Design Beach green",NA,Octa Core,6,256,6.6,50,8,No,219999,339999,181817,NA,35,47,839.7,3793.1,4632.8,Gama media
+Cetrogar,Samsung - Galaxy S24,Samsung,Galaxy S24,"Samsung Galaxy S24 FE 6.7"" 8GB 256GB Graphite",Android 14,Deca Core 3.1 GHz,8,256,6.7,50,10,Si,1159999,1399999,958676,NA,17,32,4393.9,19333.3,23727.199999999997,Gama alta
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 12GB 256GB comet green",NA,Octa Core,12,256,6.78,108,32,Si,429999,699999,355371,NA,39,49,1604.5,3071.4,4675.9,Gama alta
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 128GB Green",Android 14,Octa Core 2.0 GHz,4,128,6.8,50,13,No,329999,349999,272726,NA,6,22,2500,5238.1,7738.1,Gama media
+Cetrogar,Nubia - Focus 4G,Nubia,Focus 4G,"Nubia Focus 4G 6.6"" 4GB 256GB Negro",NA,Octa Core,4,256,6.6,108,8,Si,289999,389999,239668,NA,26,39,1115.4,2500,3615.4,Gama media
+Cetrogar,Samsung - Galaxy A26,Samsung,Galaxy A26,"Samsung Galaxy A26 5G 6.7"" 8GB 256GB Black",Android 15,Octa Core 2.4GHz,8,256,6.7,50,13,No,576999,699999,476858,NA,18,32,2185.6,9158.7,11344.300000000001,Gama alta
+Cetrogar,Motorola - G15,Motorola,G15,"Motorola G15 6.7"" 4GB 256GB Gris",NA,Octa Core,4,256,6.7,50,8,No,299999,389999,247933,NA,23,36,1153.8,5172.4,6326.2,Gama media
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 256GB green",Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,389999,399999,322313,NA,3,19,1500,6190.5,7690.5,Gama media
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 256GB Blue",Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,389999,399999,322313,NA,3,19,1500,6190.5,7690.5,Gama media
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 256GB Black",Android 14,Octa Core 2.0 GHz,4,256,6.8,50,13,No,389999,399999,322313,NA,3,19,1500,6190.5,7690.5,Gama media
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 128GB Blue",Android 14,Octa Core 2.0 GHz,4,128,6.8,50,13,No,329999,349999,272726,NA,6,22,2500,5238.1,7738.1,Gama media
+Cetrogar,Xiaomi - Redmi 14C,Xiaomi,Redmi 14C,"Xiaomi Redmi 14C 6.8"" 4GB 128GB Black",Android 14,Octa Core 2.0 GHz,4,128,6.8,50,13,No,329999,349999,272726,NA,6,22,2500,5238.1,7738.1,Gama media
+Cetrogar,Tecno - Mobile KL7,Tecno,Mobile KL7,Tecno Mobile KL7 Spark 30 Pro 8GB 256GB Obsidian Edge,NA,NA,8,256,6.78,108,13,Si,369999,599999,305784,NA,38,49,1401.5,3057.8,4459.3,Gama alta
+Cetrogar,Tecno - Mobile KL7,Tecno,Mobile KL7,Tecno Mobile KL7 Spark 30 Pro 8GB 256GB Artic Glow,NA,NA,8,256,6.78,108,13,Si,369999,599999,305784,NA,38,49,1401.5,3057.8,4459.3,Gama alta
+Cetrogar,Tecno - Mobile KL5,Tecno,Mobile KL5,Tecno Mobile KL5 Spark 30C 4GB 256GB Magic Skin Green,NA,NA,4,256,6.67,50,8,No,209999,399999,173552,NA,48,57,807.7,3620.7,4428.4,Gama media
+Cetrogar,Samsung - Galaxy A36,Samsung,Galaxy A36,"Samsung Galaxy A36 6.7"" 5G 8GB 256GB Awesome Black",Android 15,Octa Core 2.4GHz,8,256,6.7,50,12,No,642999,779999,531404,NA,18,32,2435.6,10371,12806.6,Gama alta
+Cetrogar,Samsung - Galaxy A56,Samsung,Galaxy A56,"Samsung Galaxy A56 6.7""5G 8GB 256GB Awesome Lightgray",Android 15,Octa Core 2.9GHz,8,256,6.7,50,12,No,765999,929999,633057,NA,18,32,2901.5,12354.8,15256.3,Gama alta
+Cetrogar,Motorola - E15,Motorola,E15,"Motorola E15 6.6"" 4G 2GB 64GB lavanda",NA,Octa Core,2,64,6.6,32,8,No,125999,179999,104131,NA,30,42,1909.1,3150,5059.1,Gama baja
+Cetrogar,Motorola - E15,Motorola,E15,"Motorola E15 6.6"" 4G 2GB 64GB azul",NA,Octa Core,2,64,6.6,32,8,No,149999,179999,123966,NA,17,31,2272.7,3750,6022.7,Gama baja
+Cetrogar,Motorola - G05,Motorola,G05,"Motorola G05 6.6"" 4G 4GB 64GB verde",NA,Octa Core,4,64,6.6,50,8,No,159999,209999,132230,NA,24,37,2352.9,2758.6,5111.5,Gama media
+Cetrogar,Xiaomi - Redmi 14T,Xiaomi,Redmi 14T,"Xiaomi Redmi 14T 6.67"" 12GB 512GB Titan gray",NA,Octa Core,12,512,6.67,50,32,Si,1619999,1649999,1338842,NA,2,19,3091.6,19756.1,22847.699999999997,Gama alta
+Cetrogar,Xiaomi - Redmi 14T,Xiaomi,Redmi 14T,"Xiaomi Redmi 14T 6.67"" 12GB 512GB Titan black",NA,Octa Core,12,512,6.67,50,32,Si,1619999,1649999,1338842,NA,2,19,3091.6,19756.1,22847.699999999997,Gama alta
+Cetrogar,Xiaomi - Redmi 14T,Xiaomi,Redmi 14T,"Xiaomi Redmi 14T 6.67"" 12GB 512GB Titan blue",NA,Octa Core,12,512,6.67,50,32,Si,1619999,1649999,1338842,NA,2,19,3091.6,19756.1,22847.699999999997,Gama alta
+Cetrogar,Samsung - Galaxy A16,Samsung,Galaxy A16,"Samsung Galaxy A16 6.7"" 4GB 128GB Black",Android 14,Octa Core 2.4 GHz,4,128,6.7,50,13,Si,304999,389999,252065,NA,22,35,2310.6,4841.3,7151.9,Gama media
+Cetrogar,Samsung - Galaxy S25,Samsung,Galaxy S25,"Samsung Galaxy S25 6.2"" 12GB 256GB Navy",Android 15,Octa Core 4.47GHz,12,256,6.2,50,12,Si,1399999,1699999,1157023,NA,18,32,5223.9,22580.6,27804.5,Gama alta
+Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 6.78"" 5G 8GB 256GB Obsidian black",NA,MTK 7020,8,256,6.78,108,32,No,499999,679999,413222,NA,26,39,1893.9,3571.4,5465.3,Gama media
+Cetrogar,Realme - Note 60,Realme,Note 60,"Realme Note 60 6.7"" 4GB 128GB Voyage blue",NA,Octa Core,4,128,6.7,32,5,No,219999,345799,181817,NA,36,47,1666.7,5945.9,7612.5999999999995,Gama media
+Cetrogar,Tecno - Mobile Camon,Tecno,Mobile Camon,"Tecno Mobile Camon 30S 6.78"" 8GB 256GB Gold",NA,MTK Helio G100,8,256,6.78,50,50,Si,499999,829999,413222,NA,40,50,1893.9,5000,6893.9,Gama alta
+Cetrogar,Tecno - Mobile Camon,Tecno,Mobile Camon,"Tecno Mobile Camon 30S 6.78"" 8GB 256GB Green",NA,MTK Helio G100,8,256,6.78,50,50,Si,435999,829999,360329,NA,47,57,1651.5,4360,6011.5,Gama alta
+Cetrogar,Tecno - Mobile Camon,Tecno,Mobile Camon,"Tecno Mobile Camon 30S 6.78"" 8GB 256GB Grey",NA,MTK Helio G100,8,256,6.78,50,50,Si,499999,829999,413222,NA,40,50,1893.9,5000,6893.9,Gama alta
+Cetrogar,Samsung - Galaxy A16,Samsung,Galaxy A16,"Samsung Galaxy A16 6.7"" 5G 8GB 256GB Blue Black",Android 14,Octa Core 2.4 GHz,8,256,6.7,50,13,No,415999,529999,343800,NA,22,35,1575.8,6603.2,8179,Gama media
+Cetrogar,OPPO - RENO 12F,OPPO,RENO 12F,"OPPO RENO 12F 6.7"" 12GB 256GB naranja",NA,Octa Core,12,256,6.7,50,32,Si,799999,899999,661156,NA,11,27,2985.1,9756.1,12741.2,Gama alta
+Cetrogar,OPPO - RENO 12F,OPPO,RENO 12F,"OPPO RENO 12F 6.7"" 12GB 256GB verde",NA,Octa Core,12,256,6.7,50,32,Si,799999,899999,661156,NA,11,27,2985.1,9756.1,12741.2,Gama alta
+Cetrogar,OPPO - A60,OPPO,A60,"OPPO A60 6.7"" 8GB 256GB negro",NA,Octa Core,8,256,6.7,50,5,No,394999,569999,326445,NA,31,43,1496.2,7181.8,8678,Gama media
+Cetrogar,OPPO - A40,OPPO,A40,"OPPO A40 6.7"" 4GB 256GB café",NA,Octa Core,4,256,6.7,50,5,No,299999,399999,247933,NA,25,38,1153.8,5454.5,6608.3,Gama media
+Cetrogar,OPPO - A40,OPPO,A40,"OPPO A40 6.7"" 4GB 256GB lila+ Cargador Supervooc 45W",NA,Octa Core,4,256,6.7,50,5,No,299999,399999,247933,NA,25,38,1153.8,5454.5,6608.3,Gama media
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 8GB 256GB comet green",NA,Octa Core,8,256,6.78,108,32,Si,339999,599999,280990,NA,43,53,1287.9,2428.6,3716.5,Gama alta
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 8GB 256GB interstellar blue",NA,Octa Core,8,256,6.78,108,32,Si,339999,599999,280990,NA,43,53,1287.9,2428.6,3716.5,Gama alta
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 8GB 256GB meteorite grey",NA,Octa Core,8,256,6.78,108,32,Si,339999,599999,280990,NA,43,53,1287.9,2428.6,3716.5,Gama alta
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 12GB 256GB Interstellar blue",NA,Octa Core,4,256,6.78,108,32,Si,429999,699999,355371,NA,39,49,1653.8,3071.4,4725.2,Gama media
+Cetrogar,Tecno - Mobile Pova,Tecno,Mobile Pova,"Tecno Mobile Pova 6 6.78"" 12GB 256GB Meteorite grey",NA,Octa Core,4,256,6.78,108,32,Si,429999,699999,355371,NA,39,49,1653.8,3071.4,4725.2,Gama media
+Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 Pro 6.78"" 8GB 256GB Vintage green",NA,Octa Core,8,256,6.78,108,32,Si,699999,779999,578511,NA,10,26,2651.5,5000,7651.5,Gama alta
+Cetrogar,Infinix - Note 40,Infinix,Note 40,"Infinix Note 40 Pro 6.78"" 8GB 256GB Obsidian black",NA,Octa Core,8,256,6.78,108,32,Si,699999,779999,578511,NA,10,26,2651.5,5000,7651.5,Gama alta
+Cetrogar,Nubia - Neo 2,Nubia,Neo 2,"Nubia Neo 2 6.7"" 8GB 256GB gris",NA,Quad Core,8,256,6.7,50,32,Si,419999,455999,347106,NA,8,24,1590.9,5121.9,6712.799999999999,Gama alta
+Cetrogar,Nubia - Neo 2,Nubia,Neo 2,"Nubia Neo 2 Nubia 6.7"" 8GB 256GB plateado",NA,Quad Core,8,256,6.7,50,32,Si,419999,455999,347106,NA,8,24,1590.9,5121.9,6712.799999999999,Gama alta
+Cetrogar,Samsung - Galaxy Z,Samsung,Galaxy Z,"Samsung Galaxy Z Fold5 7.6"" 6.2"" 12GB 256GB Phantom black",Android 14,Octa Core 3.3 GHz,12,256,7.6,50,10,Si,2199999,3699999,1818180,NA,41,51,8209,36666.7,44875.7,Gama alta
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" 12GB 256GB Peach",Android 14,Octa-Core 3GHz,12,256,6.6,50,32,Si,799999,999999,661156,NA,20,34,2985.1,9756.1,12741.2,Gama alta
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" 12GB 256GB green",Android 14,Octa-Core 3GHz,12,256,6.6,50,32,Si,799999,999999,661156,NA,20,34,2985.1,9756.1,12741.2,Gama alta
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" 12GB 256GB Grey",Android 14,Octa-Core 3GHz,12,256,6.6,50,32,Si,799999,999999,661156,NA,20,34,2985.1,9756.1,12741.2,Gama alta
+Cetrogar,Samsung - Galaxy A06,Samsung,Galaxy A06,"Samsung Galaxy A06 6.7"" 4GB 128GB Light blue",Android 14,Octa-Core (2.0GHz.1.8GHz),4,128,6.7,50,8,No,204999,274999,169420,NA,25,38,1553,3534.5,5087.5,Gama media
+Cetrogar,TCL - PRO NXTPAPER,TCL,PRO NXTPAPER,"TCL PRO NXTPAPER 50 6.8"" 5G 8+8GB 8+8GB 512GB withe",NA,Octa Core,8,8,6.8,108,32,Si,499999,549999,413222,NA,9,25,31249.9,3571.4,34821.3,Gama alta
+Cetrogar,TCL - 50 PRO,TCL,50 PRO,"TCL 50 PRO NXTPAPER 6.8"" 5G 8+8GB 512GB space gray RV",Android 14,Octa Core,8,512,6.8,108,32,Si,499999,549999,413222,NA,9,25,961.5,3571.4,4532.9,Gama alta
+Cetrogar,Tecno - Mobile Spark,Tecno,Mobile Spark,"Tecno Mobile Spark 20 PRO Tecno Mobile 6.78"" 8GB 256GB Black",NA,Octa Core,4,256,6.78,108,32,No,369999,494499,305784,NA,25,38,1423.1,2642.8,4065.9,Gama media
+Cetrogar,Motorola - G85,Motorola,G85,"Motorola G85 6.6"" 8GB 256GB 5G green",NA,Octa Core,8,256,6.6,50,32,Si,579999,699999,479338,NA,17,32,2197,7073.2,9270.2,Gama alta
+Cetrogar,Xiaomi - Redmi Note,Xiaomi,Redmi Note,"Xiaomi Redmi Note 13 6.6"" 6GB 128GB green",Android 13,Octa-Core 2.8GHz,6,128,6.6,108,16,No,429999,449999,355371,NA,4,21,3208.9,3467.7,6676.6,Gama media
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 Ultra 6.6"" 12GB 512GB Nordic wood",Android 14,Octa-Core 3GHz,12,512,6.6,50,50,Si,1499999,1599999,1239668,NA,6,23,2862.6,15000,17862.6,Gama alta
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 Ultra 6.6"" 12GB 512GB Peach fuzz",Android 14,Octa-Core 3GHz,12,512,6.6,50,50,Si,1499999,1599999,1239668,NA,6,23,2862.6,15000,17862.6,Gama alta
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 Ultra 6.6"" 12GB 512GB negro",Android 14,Octa-Core 3GHz,12,512,6.6,50,50,Si,1499999,1599999,1239668,NA,6,23,2862.6,15000,17862.6,Gama alta
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" Fusion 8GB 256GB Marsh blue",Android 14,Octa-Core 3GHz,8,256,6.55,50,32,Si,599999,799999,495866,NA,25,38,2272.7,7317.1,9589.8,Gama alta
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" Fusion 8GB 256GB Hot pink",Android 14,Octa-Core 3GHz,8,256,6.55,50,32,Si,599999,799999,495866,NA,25,38,2272.7,7317.1,9589.8,Gama alta
+Cetrogar,Motorola - Edge 50,Motorola,Edge 50,"Motorola Edge 50 6.6"" Fusion 8GB 256GB Forest blue",Android 14,Octa-Core 3GHz,8,256,6.55,50,32,Si,599999,799999,495866,NA,25,38,2272.7,7317.1,9589.8,Gama alta
+Cetrogar,Xiaomi - A3,Xiaomi,A3,"Xiaomi A3 6.7"" 3GB 64GB verde",NA,Octa Core,3,64,6.7,8,5,No,189999,199999,157023,NA,5,21,2835.8,14615.3,17451.1,Gama baja
+Cetrogar,Xiaomi - A3,Xiaomi,A3,"Xiaomi A3 6.7"" 3GB 64GB negro",NA,Octa Core,3,64,6.7,8,5,No,189999,199999,157023,NA,5,21,2835.8,14615.3,17451.1,Gama baja
+Cetrogar,Motorola - Razr 40,Motorola,Razr 40,"Motorola Razr 40 Ultra 6.9"" 12GB 512GB Glaciar",NA,Octa Core,12,512,6.9,12,32,Si,1299999,1699999,1074379,NA,24,37,2480.9,29545.4,32026.300000000003,Gama alta
+Cetrogar,TCL - 40 NXTPAPER,TCL,40 NXTPAPER,"TCL 40 NXTPAPER 8GB 6.78"" 256GB Opalescent RV",Android 13,Octa-Core (2.0GHz -1.8GHz),8,256,6.78,50,32,Si,289999,349999,239668,NA,17,32,1098.5,3536.6,4635.1,Gama alta
+Cetrogar,Motorola - Moto Razr40,Motorola,Moto Razr40,"Motorola Moto Razr40 6.9"" 8GB 256GB gris",NA,Octa Core,8,256,6.9,12,32,Si,999999,1299999,826445,NA,23,36,3787.9,22727.2,26515.100000000002,Gama media
+Cetrogar,ZTE - Blade V50,ZTE,Blade V50,"ZTE Blade V50 Design 6.6"" 6GB 10GB fusión",NA,Octa Core,6,10,6.6,50,5,No,219999,339999,181817,NA,35,47,13749.9,4000,17749.9,Gama media
+Cetrogar,Motorola - Moto Razr,Motorola,Moto Razr,"Motorola Moto Razr 40 Ultra 6.9"" 12GB 512GB Peach fuzz",NA,Octa Core,12,512,6.9,12,32,Si,1299999,1699999,1074379,NA,24,37,2480.9,29545.4,32026.300000000003,Gama alta

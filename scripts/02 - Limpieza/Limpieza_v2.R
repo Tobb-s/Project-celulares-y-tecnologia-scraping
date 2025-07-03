@@ -169,7 +169,7 @@ personal_celulares <- personal_celulares %>%
   mutate(
     GB_relativo_price = `RAM (GB)` + `Almacenamiento interno (GB)`,
     ratio_memoria_precio = round(
-      (1-(GB_relativo_price / Precio_comprador)*1000),
+      ( Precio_comprador / GB_relativo_price ),
       1
     )
   )
@@ -183,7 +183,7 @@ personal_celulares <- personal_celulares %>%
     mp_total = `Camara Principal (MP)` + `Camara frontal (MP)`,
     # Ratio: megapíxeles totales por unidad de precio comprador
     ratio_mp_precio = round(
-      ((mp_total / Precio_comprador)*10000),
+      (Precio_comprador / mp_total),
       1
     )
   )
@@ -472,7 +472,7 @@ claro_celulares <- claro_celulares %>%
   mutate(
     GB_relativo_price = `RAM (GB)` + `Almacenamiento interno (GB)`,
     ratio_memoria_precio = round(
-      (1-(GB_relativo_price / Precio_comprador)*1000),
+      ( Precio_comprador / GB_relativo_price ),
       1
     )
   )
@@ -486,7 +486,7 @@ claro_celulares <- claro_celulares %>%
     mp_total = `Camara Principal (MP)` + `Camara frontal (MP)`,
     # Ratio: megapíxeles totales por unidad de precio comprador
     ratio_mp_precio = round(
-      ((mp_total / Precio_comprador)*10000),
+      (Precio_comprador/mp_total),
       1
     )
   )
@@ -629,9 +629,9 @@ cetrogar_celulares <- read_csv(csv_path, show_col_types = FALSE) %>%
     per_descuento                = round((1 - Precio_comprador / Precio_anterior) * 100, 0),
     presion_impositiva_pais_per  = round((1 - precio_sin_impuestos / Precio_anterior) * 100, 0),
     GB_relativo_price_count      = `RAM (GB)` + `Almacenamiento interno (GB)`,
-    ratio_memoria_precio         = round((1 - (GB_relativo_price_count / Precio_comprador) * 1000), 1),
+    ratio_memoria_precio         = round((Precio_comprador /GB_relativo_price_count), 1),
     mp_total                     = `Camara Principal (MP)` + `Camara frontal (MP)`,
-    ratio_mp_precio              = round(mp_total / Precio_comprador * 10000, 1)
+    ratio_mp_precio              = round(Precio_comprador/mp_total, 1)
   ) %>%
   
   # 11. Crear columna "id" y reordenar columnas
@@ -719,36 +719,39 @@ View(cetrogar_celulares)
 #                                                                       CONSOLIDADO DE ARCHIVOS
 #==============================================================================================================================================
 
+# ── 1. Preprocesamiento individual ───────────────────────────────────────
 personal_celulares <- personal_celulares %>% 
   mutate(
-    financiacion_plazo           = as.integer(financiacion_plazo),
-    presion_impositiva_pais_per  = as.numeric(presion_impositiva_pais_per)
+    financiacion_plazo          = as.integer(financiacion_plazo),
+    presion_impositiva_pais_per = as.numeric(presion_impositiva_pais_per)
   )
 
 claro_celulares <- claro_celulares %>% 
   mutate(
-    financiacion_plazo           = as.integer(financiacion_plazo),
-    presion_impositiva_pais_per  = as.numeric(presion_impositiva_pais_per)
+    financiacion_plazo          = as.integer(financiacion_plazo),
+    presion_impositiva_pais_per = as.numeric(presion_impositiva_pais_per)
   )
 
 cetrogar_celulares <- cetrogar_celulares %>% 
   mutate(
-    financiacion_plazo           = as.integer(financiacion_plazo),   # ya era <chr>
-    presion_impositiva_pais_per  = as.numeric(presion_impositiva_pais_per)  # ya era <dbl>
+    financiacion_plazo          = as.integer(financiacion_plazo),
+    presion_impositiva_pais_per = as.numeric(presion_impositiva_pais_per)
   )
 
-## ── COMBINAR ──────────────────────────────────────────────────────────────
+# ── 2. Unir fuentes y calcular costo unitario total ──────────────────────
 combined_celulares <- bind_rows(
   personal_celulares,
   claro_celulares,
   cetrogar_celulares
-)
+) %>%
+  # Columna final: suma de ratio_memoria_precio + ratio_mp_precio
+  mutate(
+    costo_unitario_total = ratio_memoria_precio + ratio_mp_precio
+  )
 
-#-----------------------------------------------Indice de Categorizacion------------------------------------------------------------------
-
-
+# ── 3. Índice de categorización por mayoría de gamas ─────────────────────
 combined_celulares <- combined_celulares %>%
-  # 1. Calcular las gamas individuales
+  # 3.1 Gamas parciales
   mutate(
     Gama_SO = case_when(
       str_detect(`Sistema Operativo`, regex("^iOS", ignore_case = TRUE)) ~ "Gama alta",
@@ -763,10 +766,10 @@ combined_celulares <- combined_celulares %>%
       TRUE        ~ NA_character_
     ),
     Gama_RAM = case_when(
-      `RAM (GB)` <= 3                    ~ "Gama baja",
-      `RAM (GB)` %in% c(4, 6)            ~ "Gama media",
-      `RAM (GB)` %in% c(8, 12, 16)       ~ "Gama alta",
-      TRUE                               ~ NA_character_
+      `RAM (GB)` <= 3              ~ "Gama baja",
+      `RAM (GB)` %in% c(4, 6)      ~ "Gama media",
+      `RAM (GB)` %in% c(8, 12, 16) ~ "Gama alta",
+      TRUE                         ~ NA_character_
     ),
     Gama_Almacenamiento = case_when(
       `Almacenamiento interno (GB)` <= 64            ~ "Gama baja",
@@ -775,15 +778,14 @@ combined_celulares <- combined_celulares %>%
       TRUE                                           ~ NA_character_
     ),
     Gama_Camara = case_when(
-      `Camara Principal (MP)` < 10                                ~ "Gama baja",
-      `Camara Principal (MP)` <= 32                               ~ "Gama media",
-      `Camara Principal (MP)` > 32                                ~ "Gama alta",
-      TRUE                                                       ~ NA_character_
+      `Camara Principal (MP)` < 10   ~ "Gama baja",
+      `Camara Principal (MP)` <= 32  ~ "Gama media",
+      `Camara Principal (MP)` > 32   ~ "Gama alta",
+      TRUE                           ~ NA_character_
     ),
-    # opcional: ordenar los niveles para consistencia
     across(starts_with("Gama_"), ~ fct_relevel(.x, "Gama baja", "Gama media", "Gama alta"))
   ) %>%
-  # 2. Calcular categoría global según mayoría de gamas
+  # 3.2 Categorización final por mayoría
   mutate(
     Categoria = case_when(
       rowSums(across(starts_with("Gama_"), ~ .x == "Gama alta"),  na.rm = TRUE) >= 3 ~ "Gama alta",
@@ -792,19 +794,14 @@ combined_celulares <- combined_celulares %>%
       TRUE                                                                            ~ "Gama media"
     )
   ) %>%
-  # 3. Eliminar columnas auxiliares dejando sólo la clasificación
-  select(-"Gama_SO",-"Gama_NFC",-"Gama_RAM",-"Gama_Almacenamiento",-"Gama_Camara")
+  # 3.3 Limpiar columnas auxiliares
+  select(
+    -starts_with("Gama_")
+  )
 
-
-
-
-#-------------------------------------------------------GUARDADO Y VISUALIZACION-------------------------------------------------------------
-
-#Opcional: inspecciona
+# ── 4. Guardado y visualización ──────────────────────────────────────────
 View(combined_celulares)
 
-
-# Guarda en CSV
 write_csv(
   combined_celulares,
   file.path(input_dir_PERSONAL, "celulares_todos_base.csv")

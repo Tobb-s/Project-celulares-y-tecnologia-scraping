@@ -25,7 +25,7 @@ nombres_deseados <- c(
   "Pantalla (Pulgadas)","Camara Principal (MP)","Camara frontal (MP)","NFC",
   "Precio_comprador","Precio_anterior","precio_sin_impuestos","financiacion_plazo",
   "per_descuento","presion_impositiva_pais_per","ratio_memoria_precio",
-  "ratio_mp_precio","Categoria"
+  "ratio_mp_precio","costo_unitario_total","Categoria"
 )
 
 colnames(tabla_completa) <- nombres_deseados
@@ -329,6 +329,64 @@ options(scipen = 10)
                 # Grafico
                 print(distribucion_features_por_gama)
                 
+        # 3.2  -----  Outliers de % Descuento por Gama  ----- 
+              
+                
+                datos_out <- tabla_completa %>% 
+                  mutate(per_descuento = as.numeric(per_descuento)/ 100) %>% 
+                  filter(!is.na(per_descuento), !is.na(Categoria)) %>% 
+                  group_by(Categoria) %>% 
+                  mutate(
+                    Q1      = quantile(per_descuento, .25),
+                    Q3      = quantile(per_descuento, .75),
+                    IQR     = Q3 - Q1,
+                    lim_inf = Q1 - 1.5*IQR,
+                    lim_sup = Q3 + 1.5*IQR,
+                    outlier = per_descuento < lim_inf | per_descuento > lim_sup
+                  ) %>% 
+                  ungroup()
+                
+                outliers_summary <- datos_out %>% 
+                  group_by(Categoria) %>% 
+                  summarise(
+                    n_outliers = sum(outlier),
+                    total      = n(),
+                    pct_out    = round(100*n_outliers/total,1),
+                    .groups="drop"
+                  )
+                print(outliers_summary)
+                
+                g_outliers <- ggplot(datos_out, aes(Categoria, per_descuento))+
+                  geom_boxplot(outlier.shape = NA, fill="grey85")+
+                  geom_jitter(aes(color = outlier), width=.18, size=2, alpha=.7)+
+                  scale_color_manual(values=c(`TRUE`="red",`FALSE`="steelblue"), guide="none")+
+                  scale_y_continuous(labels = percent_format(accuracy=1))+
+                  labs(
+                    title    = "Outliers de % de descuento por gama",
+                    subtitle = "Regla de Tukey (Q1 ± 1.5×IQR)",
+                    x=NULL, y="% de descuento"
+                  )+
+                  theme_minimal(base_size = 12)+
+                  theme(plot.title = element_text(hjust=.5, face="bold"),
+                        plot.subtitle = element_text(hjust=.5))
+                
+                #ver grafico
+                print(g_outliers)
+                
+                
+                # ──────────────────────────────────────────────
+                # Tabla con los productos que son outliers
+                # ──────────────────────────────────────────────
+                
+                outliers_tbl_des <- datos_out %>% 
+                  filter(outlier) %>%                                  # solo los atípicos
+                  select(-Q1, -Q3, -IQR, -lim_inf, -lim_sup, -outlier) # opcional: quita columnas técnicas
+                # (deja per_descuento y todo lo demás)
+                # Míralo en consola o en View()
+                view(outliers_tbl_des, n = Inf)      
+                    
+          
+                
 ##############################################################################################################################                
 # <<< Qué falta reforzar >>> #
 
@@ -345,42 +403,47 @@ options(scipen = 10)
   
         # 4.1 -----  Top 3. RAM promedio (Por Gama) ----------------------------
                 
-                # Primero voy a limpiar la tabla completa de todos aquellos datos que esten en blanco y ensucien las categorias
+                # 1) Filtrar y resumir
                 Ranking_de_marcas_por_RAM <- tabla_completa %>%
                   filter(
-                    !is.na(Procesador)        & Procesador        != "",
-                    !is.na(Categoria)                               # evita faceta NA
+                    !is.na(Procesador) & Procesador != "",
+                    !is.na(Categoria),
+                    !is.na(`RAM (GB)`)
                   )
-
-                # Vector editable con el orden deseado de facetas
-                orden_gamas <- c("Gama alta", "Gama media", "Gama baja")   # <-- cámbialo aquí
                 
-               #limpiamos los datos que podrias molestar, los ordenamos de mayor a menos y los agrupamos de acuerdo a la Gama
+                orden_gamas <- c("Gama alta", "Gama media", "Gama baja")
                 
+                # 2) Calcular Top 3 y asignar Nivel por posición
                 top3 <- Ranking_de_marcas_por_RAM %>%
-                  filter(!is.na(Categoria), !is.na(`RAM (GB)`)) %>%
                   group_by(Categoria, marca) %>%
-                  summarise(ram_prom = mean(`RAM (GB)`, na.rm = TRUE), .groups = "drop") %>%
+                  summarise(ram_prom = mean(`RAM (GB)`, na.rm = TRUE), .groups="drop") %>%
                   group_by(Categoria) %>%
-                  slice_max(order_by = ram_prom, n = 3) %>%
-                  ungroup() %>%
+                  slice_max(order_by = ram_prom, n = 3, with_ties = FALSE) %>%
+                  arrange(Categoria, desc(ram_prom)) %>%
                   mutate(
+                    Nivel = factor(
+                      case_when(
+                        row_number() == 1 ~ "Máximos",                       ## se crearon 3 variables para poder asignar a cada una un colo particular y se tuvo que dar numero a la posicion de cada una de las barras
+                        row_number() == 2 ~ "Intermedio",
+                        row_number() == 3 ~ "Mínimos"
+                      ),
+                      levels = c("Máximos", "Intermedio", "Mínimos")
+                    ),
                     Categoria = factor(Categoria, levels = orden_gamas),
-                    marca_ord = reorder_within(marca, -ram_prom, Categoria)   ##Para ordenar las barras se pone "-" en ram_prom
-                  )
+                    marca_ord = reorder_within(marca, -ram_prom, Categoria)
+                  ) %>%
+                  ungroup()
                 
-                # Gráfico
-                barplot_top3_ram <- ggplot(top3,                                   # datos
-                                           aes(x = marca_ord,                      # barras reordenadas
-                                               y = ram_prom,
-                                               fill = marca)) +                    # color por marca
-                  geom_col(show.legend = FALSE) +                                  # barras
-                  geom_text(aes(label = round(ram_prom, 0)),                       # etiquetas sin decimales
+                # 3) Gráfico
+                barplot_top3_ram <- ggplot(top3,
+                                           aes(x = marca_ord, y = ram_prom, fill = Nivel)) +
+                  geom_col(show.legend = FALSE) +                      ##oculto la leyenda
+                  geom_text(aes(label = round(ram_prom, 0)),
                             vjust = -0.5, size = 4) +
-                  facet_wrap(~ Categoria, scales = "free_x", nrow = 1) +           # facetas en una fila
-                  scale_x_reordered() +                                            # limpia sufijo de reorder_within
-                  scale_fill_material_d() +                                              # paleta de colores de Google
-                  scale_y_continuous(expand = expansion(mult = c(0.05, 0.20))) +   # pequeño margen superior
+                  facet_wrap(~ Categoria, scales = "free_x", nrow = 1) +
+                  scale_x_reordered() +
+                  scale_fill_material_d(name = "Nivel") +
+                  scale_y_continuous(expand = expansion(mult = c(0.05, 0.20))) +
                   labs(
                     title    = "Top 3 · RAM promedio",
                     subtitle = "Marcas líderes por gama",
@@ -394,9 +457,7 @@ options(scipen = 10)
                     axis.text.x   = element_text(angle = 45, hjust = 1)
                   )
                 
-                # Mostrar el gráfico
                 print(barplot_top3_ram)
-      
         
         # 4.2 -----   Barras Horizontales - Top 3. Marcas x Modelo ---------------
                 
@@ -508,19 +569,23 @@ options(scipen = 10)
                           scale_fill_material_d() +    ## Paleta de colores elegida
                           scale_x_continuous(
                             labels = scales::dollar_format(
-                              prefix = "$",
-                              big.mark = ".",
-                              decimal.mark = ",",
-                              accuracy = 0.01
+                              prefix      = "$",
+                              big.mark    = ".",
+                              decimal.mark= ",",
+                              accuracy    = 0.01
                             )
                           ) +
+                          # Eje Y: densidad reescalada (multiplicada por 1000 antes de formatear)
                           scale_y_continuous(
                             labels = function(z) {
-                              # multiplicar por 1000 y luego formatear con 4 decimales fijos
-                              fmt <- scales::number_format(accuracy = 0.0001, decimal.mark = ",", big.mark = ".")
-                              fmt(z * 1000)
+                              # z * 1000 porque antes dividiste precios / 1000
+                              scales::number_format(
+                                accuracy    = 0.0001,
+                                big.mark    = ".",
+                                decimal.mark= ","
+                              )(z * 1000)
                             }
-                          ) +
+                          )+
                           labs(
                             title = "Distribución de Precios",
                             x     = "Precio (/1000)",
