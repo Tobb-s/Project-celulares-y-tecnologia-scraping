@@ -122,7 +122,6 @@ options(scipen = 10)
                 )
       
               
-              ##-Pivotear para tabla tidy y redondear----------------------------------
               eda_tabla <- eda %>%
                 pivot_longer(
                   everything(),
@@ -224,7 +223,7 @@ options(scipen = 10)
 
   #2. ----- COMPARACION ENTRE TIENDAS ------
                 
-        # 2.1  ----- Distribucion de precios por Tienda -----------------------
+        # 2.1  ----- Distribucion de precios por Tienda  ----- 
 
                 price_scale <- scale_y_continuous(labels = dollar_format(prefix = "$", big.mark = "."))   # formato moneda con miles
                 
@@ -243,7 +242,7 @@ options(scipen = 10)
                     legend.position = "none"
                   )
                 
-                # 2. Boxplot + jitter con paleta Material
+     
                 box_plot_x_sitio <- ggplot(tabla_completa, aes(sitio, Precio_comprador, fill = sitio)) +
                   geom_boxplot() +   # cajas para ver cuartiles
                   geom_jitter(width = 0.2, alpha = 0.6) +  # puntos para ver dispersión
@@ -254,10 +253,10 @@ options(scipen = 10)
                 
                 print(box_plot_x_sitio)
                 
-      
+        
   #3. ----- COMPARACION POR GAMA DE PRECIO ------          
              
-        # 3.1  -----  Caracteristicas por Gama----------------
+        # 3.1  -----  Caracteristicas por Gama  ----- 
                 
                 datos_densidad_facetas <- tabla_limpia %>%
                   select(
@@ -328,7 +327,16 @@ options(scipen = 10)
                   )
                 
                 # Grafico
-                print(distribucion_features_por_gama)  
+                print(distribucion_features_por_gama)
+                
+##############################################################################################################################                
+# <<< Qué falta reforzar >>> #
+
+#Significancia estadística: ¿Son las diferencias de precio entre tiendas o gamas estadísticamente significativas?
+
+#Comparaciones múltiples: ¿Cuál es el tamaño del efecto (por ejemplo, diferencia de medias) entre “Gama alta” y “Gama media”?
+  
+################################################################################################################################
                 
 
 #================================================  ANALISIS POR SUBGRUPOS INTERMEDIOS ====================================          
@@ -458,9 +466,20 @@ options(scipen = 10)
 
                 
                 
-  #5. ----- CORRELACIONES MULTIVARIADAS ------
- 
-                #aca faltan graficos, no hay ninguna (( propuesta de ggpais))
+###########################################################################################################################
+                # <<< Qué falta reforzar >>> #
+              
+                
+                #Profundidad de subgrupos: ¿Y si replicamos el ranking para otras métricas (precio, MP de cámara)?
+                  
+                  #Contexto competitivo: ¿Cómo se relacionan estos rankings con cuotas de mercado reales o lanzamientos recientes?
+                  
+                  #Preguntas
+                
+                #¿Qué sucede con el ranking de “ratio_memoria_precio”?
+                  
+                  #¿Existen marcas dominantes en varias categorías o es muy fragmentado?
+#############################################################################################################
                 
 #================================================  DESAGREGACION FINA Y CASOS ESPECIFICOS ===============================
                 
@@ -572,10 +591,44 @@ options(scipen = 10)
                         print(barplot_valor_promedio_marca)
 
 
+                        
+  ###########################################################################################################################
+                        # <<< Qué falta reforzar >>> #
+                        
+                        
+                        #Segmentación avanzada: añadir análisis de clustering por segmentos de clientes (p. ej., k-means).
+                        
+                       # Temporalidad y tendencias: si hay fecha de scraping, ¿cómo evolucionan precios o descuentos a lo largo del tiempo?
+                          
+                          #Preguntas
+                        
+                        #¿Podemos agrupar modelos similares (por specs) y comparar sus precios promedio?
+                          
+                          #¿Cómo varía el descuento medio por mes o semana (si contamos con timestamps)?
 
-
+#######################################################################################################################################
                         
                         
 #================================================= QUE (Celular), DONDE ( sitio) y PORQUE ( caracteristicas/precio) ==========
+                        
+                        ## Enfoque “Qué, Dónde y Porqué”
+                        #Qué está bien
+                        
+                        #Se apunta a responder: ¿qué celular?, ¿dónde?, ¿por qué?
+                          
+                          #Qué falta reforzar
+                        
+                       # Narrativa: articular conclusiones clave que respondan estas preguntas de forma resumida.
+                        
+                        #Recomendaciones: aunque no sean acciones comerciales, sí se puede sugerir patrones de mercado (por ejemplo, “la gama media concentra X% de modelos con al menos 8 GB RAM”).
+                        
+                        #Preguntas
+                        
+                        #¿Cuál es el perfil típico de smartphone más vendido (especificaciones + tienda)?
+                          
+                          #¿Qué características mantienen precio alto vs. cuáles no lo justifican?  
+                        
+                        
+                      ##################################3
                         
               
