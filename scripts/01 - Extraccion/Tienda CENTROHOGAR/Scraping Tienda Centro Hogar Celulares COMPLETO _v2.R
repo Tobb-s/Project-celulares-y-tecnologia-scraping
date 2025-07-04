@@ -1,26 +1,31 @@
 # ==============================================================================
-# SCRAPING "Cetrogar - Celulares" (Versión 2.8 - FINAL)
+# SCRAPING "Cetrogar - Celulares" (Versión 2.8 - FINAL - PORTÁTIL)
 # ------------------------------------------------------------------------------
 # • Lógica de scraping optimizada para MÁXIMA VELOCIDAD.
 # • FASE 1: Recolecta todas las URLs de productos primero.
 # • FASE 2: Itera sobre las URLs recolectadas para extraer los datos.
 # • Función de extracción de precios mejorada para capturar todos los valores.
+# • Adaptado con el paquete 'here' para portabilidad.
 # ==============================================================================
 
 # 1-----------------------------------------------------------------------------LIBRERÍAS------------------------------------------------------------
-# install.packages(c("tidyverse", "rvest", "RSelenium", "xml2", "stringr"))
+# install.packages(c("tidyverse", "rvest", "RSelenium", "xml2", "stringr", "here"))
 library(tidyverse)
 library(rvest)
 library(RSelenium)
 library(xml2)
 library(stringr)
+library(here) # Paquete para manejar rutas de archivo de forma portátil
 
 # 2-----------------------------------------------------------------------------CONFIGURACIÓN--------------------------------------------------------
 CFG <- list(
   home_url = "https://www.cetrogar.com.ar/",
   cel_fallback_url = "https://www.cetrogar.com.ar/tecnologia/celulares-accesorios/smartphones.html",
-  out_csv = "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/raw/centrohogar_celulares_multipagina.csv",
-  max_products     = 150    # ← Máximo de productos a scrapear
+  # --- RUTA DE SALIDA PORTÁTIL ---
+  # El archivo se guardará en una carpeta 'raw' dentro del directorio del proyecto.
+  # Asegúrate de que esta carpeta exista o créala.
+  out_csv = here("raw", "cetrogar_celulares_multipagina.csv"),
+  max_products       = 150     # ← Máximo de productos a scrapear
 )
 
 # 3. FUNCIÓN AUXILIAR
@@ -118,6 +123,8 @@ extraer_datos_producto <- function(remote_driver) {
 }
 
 # 4.----------------------------------------------------------------------------INICIALIZAR SELENIUM-------------------------------------------------------
+# Asegúrate de tener Firefox instalado para que rsDriver funcione correctamente.
+# Si prefieres Chrome, cambia browser = "chrome" y especifica la versión con chromever.
 driver <- rsDriver(browser = "firefox", port = 4435L, chromever = NULL, check = FALSE)
 remote_driver <- driver$client
 remote_driver$setTimeout("page load", 20000)
@@ -231,19 +238,6 @@ for (i in seq_along(product_urls_unicas)) {
   })
 }
 
-# Consolidar y guardar resultados
-if (length(scraped_data) > 0) {
-  data_final <- bind_rows(scraped_data) %>%
-    distinct(producto_url, .keep_all = TRUE)
-  
-  message(paste0("➡️ Guardando ", nrow(data_final), 
-                 " registros en ", CFG$out_csv, "..."))
-  write_csv(data_final, CFG$out_csv, na = "")
-  message("✅ CSV guardado correctamente.")
-} else {
-  message("⚠️ No se extrajo ningún dato; no se generó CSV.")
-}
-
 # 7-----------------------------------------------------------------------------CONSOLIDAR Y GUARDAR------------------------------------------------
 if (length(scraped_data) > 0) {
   # Se eliminan productos duplicados por si se scrapeó alguno más de una vez
@@ -251,11 +245,16 @@ if (length(scraped_data) > 0) {
   
   message(paste("\n➡️ Guardando", nrow(data_final), "productos únicos en el archivo CSV..."))
   tryCatch({
+    # Creamos la carpeta 'raw' si no existe, para evitar errores.
+    if (!dir.exists(here("raw"))) {
+      dir.create(here("raw"))
+      message("📁 Carpeta 'raw' creada en la raíz del proyecto.")
+    }
     write_csv(data_final, CFG$out_csv, na = "")
     message(paste("✅ Archivo CSV guardado en:", CFG$out_csv))
   }, error = function(e) {
     message("\n❗️❗️❗️ ERROR AL GUARDAR EL ARCHIVO CSV ❗️❗️❗️")
-    message("Causa probable: El archivo está abierto o no tienes permisos.")
+    message("Causa probable: El archivo está abierto o no tienes permisos de escritura.")
     message("Error original de R: ", e$message)
   })
   
@@ -267,5 +266,3 @@ if (length(scraped_data) > 0) {
 remote_driver$close()
 driver$server$stop()
 message("✅ Sesión de Selenium cerrada.")
-
-

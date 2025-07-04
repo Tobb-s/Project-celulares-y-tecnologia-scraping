@@ -1,26 +1,42 @@
+# ==============================================================================
+# SCRIPT DE LIMPIEZA, TRANSFORMACIÓN Y CONSOLIDACIÓN (Versión PORTÁTIL)
+# ------------------------------------------------------------------------------
+# • Lee los archivos CSV generados por los scripts de scraping desde la carpeta /raw.
+# • Limpia, estandariza y enriquece los datos de cada fuente (Personal, Claro, Cetrogar).
+# • Guarda los archivos base procesados en la carpeta /input.
+# • Consolida las tres fuentes en un único archivo final.
+# • Utiliza el paquete 'here' para que todas las rutas sean portátiles.
+# ==============================================================================
+
 
 # 1. Cargar librerías ----------------------------------------------------------
-library(readr)      # read_csv()
-library(dplyr)      # si luego quieres manipular datos (opcional)
+# install.packages(c("readr", "dplyr", "stringr", "purrr", "forcats", "here"))
+library(readr)       # read_csv()
+library(dplyr)       # si luego quieres manipular datos (opcional)
 library(stringr)
 library(purrr)
 library(forcats)
+library(here)        # Paquete para manejar rutas de archivo de forma portátil
+
+# 2. Definir rutas portátiles --------------------------------------------------
+# here() localiza la raíz del proyecto (donde está el archivo .Rproj)
+raw_dir <- here("raw")
+input_dir <- here("input")
+
+# Crear la carpeta 'input' si no existe, para evitar errores al guardar.
+if (!dir.exists(input_dir)) {
+  dir.create(input_dir)
+  message(paste("📁 Carpeta 'input' creada en:", input_dir))
+}
 
 
 #==================================================================================================================================
 #> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >PERSONAL
 #=================================================================================================================================
 
-
-# 2. Definir carpeta y archivo 
-dir_path  <- "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/raw"
-file_name <- "personal_celulares_multipagina.csv"   
-
-# 3. Construir la ruta completa 
-csv_path <- file.path(dir_path, file_name)
-
-# 4. Importar el CSV 
-personal_celulares <- read_csv(csv_path)
+# 3. Importar el CSV de Personal de forma portátil
+personal_csv_path <- file.path(raw_dir, "personal_celulares_multipagina.csv")
+personal_celulares <- read_csv(personal_csv_path)
 
 
 #-----------------------------------------------------Limpieza y Estandarizacion-----------------------------------------
@@ -29,13 +45,13 @@ personal_celulares <- read_csv(csv_path)
 
 personal_celulares <- personal_celulares %>% mutate( across(c(`Sistema Operativo`, `PRECIO DE LISTA`), ~ na_if(.x, ""))) %>%
   filter(
-    !is.na(`Sistema Operativo`),                                                      
-    !is.na(`PRECIO DE LISTA`) & `PRECIO DE LISTA`               != 0,
-    !is.na(`PRECIO DE LISTA SIN IMPUESTOS`) & `PRECIO DE LISTA SIN IMPUESTOS`               != 0,
+    !is.na(`Sistema Operativo`),                                                  
+    !is.na(`PRECIO DE LISTA`) & `PRECIO DE LISTA`                       != 0,
+    !is.na(`PRECIO DE LISTA SIN IMPUESTOS`) & `PRECIO DE LISTA SIN IMPUESTOS`       != 0,
     !is.na(`PRECIO DE PROMOCIÓN`) & `PRECIO DE PROMOCIÓN`               != 0,
-    !is.na(`RAM (GB)`) & `RAM (GB)`               != 0,                 
+    !is.na(`RAM (GB)`) & `RAM (GB)`                       != 0,               
     !is.na(`Almacenamiento interno (GB)`) & `Almacenamiento interno (GB)` != 0,
-    !is.na(`Pantalla (Pulgadas)`) & `Pantalla (Pulgadas)`    != 0
+    !is.na(`Pantalla (Pulgadas)`) & `Pantalla (Pulgadas)`     != 0
   )
 
 ## Convierto en "numero" a las columnas de precios
@@ -104,12 +120,12 @@ personal_celulares <- personal_celulares %>%
 #-------------------------------------------------------Apartado de Financiacion-------------------------------------------------------------
 
 
-## primero voy a tomar el numero mas grande, nos vamos a quedar con el plazo de financiacion mas grande nada mas. 
+## primero voy a tomar el numero mas grande, nos vamos a quedar con el plazo de financiacion mas grande nada mas.  
 ##La logica seria, quedarme con los numeros primero y luego filtrar por el que sea mas grande financacion_plazo
 
 
 personal_celulares <- personal_celulares %>% mutate(financiacion_plazo = map_int( str_extract_all(Financiación, "\\d+"),       # extraigo los numeros
-                                                                                  ~ max(as.integer(.x), na.rm = TRUE)         # toma el mayor
+                                                                                  ~ max(as.integer(.x), na.rm = TRUE)        # toma el mayor
 )
 )
 
@@ -203,37 +219,34 @@ personal_celulares <- personal_celulares %>%
 
 #----------------------------------------------------------Reordeno las columnas-------------------------------------------------------------
 personal_celulares <- personal_celulares %>%select(
-                                                            "sitio",
-                                                            "id",
-                                                            "marca",
-                                                            "modelo",
-                                                            "nombre",
-                                                            "Sistema Operativo",
-                                                            "Procesador",
-                                                            "RAM (GB)",
-                                                            "Almacenamiento interno (GB)",
-                                                            "Pantalla (Pulgadas)",
-                                                            "Camara Principal (MP)",
-                                                            "Camara frontal (MP)",
-                                                            "NFC",
-                                                            "Precio_comprador",
-                                                            "Precio_anterior",
-                                                            "precio_sin_impuestos",
-                                                            "financiacion_plazo",
-                                                            "per_descuento",
-                                                            "presion_impositiva_pais_per",
-                                                            "ratio_memoria_precio",
-                                                            "ratio_mp_precio"
-                                                          )
-                                                          
+  "sitio",
+  "id",
+  "marca",
+  "modelo",
+  "nombre",
+  "Sistema Operativo",
+  "Procesador",
+  "RAM (GB)",
+  "Almacenamiento interno (GB)",
+  "Pantalla (Pulgadas)",
+  "Camara Principal (MP)",
+  "Camara frontal (MP)",
+  "NFC",
+  "Precio_comprador",
+  "Precio_anterior",
+  "precio_sin_impuestos",
+  "financiacion_plazo",
+  "per_descuento",
+  "presion_impositiva_pais_per",
+  "ratio_memoria_precio",
+  "ratio_mp_precio"
+)
+
 
 
 #----------------------------------------------GUARDADO Y VISUALIZACION PERSONAL-------------------------------------------------------------
-# Ruta base a la carpeta “input”
-input_dir_PERSONAL <- "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/input"
-write_csv(personal_celulares,file.path(input_dir_PERSONAL, "personal_celulares_base.csv"))
-
-
+# Guardar en la carpeta 'input' del proyecto
+write_csv(personal_celulares, file.path(input_dir, "personal_celulares_base.csv"))
 View(personal_celulares)
 
 
@@ -242,15 +255,9 @@ View(personal_celulares)
 #> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > CLARO
 #=================================================================================================================================
 
-# 2. Definir carpeta y archivo 
-dir_path  <- "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/raw"
-file_name <- "claro_celulares_multipagina.csv"   
-
-# 3. Construir la ruta completa 
-csv_path <- file.path(dir_path, file_name)
-
-# 4. Importar el CSV 
-claro_celulares <- read_csv(csv_path)
+# Importar el CSV de Claro de forma portátil
+claro_csv_path <- file.path(raw_dir, "claro_celulares_multipagina.csv")
+claro_celulares <- read_csv(claro_csv_path)
 
 
 
@@ -285,25 +292,25 @@ claro_celulares <- claro_celulares %>% select( -"producto_url",
 ##Renombramos algunas de las columnas
 claro_celulares <- claro_celulares %>%
   rename(
-    `RAM (GB)`                    = `Memoria RAM`,
+    `RAM (GB)`                  = `Memoria RAM`,
     `Almacenamiento interno (GB)` = `Memoria Interna`,
-    `Pantalla (Pulgadas)`         = Display,
-    `Camara frontal (MP)`         = `Cámara frontal`,
-    `Camara Principal (MP)`       = `Cámara trasera`
+    `Pantalla (Pulgadas)`       = Display,
+    `Camara frontal (MP)`       = `Cámara frontal`,
+    `Camara Principal (MP)`     = `Cámara trasera`
   )
 
 ## Limpio los espacios en blanco o NA
 
 claro_celulares <- claro_celulares %>%mutate(across(c(`Sistema Operativo`, NFC, Procesador),~ na_if(.x, ""))) %>%
   filter(
-    !is.na(Precio_comprador)     & Precio_comprador     != 0,
-    !is.na(`Camara frontal (MP)`)     & `Camara frontal (MP)`     != 0,
-    !is.na(`RAM (GB)`)        & `RAM (GB)`        != 0,
-    !is.na(`Almacenamiento interno (GB)`)    & `Almacenamiento interno (GB)`    != 0,
-    !is.na(`Camara Principal (MP)`)     & `Camara Principal (MP)`     != 0,
-    !is.na(`Sistema Operativo`)  & `Sistema Operativo`  != "",
-    !is.na(NFC)                  & NFC                  != "",
-    !is.na(Procesador)           & Procesador           != ""
+    !is.na(Precio_comprador)  & Precio_comprador    != 0,
+    !is.na(`Camara frontal (MP)`)   & `Camara frontal (MP)`    != 0,
+    !is.na(`RAM (GB)`)        & `RAM (GB)`         != 0,
+    !is.na(`Almacenamiento interno (GB)`)   & `Almacenamiento interno (GB)`    != 0,
+    !is.na(`Camara Principal (MP)`)   & `Camara Principal (MP)`    != 0,
+    !is.na(`Sistema Operativo`) & `Sistema Operativo`  != "",
+    !is.na(NFC)                 & NFC                  != "",
+    !is.na(Procesador)          & Procesador           != ""
   )
 
 
@@ -428,7 +435,7 @@ claro_celulares <- claro_celulares %>%
     NFC = case_when(
       NFC_clean %in% c("s", "si", "SI", "sI")  ~ "Si",
       NFC_clean %in% c("n", "no", "NO","nO")  ~ "No",
-      TRUE                          ~ NFC    # deja tal cual (incluye NA)
+      TRUE                                      ~ NFC    # deja tal cual (incluye NA)
     )
   ) %>%
   select(-NFC_clean)
@@ -493,50 +500,45 @@ claro_celulares <- claro_celulares %>%
 
 #----------------------------------------------------------Reordeno las columnas-------------------------------------------------------------
 claro_celulares <- claro_celulares %>%select(
-                                          "sitio",
-                                          "id",
-                                          "marca",
-                                          "modelo",
-                                          "nombre",
-                                          "Sistema Operativo",
-                                          "Procesador",
-                                          "RAM (GB)",
-                                          "Almacenamiento interno (GB)",
-                                          "Pantalla (Pulgadas)",
-                                          "Camara Principal (MP)",
-                                          "Camara frontal (MP)",
-                                          "NFC",
-                                          "Precio_comprador",
-                                          "Precio_anterior",
-                                          "precio_sin_impuestos",
-                                          "financiacion_plazo",
-                                          "per_descuento",
-                                          "presion_impositiva_pais_per",
-                                          "ratio_memoria_precio",
-                                          "ratio_mp_precio"
-                                        )
+  "sitio",
+  "id",
+  "marca",
+  "modelo",
+  "nombre",
+  "Sistema Operativo",
+  "Procesador",
+  "RAM (GB)",
+  "Almacenamiento interno (GB)",
+  "Pantalla (Pulgadas)",
+  "Camara Principal (MP)",
+  "Camara frontal (MP)",
+  "NFC",
+  "Precio_comprador",
+  "Precio_anterior",
+  "precio_sin_impuestos",
+  "financiacion_plazo",
+  "per_descuento",
+  "presion_impositiva_pais_per",
+  "ratio_memoria_precio",
+  "ratio_mp_precio"
+)
 
 
 #-------------------------------------------------GUARDADO Y VISUALIZACION CLARO-------------------------------------------------------------
-# Ruta base a la carpeta “input”
-input_dir_CLARO <- "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/input"
-write_csv(claro_celulares,file.path(input_dir_CLARO, "claro_celulares_base.csv"))
-
-
+# Guardar en la carpeta 'input' del proyecto
+write_csv(claro_celulares, file.path(input_dir, "claro_celulares_base.csv"))
 View(claro_celulares)
 
 
 
 #======================================================================================================================================
-#                                                         CENTROGAR
+#                                                     CENTROGAR
 #======================================================================================================================================
-# 1. Definir rutas
-dir_path  <- "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/raw"
-file_name <- "centrohogar_celulares_multipagina.csv"
-csv_path  <- file.path(dir_path, file_name)
+# Importar el CSV de Cetrogar de forma portátil
+cetrogar_csv_path  <- file.path(raw_dir, "centrohogar_celulares_multipagina.csv")
 
-# 2. Importar y renombrar columnas base
-cetrogar_celulares <- read_csv(csv_path, show_col_types = FALSE) %>%
+# Importar y renombrar columnas base
+cetrogar_celulares <- read_csv(cetrogar_csv_path, show_col_types = FALSE) %>%
   # 2.1 Eliminar columnas que no usaré (solo aquellas que existan)
   select(-any_of(c(
     "producto_url", "fecha_scrapeo", "Tipo de pantalla", "Resistente al agua",
@@ -546,14 +548,14 @@ cetrogar_celulares <- read_csv(csv_path, show_col_types = FALSE) %>%
   ))) %>%
   # 2.2 Renombrar todas las columnas clave de una sola vez
   rename(
-    Precio_anterior           = precio_lista_habitual,
-    Precio_comprador          = precio_oferta_final,
-    precio_sin_impuestos      = precio_sin_impuestos,
-    `RAM (GB)`                = memoria_ram,
-    `Camara frontal (MP)`     = camara_frontal,
-    `Camara Principal (MP)`   = `Cámara trasera`,
-    `Pantalla (Pulgadas)`     = `Tamaño de la pantalla`,
-    Procesador                = `Tipo de procesador`
+    Precio_anterior         = precio_lista_habitual,
+    Precio_comprador        = precio_oferta_final,
+    precio_sin_impuestos    = precio_sin_impuestos,
+    `RAM (GB)`              = memoria_ram,
+    `Camara frontal (MP)`   = camara_frontal,
+    `Camara Principal (MP)` = `Cámara trasera`,
+    `Pantalla (Pulgadas)`   = `Tamaño de la pantalla`,
+    Procesador              = `Tipo de procesador`
   ) %>%
   
   # 3. Formatear precios y filtrar precios anteriores > 100000
@@ -567,9 +569,9 @@ cetrogar_celulares <- read_csv(csv_path, show_col_types = FALSE) %>%
   
   # 4. Extraer y convertir a numeric RAM, cámaras y pantalla
   mutate(
-    `RAM (GB)`              = str_extract(`RAM (GB)`,             "\\d+")         %>% as.numeric(),
-    `Camara frontal (MP)`   = str_extract(`Camara frontal (MP)`,  "\\d+")         %>% as.numeric(),
-    `Camara Principal (MP)` = str_extract(`Camara Principal (MP)`, "\\d+")         %>% as.numeric(),
+    `RAM (GB)`              = str_extract(`RAM (GB)`,              "\\d+")        %>% as.numeric(),
+    `Camara frontal (MP)`   = str_extract(`Camara frontal (MP)`,  "\\d+")        %>% as.numeric(),
+    `Camara Principal (MP)` = str_extract(`Camara Principal (MP)`, "\\d+")        %>% as.numeric(),
     `Pantalla (Pulgadas)`   = str_extract(`Pantalla (Pulgadas)`,   "\\d+\\.?\\d*") %>% as.numeric()
   ) %>%
   
@@ -579,7 +581,7 @@ cetrogar_celulares <- read_csv(csv_path, show_col_types = FALSE) %>%
     NFC = case_when(
       NFC_clean %in% c("s", "si", "sí") ~ "Si",
       NFC_clean %in% c("n", "no")       ~ "No",
-      TRUE                               ~ NFC
+      TRUE                             ~ NFC
     )
   ) %>%
   select(-NFC_clean) %>%
@@ -595,7 +597,7 @@ cetrogar_celulares <- read_csv(csv_path, show_col_types = FALSE) %>%
     nombre = case_when(
       str_detect(nombre, "^Neo")   ~ str_c("Nubia ", nombre),
       str_detect(nombre, "^Spark") ~ str_c("Tecno Mobile ", nombre),
-      TRUE                          ~ nombre
+      TRUE                        ~ nombre
     ),
     # Marca = primera palabra
     marca  = word(nombre, 1),
@@ -616,9 +618,9 @@ cetrogar_celulares <- read_csv(csv_path, show_col_types = FALSE) %>%
     `Almacenamiento interno (GB)` = almacenamiento_raw %>% str_remove("GB") %>% as.numeric()
   ) %>%
   select(-almacenamiento_raw)
-  
-  # 9. Columnas vacías para homogeneizar con otros orígenes
-  cetrogar_celulares <- cetrogar_celulares %>%
+
+# 9. Columnas vacías para homogeneizar con otros orígenes
+cetrogar_celulares <- cetrogar_celulares %>%
   mutate(
     `Sistema Operativo` = NA_character_,
     financiacion_plazo  = NA_character_
@@ -626,7 +628,7 @@ cetrogar_celulares <- read_csv(csv_path, show_col_types = FALSE) %>%
   
   # 10. Cálculos y ratios finales (con nueva fórmula de memoria)
   mutate(
-    per_descuento                = round((1 - Precio_comprador / Precio_anterior) * 100, 0),
+    per_descuento               = round((1 - Precio_comprador / Precio_anterior) * 100, 0),
     presion_impositiva_pais_per  = round((1 - precio_sin_impuestos / Precio_anterior) * 100, 0),
     GB_relativo_price_count      = `RAM (GB)` + `Almacenamiento interno (GB)`,
     ratio_memoria_precio         = round((Precio_comprador /GB_relativo_price_count), 1),
@@ -657,66 +659,63 @@ cetrogar_celulares <- read_csv(csv_path, show_col_types = FALSE) %>%
     ratio_mp_precio      > 0,
     per_descuento        > 0
   )
-  
+
 ## rearmo la columna de "Procesador" en Cetrogar para que tenga un dato consistente
-  
-  # a). Tabla de referencia con los procesadores "buenos" -------------
-  proc_lookup <- bind_rows(
-    personal_celulares,
-    claro_celulares
+
+# a). Tabla de referencia con los procesadores "buenos" -------------
+proc_lookup <- bind_rows(
+  personal_celulares,
+  claro_celulares
+) %>% 
+  filter(!is.na(Procesador) & Procesador != "") %>%    # sólo los que tengan dato
+  distinct(id, .keep_all = TRUE) %>%              # un Procesador por id
+  select(id, Procesador)                          # (id, Procesador) limpio
+
+# b). Combinar con Cetrogar y reemplazar -----------------------------
+cetrogar_celulares <- cetrogar_celulares %>% 
+  left_join(proc_lookup, by = "id", suffix = c("", "_nuevo")) %>% 
+  mutate(
+    # si viene Procesador_nuevo úsalo; si no, deja el original
+    Procesador = coalesce(Procesador_nuevo, Procesador)
   ) %>% 
-    filter(!is.na(Procesador) & Procesador != "") %>%   # sólo los que tengan dato
-    distinct(id, .keep_all = TRUE) %>%                 # un Procesador por id
-    select(id, Procesador)                             # (id, Procesador) limpio
-  
-  # b). Combinar con Cetrogar y reemplazar -----------------------------
-  cetrogar_celulares <- cetrogar_celulares %>% 
-    left_join(proc_lookup, by = "id", suffix = c("", "_nuevo")) %>% 
-    mutate(
-      # si viene Procesador_nuevo úsalo; si no, deja el original
-      Procesador = coalesce(Procesador_nuevo, Procesador)
-    ) %>% 
-    select(-Procesador_nuevo)  # descarto la columna auxiliar
-  
+  select(-Procesador_nuevo)  # descarto la columna auxiliar
+
 ## rearmo la columna de "Sistema Operativo" en Cetrogar para que tenga un dato consistente
-  
-  
-    proc_so_lookup <- bind_rows(
-    personal_celulares,
-    claro_celulares
+
+
+proc_so_lookup <- bind_rows(
+  personal_celulares,
+  claro_celulares
+) %>%
+  filter(
+    (!is.na(Procesador)        & Procesador        != "") |
+      (!is.na(`Sistema Operativo`) & `Sistema Operativo` != "")
+  ) %>%                       # al menos uno de los dos campos informado
+  distinct(id, .keep_all = TRUE) %>%    # un único registro por id
+  select(id, Procesador, `Sistema Operativo`)   # columnas que necesitamos
+
+# 2. Unir con Cetrogar y completar faltantes
+cetrogar_celulares <- cetrogar_celulares %>%
+  left_join(proc_so_lookup, by = "id",
+            suffix = c("", "_nuevo")) %>%      # añade *_nuevo para lookup
+  mutate(
+    Procesador          = coalesce(Procesador_nuevo, Procesador),
+    `Sistema Operativo` = coalesce(`Sistema Operativo_nuevo`, `Sistema Operativo`)
   ) %>%
-    filter(
-      (!is.na(Procesador)        & Procesador        != "") |
-        (!is.na(`Sistema Operativo`) & `Sistema Operativo` != "")
-    ) %>%                          # al menos uno de los dos campos informado
-    distinct(id, .keep_all = TRUE) %>%    # un único registro por id
-    select(id, Procesador, `Sistema Operativo`)   # columnas que necesitamos
-  
-  # 2. Unir con Cetrogar y completar faltantes
-  cetrogar_celulares <- cetrogar_celulares %>%
-    left_join(proc_so_lookup, by = "id",
-              suffix = c("", "_nuevo")) %>%       # añade *_nuevo para lookup
-    mutate(
-      Procesador         = coalesce(Procesador_nuevo, Procesador),
-      `Sistema Operativo` = coalesce(`Sistema Operativo_nuevo`, `Sistema Operativo`)
-    ) %>%
-    select(-Procesador_nuevo, -`Sistema Operativo_nuevo`)
-  
-  
-  
+  select(-Procesador_nuevo, -`Sistema Operativo_nuevo`)
+
+
+
 # 13. Guardar resultado final
 write_csv(
   cetrogar_celulares,
-  file.path(
-    "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/input",
-    "cetrogar_celulares_base.csv"
-  ),
+  file.path(input_dir, "cetrogar_celulares_base.csv"),
   na = ""
 )
 
 View(cetrogar_celulares)
 #==============================================================================================================================================
-#                                                                       CONSOLIDADO DE ARCHIVOS
+#                                                         CONSOLIDADO DE ARCHIVOS
 #==============================================================================================================================================
 
 # ── 1. Preprocesamiento individual ───────────────────────────────────────
@@ -755,10 +754,10 @@ combined_celulares <- combined_celulares %>%
   mutate(
     Gama_SO = case_when(
       str_detect(`Sistema Operativo`, regex("^iOS", ignore_case = TRUE)) ~ "Gama alta",
-      `Sistema Operativo` == "Android 15"                                ~ "Gama alta",
-      `Sistema Operativo` %in% c("Android 14", "Android 13")             ~ "Gama media",
-      `Sistema Operativo` %in% c("Android 14 Go", "Android 13 Go")       ~ "Gama baja",
-      TRUE                                                               ~ NA_character_
+      `Sistema Operativo` == "Android 15"                             ~ "Gama alta",
+      `Sistema Operativo` %in% c("Android 14", "Android 13")           ~ "Gama media",
+      `Sistema Operativo` %in% c("Android 14 Go", "Android 13 Go")     ~ "Gama baja",
+      TRUE                                                            ~ NA_character_
     ),
     Gama_NFC = case_when(
       NFC == "Si" ~ "Gama alta",
@@ -772,10 +771,10 @@ combined_celulares <- combined_celulares %>%
       TRUE                         ~ NA_character_
     ),
     Gama_Almacenamiento = case_when(
-      `Almacenamiento interno (GB)` <= 64            ~ "Gama baja",
+      `Almacenamiento interno (GB)` <= 64         ~ "Gama baja",
       `Almacenamiento interno (GB)` %in% c(128, 256) ~ "Gama media",
       `Almacenamiento interno (GB)` %in% c(512, 1000)~ "Gama alta",
-      TRUE                                           ~ NA_character_
+      TRUE                                          ~ NA_character_
     ),
     Gama_Camara = case_when(
       `Camara Principal (MP)` < 10   ~ "Gama baja",
@@ -791,7 +790,7 @@ combined_celulares <- combined_celulares %>%
       rowSums(across(starts_with("Gama_"), ~ .x == "Gama alta"),  na.rm = TRUE) >= 3 ~ "Gama alta",
       rowSums(across(starts_with("Gama_"), ~ .x == "Gama media"), na.rm = TRUE) >= 3 ~ "Gama media",
       rowSums(across(starts_with("Gama_"), ~ .x == "Gama baja"),  na.rm = TRUE) >= 3 ~ "Gama baja",
-      TRUE                                                                            ~ "Gama media"
+      TRUE                                                                          ~ "Gama media"
     )
   ) %>%
   # 3.3 Limpiar columnas auxiliares
@@ -802,7 +801,8 @@ combined_celulares <- combined_celulares %>%
 # ── 4. Guardado y visualización ──────────────────────────────────────────
 View(combined_celulares)
 
+# Guardar el archivo consolidado final en la carpeta 'input'
 write_csv(
   combined_celulares,
-  file.path(input_dir_PERSONAL, "celulares_todos_base.csv")
+  file.path(input_dir, "celulares_todos_base.csv")
 )

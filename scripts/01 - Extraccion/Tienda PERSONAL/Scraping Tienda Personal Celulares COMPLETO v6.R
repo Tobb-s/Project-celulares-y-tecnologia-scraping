@@ -1,20 +1,21 @@
 # ==============================================================================
-# SCRAPING “Tienda Personal – Celulares” · Versión multi-producto + multi-página
+# SCRAPING “Tienda Personal – Celulares” (Versión PORTÁTIL)
 # ------------------------------------------------------------------------------
-# • Recorre las 8 páginas de resultados (o hasta que no haya más)
-# • Entra en los 12 productos de cada página
-# • Clic en “Más info del producto” para extraer ficha + solapa “Legales”
-# • Normaliza y acumula cada producto en un tibble
-# • Guarda CSV con todas las filas en /raw
-# • Mantiene la estructura general del “Esqueleto del Script de Scraping (e)”
+# • Recorre las páginas de resultados.
+# • Entra en los productos de cada página.
+# • Clic en “Más info del producto” para extraer ficha + solapa “Legales”.
+# • Normaliza y acumula cada producto en un tibble.
+# • Guarda CSV con todas las filas en /raw de forma portátil.
 # ==============================================================================
 
 # 1. LIBRERÍAS -----------------------------------------------------------------
+# install.packages(c("tidyverse", "rvest", "RSelenium", "xml2", "stringr", "here"))
 library(tidyverse)   # dplyr, tibble, purr
 library(rvest)       # html_element, html_text2
 library(RSelenium)   # rsDriver, remote_driver
 library(xml2)        # read_html
 library(stringr)     # str_extract, str_trim
+library(here)        # Paquete para manejar rutas de archivo de forma portátil
 
 # 2. CONFIGURACIÓN -------------------------------------------------------------
 CFG <- list(
@@ -23,20 +24,22 @@ CFG <- list(
   cel_txt        = "Celulares",
   cel_fallback   = "https://tienda.personal.com.ar/celulares",
   max_pages      = 5L,
-  out_csv        = "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/raw/personal_celulares_multipagina.csv",
+  # --- RUTA DE SALIDA PORTÁTIL ---
+  # El archivo se guardará en una carpeta 'raw' dentro del directorio del proyecto.
+  out_csv        = here("raw", "personal_celulares_multipagina.csv"),
   
-  # ----------- Mapeo etiqueta de la web → nombre de columna tibble 
+  # ----------- Mapeo etiqueta de la web → nombre de columna tibble  
   
   spec_map = tribble(
-    ~label_html,          ~col_name,
-    "Sistema Operativo",  "Sistema Operativo",
-    "Procesador",         "Procesador",
-    "RAM",                "RAM (GB)",
-    "Memoria Interna",    "Almacenamiento interno (GB)",
-    "Tamaño de pantalla", "Pantalla (Pulgadas)",
-    "Camara principal",   "Camara Principal (MP)",
-    "Camara frontal",     "Camara frontal (MP)",
-    "NFC",                "NFC"
+    ~label_html,             ~col_name,
+    "Sistema Operativo",     "Sistema Operativo",
+    "Procesador",            "Procesador",
+    "RAM",                   "RAM (GB)",
+    "Memoria Interna",       "Almacenamiento interno (GB)",
+    "Tamaño de pantalla",    "Pantalla (Pulgadas)",
+    "Camara principal",      "Camara Principal (MP)",
+    "Camara frontal",        "Camara frontal (MP)",
+    "NFC",                   "NFC"
   ),
   
   # Etiquetas de precios (solapa “Legales”)
@@ -62,7 +65,7 @@ extrae_ficha <- function(remote_driver) {
       "css selector", "div.l0q4lv2n > div.l0q4lv2o"
     )
     if (length(tabs) >= 2) {
-      tabs[[2]]$clickElement()                  # «Más info...»
+      tabs[[2]]$clickElement()              # «Más info...»
       Sys.sleep(1.5)
       info_html <- read_html(remote_driver$getPageSource()[[1]])
     } else {
@@ -103,9 +106,9 @@ extrae_ficha <- function(remote_driver) {
   specs <- imap_chr(specs_raw, function(val, col_name) {
     v <- str_trim(val)
     case_when(
-      col_name %in% c("RAM (GB)", "Almacenamiento interno (GB)")      ~ str_extract(v, "\\d+"),
+      col_name %in% c("RAM (GB)", "Almacenamiento interno (GB)")     ~ str_extract(v, "\\d+"),
       col_name %in% c("Camara Principal (MP)", "Camara frontal (MP)") ~ str_extract(v, "\\d+"),
-      col_name == "Pantalla (Pulgadas)"                               ~ str_extract(v, "\\d+(?:\\.\\d+)?"),
+      col_name == "Pantalla (Pulgadas)"                              ~ str_extract(v, "\\d+(?:\\.\\d+)?"),
       TRUE ~ v
     )
   })
@@ -118,7 +121,7 @@ extrae_ficha <- function(remote_driver) {
       "css selector", "div.l0q4lv2n > div.l0q4lv2o"
     )
     if (length(tabs) >= 3) {
-      tabs[[3]]$clickElement()                  # «Legales»
+      tabs[[3]]$clickElement()              # «Legales»
       Sys.sleep(1.5)
       leg_html <- read_html(remote_driver$getPageSource()[[1]])
       leg_txt  <- html_text2(leg_html)
@@ -241,8 +244,12 @@ repeat {
 }
 
 # 7. CONSOLIDAR Y GUARDAR ------------------------------------------------------
-data_final <- bind_rows(rows) %>% distinct()%>% mutate(sitio="Personal")
-write_csv(data_final, CFG$out_csv)
+data_final <- bind_rows(rows) %>% distinct() %>% mutate(sitio="Personal")
+
+# Creamos la carpeta 'raw' si no existe, para evitar errores.
+dir.create(dirname(CFG$out_csv), showWarnings = FALSE, recursive = TRUE)
+
+write_csv(data_final, CFG$out_csv, na = "")
 message("✅ CSV guardado en: ", CFG$out_csv)
 
 View(data_final)

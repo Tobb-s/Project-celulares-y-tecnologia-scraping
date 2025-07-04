@@ -1,26 +1,31 @@
 # ==============================================================================
-# SCRAPING “Tienda Claro – Celulares” (Versión 4.5 — limpio de open_medios_pago)
+# SCRAPING “Tienda Claro – Celulares” (Versión 4.5 — PORTÁTIL)
 # ------------------------------------------------------------------------------
 # • 100 % funcional sin helper externo.
 # • Abre “Especificaciones”, INTENTA click en “Medios de pago” y, si no hay modal,
 #   lee la leyenda de cuotas desde el JSON incrustado (__NEXT_DATA__).
+# • Adaptado con el paquete 'here' para portabilidad.
 # ==============================================================================
 
 # 1. LIBRERÍAS -----------------------------------------------------------------
+# install.packages(c("tidyverse", "rvest", "RSelenium", "xml2", "stringr", "jsonlite", "here"))
 library(tidyverse)
 library(rvest)
 library(RSelenium)
 library(xml2)
 library(stringr)
 library(jsonlite)      # ← necesario para fallback JSON
+library(here)          # Paquete para manejar rutas de archivo de forma portátil
 
 # 2. CONFIGURACIÓN -------------------------------------------------------------
 CFG <- list(
   home_url     = "https://tienda.claro.com.ar/",
   cel_txt      = "Celulares",
   cel_fallback = "https://tienda.claro.com.ar/plp/equipos",
-  max_products = 48L,   # cambia si querés más
-  out_csv      = "C:/Users/tobia/OneDrive/Desktop/Project-celulares-y-tecnologia-scraping/raw/claro_celulares_multipagina.csv"
+  max_products = 48L,    # cambia si querés más
+  # --- RUTA DE SALIDA PORTÁTIL ---
+  # El archivo se guardará en una carpeta 'raw' dentro del directorio del proyecto.
+  out_csv      = here("raw", "claro_celulares_multipagina.csv")
 )
 
 # ---------------------------------------------------------------------------
@@ -45,13 +50,13 @@ extrae_ficha_html <- function(remote_driver) {
   tryCatch({
     mp_btn <- remote_driver$findElement(
       "xpath", "//button[translate(normalize-space(.), 'ÁÉÍÓÚáéíóú',
-              'AEIOUaeiou') = 'Medios de pago']"
+                                   'AEIOUaeiou') = 'Medios de pago']"
     )
     remote_driver$executeScript(
       "arguments[0].scrollIntoView(true);", list(mp_btn)
     )
     remote_driver$executeScript("arguments[0].click();", list(mp_btn))
-    Sys.sleep(1.5)                 # deja que React monte el modal
+    Sys.sleep(1.5)              # deja que React monte el modal
   }, error = function(e)
     warning("No se pudo hacer clic en 'Medios de pago'")
   )
@@ -133,7 +138,7 @@ extrae_ficha_html <- function(remote_driver) {
     pivot_wider(names_from = label, values_from = value) %>%
     mutate(
       `Cámara frontal` = str_remove(`Cámara frontal`, "\\s*mpx$"),
-      `Memoria RAM`    = str_remove(`Memoria RAM`,   "\\s*GB$"),
+      `Memoria RAM`    = str_remove(`Memoria RAM`,    "\\s*GB$"),
       `Cámara trasera` = str_remove(`Cámara trasera`, "\\s*mpx$")
     )
   
@@ -216,9 +221,12 @@ for (i in seq_len(n_to_scrape)) {
 # 7. CONSOLIDAR + CSV ----------------------------------------------------------
 if (length(rows) && any(lengths(rows) > 0)) {
   data_final <- bind_rows(rows) |> distinct() |> mutate(sitio = "Claro")
+  
+  # Creamos la carpeta 'raw' si no existe, para evitar errores.
   dir.create(dirname(CFG$out_csv), recursive = TRUE, showWarnings = FALSE)
+  
   write_csv(data_final, CFG$out_csv, na = "")
-  message("✅ CSV guardado con ", nrow(data_final), " filas.")
+  message("✅ CSV guardado con ", nrow(data_final), " filas en: ", CFG$out_csv)
 } else {
   message("⚠️ No se extrajo ninguna fila.")
 }
@@ -226,5 +234,3 @@ if (length(rows) && any(lengths(rows) > 0)) {
 # 8. CERRAR SELENIUM -----------------------------------------------------------
 remote_driver$close(); driver$server$stop()
 message("✅ Sesión Selenium cerrada.")
-
-
