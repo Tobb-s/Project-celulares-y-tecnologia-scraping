@@ -10,8 +10,10 @@ library(see)
 library(GGally)      
 library(forcats)
 library(patchwork)
-library(here)        
-
+library(here)
+library(caret)       # train(), confusionMatrix()
+library(class)       # knn interno de caret
+library(skimr)       # EDA exprés
 
 
 # --- Eliminamos setwd() ---
@@ -640,6 +642,77 @@ barplot_valor_promedio_marca <- ggplot(
 
 print(barplot_valor_promedio_marca)
 
+#6.3 -----  k-Nearest Neighbors por "Categoria" ( Gama)---------------
+
+        ## b. Preparar datos: seleccionamos variables y etiqueta
+        knn_vars <- c("RAM (GB)", "Almacenamiento interno (GB)",
+                      "Camara Principal (MP)", "Precio_comprador",
+                      "ratio_memoria_precio", "ratio_mp_precio")
+        
+        # c . Asegurarse de que tabla_limpia existe y contiene Categoria
+        df_knn <- tabla_limpia %>%
+          mutate(Categoria = factor(Categoria)) %>%
+          select(all_of(knn_vars), Categoria)
+        
+        ## d .  División estratificada en train/test (70/30)
+        set.seed(123)
+        idx_knn   <- createDataPartition(df_knn$Categoria, p = .7, list = FALSE)
+        train_knn <- df_knn[idx_knn, ]
+        test_knn  <- df_knn[-idx_knn, ]
+        
+        ## e .  Configurar validación cruzada y grid de k
+        ctrl_knn <- trainControl(method = "cv", number = 5)
+        grid_knn <- expand.grid(k = seq(3, 21, by = 2))
+        
+        ## f.  Entrenar modelo k-NN con centrado y escalado
+        modelo_knn <- train(
+          x          = select(train_knn, -Categoria),
+          y          = train_knn$Categoria,
+          method     = "knn",
+          trControl  = ctrl_knn,
+          tuneGrid   = grid_knn,
+          preProcess = c("center", "scale")
+        )
+        
+        # g . Guardar mejor k y métricas
+        best_k   <- modelo_knn$bestTune$k
+        res_knn  <- modelo_knn$results
+        print(modelo_knn)
+        
+                  ## a.a Predecir en test y calcular matriz de confusión
+                  pred_knn  <- predict(modelo_knn, newdata = test_knn)
+                  cm_knn    <- confusionMatrix(pred_knn, test_knn$Categoria)
+                  accuracy  <- cm_knn$overall["Accuracy"]
+                  kappa     <- cm_knn$overall["Kappa"]
+                  
+                  cat(sprintf("\nExactitud (Accuracy): %.3f | Kappa: %.3f\n",
+                              accuracy, kappa))
+                  
+                  ## b.b  Heatmap de la matriz de confusión
+                  
+                          # b.b.a Extraer conteos y convertir a data.frame
+                          cm_tab      <- cm_knn$table                             # table(Pred, Ref)
+                          cm_df       <- as.data.frame.table(cm_tab)              # Var1, Var2, Freq
+                          colnames(cm_df) <- c("Prediction", "Reference", "Freq")
+                          
+                          # b.b.b Dibujar con ggplot2
+                          p_cm <- ggplot(cm_df, aes(x = Reference, y = Prediction, fill = Freq)) +
+                            geom_tile(color = "white") +
+                            geom_text(aes(label = Freq), size = 4) +
+                            scale_fill_gradient(low = "lightblue", high = "steelblue") +
+                            labs(
+                              title    = "Heatmap de Matriz de Confusión k-NN",
+                              subtitle = sprintf("k = %d | Accuracy = %.3f", best_k, accuracy),
+                              x        = "Clase Verdadera",
+                              y        = "Clase Predicha",
+                              fill     = "Frecuencia"
+                            ) +
+                            theme_minimal(base_size = 14)
+                          
+                          # Mostrar y guardar
+                          print(p_cm)
+
+
 
 
 #================================================= QUE (Celular), DONDE ( sitio) y PORQUE ( caracteristicas/precio) ==========
@@ -779,3 +852,5 @@ ggsave(file.path(graficos_dir, "barplot_valor_promedio_marca.jpeg"), plot = barp
 ggsave(file.path(graficos_dir, "mejor_celular_por_gama.jpeg"), plot = mejor_celular_por_gama, width = 10, height = 7)
 ggsave(file.path(graficos_dir, "comparacion_tecnica_mejores_celulares.jpeg"), plot = comparacion_tecnica_mejores_celulares, width = 12, height = 7)
 ggsave(file.path(graficos_dir, "comparacion_todo_junto.jpeg"), plot = comparacion_todo_junto, width = 14, height = 8)
+ggsave(filename = file.path(graficos_dir, "knn_confusion_heatmap.jpeg"),plot = p_cm, width  = 7, height = 6,dpi = 300)
+
